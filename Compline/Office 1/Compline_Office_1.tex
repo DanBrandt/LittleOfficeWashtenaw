@@ -1,0 +1,371 @@
+\documentclass[11pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{paracol}
+\usepackage{mdframed}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[autocompile]{gregoriotex}
+
+\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+
+\mdfsetup{skipabove=\topskip, skipbelow=\topskip}
+
+\newcommand{\rubric}[1]{
+	\switchcolumn[0] {
+		\itshape
+		#1
+	}
+}
+
+\newcommand{\latinenglish}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape\small
+		#2
+	}
+}
+
+\newcommand{\latinenglishequal}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape
+		#2
+	}
+}
+
+\newenvironment{latinenglishsection}
+	{\columnratio{.7, .3} \begin{paracol}{2}}
+	{\end{paracol}}
+
+\newenvironment{latinenglishequalsection}
+	{\columnratio{.5, .5}\begin{paracol}{2}}
+	{\end{paracol}}
+
+\setlength{\columnseprule}{0.4pt}
+
+\newcommand{\heading}[1]{
+	\begin{leftcolumn}
+		#1
+	\end{leftcolumn}
+}
+
+\newcommand{\spanning}[1]{
+	\switchcolumn*[#1]
+}
+
+\newenvironment{verses}[1]
+	{\begin{flushleft} \begin{enumerate}[leftmargin=*] \setcounter{enumi}{#1}}
+	{\end{enumerate} \end{flushleft}}
+
+\newenvironment{versicles}{\par\leavevmode\parskip=0pt}{}
+
+\newenvironment{collect}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+	\noindent Orémus.\par
+}{}
+
+\newenvironment{optionbox}
+{
+	\switchcolumn[0]
+	\begin{mdframed}
+%	\begin{minipage}{0.8\linewidth}
+}{
+%	\end{minipage}
+	\end{mdframed}
+}
+
+\newcommand{\optionrule}{
+	\begin{center}
+	\rule{0.5\linewidth}{0.6pt}
+	\end{center}
+}
+
+\newenvironment{optionruled}
+{
+	\optionrule
+}
+{
+	\optionrule
+}
+
+% for use inside the collect environment
+\newcommand{\Amen}{\par\noindent \Rbar. Amen.}
+
+\begin{document}
+
+\title{Compline of Our Lady}
+\date{ }
+
+\maketitle
+
+\chapter*{Before Compline}
+
+\section*{Preparatory Prayers}
+
+\textit{ All kneel and pray silently. As you say the prayer \textnormal{Aperi, Domine}, make the sign of the cross with your thumb first over your lips, and then over your heart.}
+
+\begin{latinenglishequalsection}
+
+\latinenglishequal{
+	Áperi, \CrossMaltese\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	\CrossMaltese\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus;
+	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
+	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
+	Per Christum Dóminum nostrum. 
+	Amen.
+}{
+	Open, + O Lord, my mouth to bless Thy holy Name; + cleanse also my heart from all vain, evil, and wandering thoughts; enlighten my understanding and kindle my affections; that I may worthily, attentively, and devoutly say this Office of the Blessed Virgin Mary, and so merit to be heard before the presence of Thy divine Majesty.  Through Christ our Lord.  Amen.
+}
+
+\latinenglishequal{
+	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.
+}{
+	O Lord, in union with that divine intention wherewith thou, whilst here on earth, didst render praises unto God, I desire to offer this my Office of prayer unto thee.
+}
+
+\latinenglishequal{
+	Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+ Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+ }{
+ 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
+ Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+ }
+
+\spanning{\section*{Blessing}}
+
+\rubric{The cantor asks for the blessing:}
+
+\latinenglishequal{
+	Jube, domne, benedícere.
+}{
+	Pray, Father, a blessing.
+}
+
+\latinenglishequal{
+	\begin{optionbox}
+	\rubric{If the officiant is not a priest:}
+	
+	Jube, Dómine, benedícere.
+	\end{optionbox}
+}{
+	\begin{optionruled}
+	Pray, Lord, a blessing.
+	\end{optionruled}
+}
+
+\rubric{The officiant replies,}
+
+\latinenglishequal{
+	\begin{versicles}
+	Noctem quiétam et finem perféctum concédat nobis Dóminus omnípotens.
+	
+	\Rbar. Amen.
+	\end{versicles}
+}{
+	May the almighty Lord grant unto us a peaceful night and a perfect end.
+	\Rbar.~Amen.
+}
+
+\spanning{\section*{Short Lesson (1 Peter 5:8-9)}}
+
+\latinenglishequal{
+\begin{versicles}
+	Fratres: Sóbrii estóte, et vigiláte: \GreDagger\ 
+	quia adversárius vester diábolus, tamquam leo rúgiens, círcuit, qu\'{\ae}rens quem dévoret: *
+	cui resístite fortes in fide.
+	Tu autem Dómine miserére nobis.
+	
+	\Rbar. Deo grátias.
+\end{versicles}
+}{
+	Brethren: be sober and watch,
+	because your adversary, the devil, as a roaring lion, goeth about seeking whom he may devour,
+	whom resist ye, strong in faith.
+	But Thou, O Lord, have mercy on us.
+	\Rbar.~Thanks be to God.
+}
+
+\spanning{\section*{Examination of Conscience}}
+
+\latinenglishequal{
+	\begin{versicles}
+	\Vbar. Adjutórium \CrossMaltese\ nostrum in nómine Dómini.
+	
+	\Rbar. Qui fecit cælum et terram.
+	\end{versicles}
+}{
+	Our help is in the name of the Lord.
+	\Rbar.~Who made heaven and earth.
+}
+
+\rubric{All pray together silently:}
+
+\latinenglishequal{
+	Pater Noster, qui es in cælis, sanctificétur nomen tuum.
+	Advéniat regnum tuum.
+	Fiat volúntas tua, sicut in cælo et in terra.
+	Panem nostrum quoti\-diánum da nobis hódie,
+	et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.
+	Et ne nos indúcas in tentatiónem: sed líbera nos a malo.
+	Amen.
+}{
+	Our Father, who art in heaven, hallowed be thy name.
+	Thy kingdom come.
+	Thy will be done, on earth as it is in heaven.
+	Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us.
+	And lead us not into temptation: but deliver us from evil.
+	Amen.
+}
+
+\spanning{\section*{Confession (with priest)}}
+
+\latinenglishequal{
+	\rubric{The priest makes his confession: \textnormal{Confíteor Deo omnipoténti\dots oráre pro me ad Dóminum, Deum nostrum}.}
+}{
+	I confess to almighty God\dots
+}
+
+\rubric{All bow slightly towards the priest and respond:}
+
+\latinenglishequal{
+	Misereátur tui omnípotens Deus, et, dimíssis peccátis tuis, perdúcat te ad vitam ætérnam.
+}{
+	May almighty God have mercy on thee, forgive thee thy sins, and bring thee to life everlasting.
+}
+
+\rubric{And the priest replies \textnormal{Amen}.}
+
+\rubric{Then all bow profoundly and make their confession:}
+
+\latinenglishequal{
+	Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo,\linebreak\ ómnibus Sanctis, et tibi, pater:
+	quia peccávi nimis cogitatióne, verbo et ópere:
+	\textit{(strike breast)} mea\linebreak\ culpa, mea culpa, mea máxima culpa.
+	 Ideo precor beátam Maríam semper Vírginem, beátum\linebreak\ Michaélem Archángelum,
+	 beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum,
+	 omnes Sanctos, et te, pater,
+	 oráre pro me ad Dóminum, Deum nostrum.
+}{
+	I confess to almighty God, to Blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy Apostles Peter and Paul, to all the Saints, and to thee, Father, that I have sinned exceedingly in thought, word, and deed:
+	through my fault, through my fault, through my most grievous fault.
+	Therefore I pray Blessed Mary ever Virgin,\linebreak\ blessed Michael the Archangel, blessed John the Baptist, the holy Apostles Peter and Paul, all the saints, and thee, Father, to pray for me to the Lord our God.
+}
+
+\rubric{Remain bowed as the priest responds:}
+
+\latinenglishequal{
+	\begin{versicles}
+	Misereátur vestri omnípotens Deus, et, dimíssis\linebreak\ peccátis vestris, perdúcat vos ad vitam ætérnam.
+	
+	\Rbar. Amen.
+	\end{versicles}
+}{
+	May almighty God have mercy on you, forgive you your sins, and bring you to life everlasting. 
+	\Rbar.~Amen.
+}
+
+\rubric{Arise and make the sign of the cross as he says:}
+
+\latinenglishequal{
+	\begin{versicles}
+	Indulgéntiam, \CrossMaltese\ absolutiónem, et remissiónem\linebreak\ peccatórum nostrórum
+	tríbuat nobis omnípotens et miséricors Dóminus.
+	
+	\Rbar. Amen.
+	\end{versicles}
+}{
+	May the almighty and merciful Lord grant us pardon, absolution, and remission of our sins.
+	\Rbar.~Amen.
+}
+
+\spanning{\section*{Confession (without priest)}}
+
+
+\rubric{All bow profoundly and say together:}
+	
+\latinenglishequal{	
+	Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, et ómnibus Sanctis: quia peccávi nimis cogitatióne, verbo et ópere:
+	\textit{(strike breast)} mea culpa, mea culpa, mea máxima culpa.
+	Ideo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum,
+	beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum,
+	et omnes Sanctos, oráre pro me ad\linebreak\ Dóminum, Deum nostrum.
+}{
+	I confess to almighty God, to Blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy Apostles Peter and Paul, and to all the Saints, that I have sinned exceedingly in thought, word, and deed: through my fault, through my fault, through my most grievous fault.
+	Therefore I pray Blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy Apostles Peter and Paul, all the saints, and thee, Father, to pray for me to the Lord our God.
+}
+
+\latinenglishequal{
+	Misereátur nostri omnípotens Deus, et, dimíssis\linebreak\ peccátis nostris, perdúcat nos ad vitam ætérnam. Amen.
+}{
+	May almighty God have mercy on us, forgive us our sins, and bring us to life everlasting. Amen.
+}
+
+\rubric{All arise and make the sign of the cross as they say:}
+
+\latinenglishequal{
+	Indulgéntiam, \CrossMaltese\ absolutiónem, et remissiónem\linebreak\ peccatórum nostrórum tríbuat nobis omnípotens et miséricors Dóminus. Amen.
+}{
+	May the almighty and merciful Lord grant us pardon, absolution, and remission of our sins. Amen.
+}
+
+\end{latinenglishequalsection}
+
+\chapter*{Compline}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Invitatory}}
+
+\rubric{Cross yourself over your heart with your thumb as the officiant begins:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3) <sp>V/</sp>. Con(h)vér(h)te(h) nos(h), <v>\CrossMaltese</v>() De(h)us(h), sa(h)lu(h)tá(g)ris(f) nos(h)ter.(h.) (::)
+	}
+}{
+	Convert us, O God our Savior.
+}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3) <sp>R/</sp>. Et(h) a(h)vér(h)te(h) i(h)ram(h) tu(h)am(g) a(f) no(h)bis.(h.) (::)
+	}
+}{
+	And turn away Thine anger from us.
+}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{deus_in_adjutorium_compline}
+}{
+	O God, come to my assistance.
+		
+	O Lord, make haste to help me.
+	
+	Glory be to the Father, and to the Son, and to the Holy Spirit,
+	as it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	Alleluia.
+}
+
+\end{latinenglishsection}
+
+\end{document}
