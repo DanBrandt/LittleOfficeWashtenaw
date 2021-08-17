@@ -4,16 +4,16 @@
 \GreBeginHeaders %
 \GreHeader{name}{Psalm128-in-directum}%
 \GreHeader{office-part}{psalmus}%
-\GreHeader{annotation}{Ps. 128}%
+\GreHeader{annotation}{8G}%
 \GreEndHeaders %
-\GreBeginScore{fa11b221d447b324eaeaf5d9be4d97b11b4f8e0c}{11}{7}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
-\GreAnnotationLines{Ps. 128}{}%
+\GreBeginScore{755b4ff7aa11b7601f8af2ec99be39636c8db5fe}{11}{7}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
+\GreAnnotationLines{8G}{}%
 \GreSetLargestClef{c}{3}{3}{c}{0}{3}%
 \GreScoreOpening{%
 }{%
 \GreSetInitialClef{c}{3}{3}{c}{0}{3}{1}%
 }{%
-}{\GreSyllable}{\GreSetFirstSyllableText{\GreBold{8}}{\GreBold{.}}{\GreBold{ G} 1. Sæ}{{\GreFirstWord{\GreFirstSyllable{\GreBold{\GreFirstSyllableInitial{.} G} 1. S}}}{\GreFirstWord{\GreFirstSyllable{æ}}}{}}{{\GreFirstWord{\GreFirstSyllable{\GreBold{\GreFirstSyllableInitial{8}. G} 1. S}}}{\GreFirstWord{\GreFirstSyllable{æ}}}{}}{}}{}{\GreFirstWord}{0}{\GreSetNextSyllable{\GreFirstWord{p}}{\GreFirstWord{e}}{}{\GreFirstWord{p}}{\GreFirstWord{e}}}{}{{0}{0}}{}{%
+}{\GreSyllable}{\GreSetFirstSyllableText{S}{æ}{}{{}{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{æ}}}}{}}{{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{S}}}}{\GreFirstWord{\GreFirstSyllable{æ}}}{}}{}}{}{\GreFirstWord}{0}{\GreSetNextSyllable{\GreFirstWord{p}}{\GreFirstWord{e}}{}{\GreFirstWord{p}}{\GreFirstWord{e}}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{7}{\GreNextCustos{8}{}}{0}%
 {%
