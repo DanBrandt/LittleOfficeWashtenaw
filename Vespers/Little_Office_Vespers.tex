@@ -1,0 +1,304 @@
+\documentclass[11pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{paracol}
+\usepackage{mdframed}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[autocompile]{gregoriotex}
+
+\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+
+\mdfsetup{skipabove=\topskip, skipbelow=\topskip}
+
+\newcommand{\rubric}[1]{
+	\switchcolumn[0] {
+		\itshape
+		#1
+	}
+}
+
+\newcommand{\latinenglish}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape\small
+		#2
+	}
+}
+
+\newcommand{\latinenglishequal}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape
+		#2
+	}
+}
+
+\newenvironment{latinenglishsection}
+	{\columnratio{.7, .3} \begin{paracol}{2}}
+	{\end{paracol}}
+
+\newenvironment{latinenglishequalsection}
+	{\columnratio{.5, .5}\begin{paracol}{2}}
+	{\end{paracol}}
+
+\setlength{\columnseprule}{0.4pt}
+
+\newcommand{\heading}[1]{
+	\begin{leftcolumn}
+		#1
+	\end{leftcolumn}
+}
+
+\newcommand{\spanning}[1]{
+	\switchcolumn*[#1]
+}
+
+\newenvironment{verses}[1]
+	{\begin{flushleft} \begin{enumerate}[leftmargin=*] \setcounter{enumi}{#1}}
+	{\end{enumerate} \end{flushleft}}
+
+\newenvironment{versicles}{\par\leavevmode\parskip=0pt}{}
+
+\newenvironment{collect}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+	\noindent Orémus.\par
+}{}
+
+\newenvironment{optionbox}
+{
+	\switchcolumn[0]
+	\begin{mdframed}
+%	\begin{minipage}{0.8\linewidth}
+}{
+%	\end{minipage}
+	\end{mdframed}
+}
+
+\newcommand{\optionrule}{
+	\begin{center}
+	\rule{0.5\linewidth}{0.6pt}
+	\end{center}
+}
+
+\newenvironment{optionruled}
+{
+	\optionrule
+}
+{
+	\optionrule
+}
+
+% for use inside the collect environment
+\newcommand{\Amen}{\par\noindent \Rbar. Amen.}
+
+\begin{document}
+
+\vspace*{4cm}
+
+\begin{center}
+	\textbf{\Huge Vespers of the Blessed Virgin Mary}\\
+	{\LARGE According to the Washtenaw Use}
+\end{center}
+
+\vspace*{1cm}
+%\maketitle
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.33\linewidth]{Little_Office_Washtenaw_Seal}
+\end{figure}
+
+\hspace{0pt}
+\vfill
+
+\pagebreak
+
+\vspace*{7.5cm}
+``At \textit{Evensong} time, Our Lord Jesus Christ on Maundy Thursday supped with His Apostles, and ordained the Holy Sacrament of His Body and Blood. The same hour on Good Friday, He was taken down from The Cross. And on Easter Day, the same hour, He met with two of His disciples going towards Emmaus, and made Himself known to them in the breaking of bread.'' (Paraphrased from the \textit{Mirror of Our Lady}.) O most blessed Virgin, you grieved bitterly as your divine son's body was lowered from The Cross, having wrought fo us our redemption; pray that we may ever be mindful that the same glorious body is given to us in the Holy Eucharist and always treat this Sacrament with due reverence. Amen.
+\vfill
+
+\pagebreak
+
+\chapter*{Before Vespers}
+
+\section*{Preparatory Prayers}
+
+\textit{ All kneel and pray silently. As you say the prayer \textnormal{Aperi, Domine}, make the sign of the cross with your thumb first over your lips, and then over your heart.}
+
+\begin{latinenglishequalsection}
+
+\latinenglishequal{
+	Áperi, \maltese\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	\maltese\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus;
+	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
+	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
+	Per Christum Dóminum nostrum. 
+	Amen.
+}{
+	Open, \maltese\ O Lord, my mouth to bless Thy holy Name; \maltese\ cleanse also my heart from all vain, evil, and wandering thoughts; enlighten my understanding and kindle my affections; that I may worthily, attentively, and devoutly say this Office of the Blessed Virgin Mary, and so merit to be heard before the presence of Thy divine Majesty.  Through Christ our Lord.  Amen.
+}
+
+\latinenglishequal{
+	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.
+}{
+	O Lord, in union with that divine intention wherewith thou, whilst here on earth, didst render praises unto God, I desire to offer this my Office of prayer unto thee.
+}
+
+\latinenglishequal{
+	Pater Noster, qui es in cælis, sanctificétur nomen tuum.
+	Advéniat regnum tuum.
+	Fiat volúntas tua, sicut in cælo et in terra.
+	Panem nostrum quoti\-diánum da nobis hódie,
+	et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.
+	Et ne nos indúcas in tentatiónem: sed líbera nos a malo.
+	Amen.
+}{
+	Our Father, who art in heaven, hallowed be thy name.
+	Thy kingdom come.
+	Thy will be done, on earth as it is in heaven.
+	Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us.
+	And lead us not into temptation: but deliver us from evil.
+	Amen.
+}
+
+\latinenglishequal{
+	Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+ Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+ }{
+ 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
+ Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+ }
+ 
+ \end{latinenglishequalsection}
+
+\chapter*{Vespers}
+
+\begin{latinenglishsection}
+
+\rubric{All make the Sign of the Cross as the Officiant says (All continue together with the entire ``Gloria Patri'' after the response): }
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{deus_in_adjutorium}
+}{
+	O God, come to my assistance.
+		
+	O Lord, make haste to help me.
+	
+	Glory be to the Father, and to the Son, and to the Holy Spirit,
+	as it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	Alleluia.
+}
+
+\rubric{From Septuagesima until Easter, \textnormal{Alleluia} is replaced with:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3)Lau(h)s ti(h)bi(h) Dó(h)mi(h)ne(h), Re(h)x æ(h)té(h)rné(i) gló(h)ri(h)æ(g). (::)
+	}
+}{
+	Praise to thee, O Lord, King of everlasting glory.
+}
+\end{latinenglishsection}
+
+\pagebreak
+
+\begin{latinenglishsection}
+% Psalm cix: Dicit Dominus (with antiphon)
+
+\heading{\section*{Psalm 109}}
+
+\rubric{The Cantor intones the antiphon, bows, and all sit. The officiant's side then chants the first Psalm verse, with the Cantor's side responding with the second verse. Either side will alternate, and both sides bow (while seated) during the Gloria Patri.}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{dum_esset_antiphon}
+}{
+	While the king...
+}
+
+% Psalm cxii: Laudate, pueri (with antiphon)
+
+% Psalm cxxi: Lætatus sum in his (with antiphon)
+
+% Psalm cxxvi: Nisi Dominus (with antiphon)
+
+% Psalm cxlvii: Lauda Jerusalem (with antiphon)
+
+\end{latinenglishsection}
+
+
+\chapter*{Concluding Prayers}
+
+\begin{latinenglishequalsection}
+
+\rubric{All kneel and pray silently.}
+
+\latinenglishequal{
+	\begin{versicles}
+	Sacrosánctæ et indivíduæ Trinitáti, Crucifíxi\linebreak Dómini nostri Jesu Christi humanitáti,
+	beatíssimæ et gloriosíssimæ sempérque Vírginis Maríæ fecúndae integritáti,
+	et ómnium Sanctórum universitáti sit sempitérna laus, honor, virtus et glória ab omni creatúra,
+	nobísque remíssio ómnium peccatórum,
+	per infiníta s\'{\ae}cula sæculórum. Amen.
+	
+	\Vbar. Beáta víscera Maríæ Vírginis, quæ portavérunt ætérni Patris Fílium.
+	
+	 \Rbar. Et beáta úbera quæ lactavérunt Christum\linebreak Dóminum. 
+	 \end{versicles}
+}{
+	\begin{versicles}
+	Everlasting praise, honor, power, and glory be given by all creatures to the most holy and undivided Trinity, to the Humanity of our crucified Lord Jesus Christ, to the fruitful purity of the most blessed and most glorious Mary ever Virgin, and to the company of all the Saints; and may we obtain the remission of all our sins through all eternity. Amen.
+	
+	\Vbar. Blessed is the womb of the Virgin Mary, that bore the Son of the eternal Father.
+	
+	 \Rbar. And blessed are the paps that gave suck to Christ our Lord.
+	 \end{versicles}
+}
+
+\latinenglishequal{
+	Pater Noster, qui es in cælis, sanctificétur nomen tuum.
+	Advéniat regnum tuum.
+	Fiat volúntas tua, sicut in cælo et in terra.
+	Panem nostrum quoti\-diánum da nobis hódie,
+	et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris.
+	Et ne nos indúcas in tentatiónem: sed líbera nos a malo. Amen.
+}{
+	Our Father, who art in heaven, hallowed be thy name.
+	Thy kingdom come.
+	Thy will be done, on earth as it is in heaven.
+	Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us.
+	And lead us not into temptation: but deliver us from evil.
+	Amen.
+}
+ 
+ \latinenglishequal{
+	 Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+	 Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+}{
+ 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
+ 	Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+}
+ 
+
+\end{latinenglishequalsection}
+
+\end{document}
