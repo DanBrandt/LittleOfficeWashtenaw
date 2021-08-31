@@ -7,7 +7,7 @@
 \GreHeader{book}{The Liber Usualis, 1961}%
 \GreHeader{commentary}{ferial tone}%
 \GreEndHeaders %
-\GreBeginScore{84d0ba6140e907369815c7e0b54ddf5b92c59fe0}{11}{6}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
+\GreBeginScore{9fd23dd7e10a73d70ac057b44266e4be8a47aae1}{11}{6}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
 \GreSetLargestClef{c}{3}{3}{c}{0}{3}%
 \GreScoreOpening{%
 }{%
@@ -255,14 +255,14 @@
 \GreGlyphHeights{10}{10}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{g}{i}{}{g}{i}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{}{e}{}{e}{}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{g}{i}{}{g}{i}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{}{e}{ns}{e}{ns}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
 \GreGlyphHeights{10}{10}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{}{e}{}{e}{}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{s, c}{í}{}{s}{, cí}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{}{e}{ns}{e}{ns}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{, c}{í}{}{,}{ cí}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
@@ -272,7 +272,7 @@
 \GreVEpisema{9}{\GreOCaseFinalPunctum}%
 }{}%
 }%
-\GreSyllable{\GreSetThisSyllable{s, c}{í}{}{s}{, cí}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{rc}{u}{}{r}{cu}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{, c}{í}{}{,}{ cí}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{rc}{u}{}{r}{cu}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
@@ -286,14 +286,14 @@
 \GreGlyphHeights{10}{10}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{}{i}{t}{i}{t}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{t, qu}{æ}{}{t}{, quæ}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{}{i}{t}{i}{t}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{, qu}{æ}{}{,}{ quæ}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
 \GreGlyphHeights{10}{10}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{t, qu}{æ}{}{t}{, quæ}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{r}{e}{}{r}{e}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{, qu}{æ}{}{,}{ quæ}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{r}{e}{}{r}{e}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{9}{}}{0}%
 {%
@@ -409,7 +409,7 @@
 }%
 \GreSyllable{\GreSetThisSyllable{n f}{i}{}{n}{ fi}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{d}{e}{}{d}{e}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
-\GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
+\GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{6}{}}{0}%
 {%
 \GreGlyphHeights{10}{10}%
 }{%
@@ -418,11 +418,11 @@
 }%
 \GreSyllable{\GreSetThisSyllable{d}{e}{}{d}{e}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{}{. }{}{.}{ }}{}{{13}{0}}{}{%
 \GreSyllableNoteCount{1}%
-\GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
+\GreGlyph{\GreCPPunctum}{6}{\GreNextCustos{10}{}}{0}%
 {%
-\GreGlyphHeights{10}{10}%
+\GreGlyphHeights{6}{6}%
 }{%
-\GrePunctumMora{10}{0}{0}{0}%
+\GrePunctumMora{6}{0}{0}{0}%
 }{}%
 }%
 \GreBarSyllable{\GreSetThisSyllable{}{. }{}{.}{ }}{}{\GreUnstyled}{1}{\GreSetNextSyllable{T}{u}{}{T}{u}}{}{{0}{0}}{}{%
@@ -567,7 +567,9 @@
 \GreGlyph{\GreCPPunctum}{6}{\GreNextCustos{9}{}}{0}%
 {%
 \GreGlyphHeights{6}{6}%
-}{}{}%
+}{%
+\GrePunctumMora{6}{0}{0}{0}%
+}{}%
 }%
 \GreBarSyllable{\GreSetThisSyllable{}{s. }{}{s}{. }}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}\GreLastOfLine}{}{{18}{0}}{}{%
 \GreSyllableNoteCount{0}%

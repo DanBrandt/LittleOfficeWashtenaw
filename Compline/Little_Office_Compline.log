@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.9)  17 AUG 2021 16:34
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.9)  30 AUG 2021 23:07
  system commands enabled.
 **Little_Office_Compline.tex
 (./Little_Office_Compline.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 2.995 seconds
+luaotfload | main : initialization completed in 2.494 seconds
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/report.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size11.clo"
@@ -1496,11 +1496,6 @@ Module gregoriotex Info: Found regina_coeli_paschal.gabc directly on input line
 Module gregoriotex Info: Looking in  on input line 676
 Module gregoriotex Info: Found regina_coeli_paschal-6_0_0.gtex directly on input
  line 676
-Module gregoriotex Info: regina_coeli_paschal.gabc has been modified and regina_
-coeli_paschal-6_0_0.gtex needs to be updated. Recompiling the gabc file. on inpu
-t line 676
-Module gregoriotex Info: compiling the score regina_coeli_paschal.gabc... on inp
-ut line 676
  (./regina_coeli_paschal-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1780,11 +1775,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Here is how much of LuaTeX's memory you used:
  39497 strings out of 494385
- 305232,794899 words of node,token memory allocated
+ 305221,794899 words of node,token memory allocated
  2259 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 107 kern, 3 glyph, 293 attribute, 174 glue_
 spec, 53 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:5,2:38992,3:5553,4:53,5:8626,6:592,7:8559,8:4,9:10201,10:50,11
+   avail lists: 1:6,2:38992,3:5553,4:53,5:8626,6:592,7:8559,8:6,9:10201,10:50,11
 :236
  42874 multiletter control sequences out of 65536+600000
  133 fonts using 14222047 bytes
@@ -1801,7 +1796,7 @@ TeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Dan/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Dan/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri8t.pfb><C:/Users/Da
 n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
-Output written on Little_Office_Compline.pdf (22 pages, 184278 bytes).
+Output written on Little_Office_Compline.pdf (22 pages, 184269 bytes).
 
 PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
