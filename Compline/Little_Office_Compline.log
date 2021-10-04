@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.9)  3 SEP 2021 23:37
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.9)  3 OCT 2021 22:36
  system commands enabled.
 **Little_Office_Compline.tex
 (./Little_Office_Compline.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 3.220 seconds
+luaotfload | main : initialization completed in 3.544 seconds
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/report.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size11.clo"
@@ -1111,141 +1111,134 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 23.88496pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 16.58891pt on input line 119.
-<Little_Office_Washtenaw_Seal.jpg, id=1, 98.16675pt x 193.32225pt>
-File: Little_Office_Washtenaw_Seal.jpg Graphic file (type jpg)
-<use Little_Office_Washtenaw_Seal.jpg>
-Package luatex.def Info: Little_Office_Washtenaw_Seal.jpg  used on input line 1
-27.
-(luatex.def)             Requested size: 155.02pt x 305.31601pt.
 [1
 
-{C:/Users/Dan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./Little_Office
-_Washtenaw_Seal.jpg>]
+{C:/Users/Dan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 136.
+(Font)              scaled to size 10.51207pt on input line 135.
  [2]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 19.91054pt on input line 141.
+(Font)              scaled to size 19.91054pt on input line 140.
 LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
-(Font)              scaled to size 19.91054pt on input line 141.
+(Font)              scaled to size 19.91054pt on input line 140.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 143.
+(Font)              scaled to size 13.82408pt on input line 142.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 143.
+(Font)              scaled to size 13.82408pt on input line 142.
 LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 15
-8.
+7.
 
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/mdbch/ot1
 mdbch.fd"
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 LaTeX Font Info:    Try loading font information for OML+mdbch on input line 15
-8.
+7.
 
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/mdbch/oml
 mdbch.fd"
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 15
-8.
+7.
 
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/mdbch/oms
 mdbch.fd"
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 15
-8.
+7.
 
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/mdbch/omx
 mdbch.fd"
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 15
-8.
+7.
 
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/mdbch/mda
 mdbch.fd"
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 15
-8.
+7.
 
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mathdesign/mdbch/mdb
 mdbch.fd"
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 158.
+(Font)              scaled to size 10.51207pt on input line 157.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 158.
+(Font)              scaled to size 7.68005pt on input line 157.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 158.
+(Font)              scaled to size 5.76004pt on input line 157.
 
-Overfull \hbox (1.41939pt too wide) in paragraph at lines 158--158
+Overfull \hbox (1.41939pt too wide) in paragraph at lines 157--157
 \T1/mdbch/m/n/10.95 nomen sanc-tum tuum: [] munda quoque cor meum
  []
 
 
-Overfull \hbox (5.72287pt too wide) in paragraph at lines 158--158
+Overfull \hbox (5.72287pt too wide) in paragraph at lines 157--157
 \T1/mdbch/m/n/10.95 ab óm-nibus va-nis, per-vér-sis et al-ié-nis cog-i-tati
 ónibus;
  []
 
 
-Overfull \hbox (3.84752pt too wide) in paragraph at lines 158--158
+Overfull \hbox (3.84752pt too wide) in paragraph at lines 157--157
 \T1/mdbch/m/n/10.95 at-ténte ac de-vóte hoc Of-fí-cium beátæ Vírgi-nis Ma
 ríæ
  []
 
 
-Overfull \hbox (0.73952pt too wide) in paragraph at lines 158--158
+Overfull \hbox (0.73952pt too wide) in paragraph at lines 157--157
 \T1/mdbch/m/n/10.95 tum di-vínæ Ma-jestátis tuæ. Per Chris-tum Dóminum
  []
 
 
-Overfull \hbox (3.81592pt too wide) in paragraph at lines 158--159
+Overfull \hbox (3.81592pt too wide) in paragraph at lines 157--158
 \T1/mdbch/m/it/10.95 and de-voutly say this Of-fice of the Blessed Vir-gin Mary
 ,
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 188
-Module gregoriotex Info: will use gregorio on input line 188
+Module gregoriotex Info: Processing gabc snippet... on input line 187
+Module gregoriotex Info: will use gregorio on input line 187
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -1255,105 +1248,105 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 188.
+(Font)              scaled to size 9.60007pt on input line 187.
 [3
 
 ]
-Module gregoriotex Info: Processing gabc snippet... on input line 204
+Module gregoriotex Info: Processing gabc snippet... on input line 203
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 216
+Module gregoriotex Info: Processing gabc snippet... on input line 215
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (4.65215pt too wide) in paragraph at lines 216--217
+Overfull \hbox (4.65215pt too wide) in paragraph at lines 215--216
 [][][]\T1/mdbch/m/it/10 V. May the almighty Lord grant unto
  []
 
-Module gregoriotex Info: Looking in  on input line 231
+Module gregoriotex Info: Looking in  on input line 230
 Module gregoriotex Info: Found fratres_sobrii_estote.gabc directly on input line
- 231
-Module gregoriotex Info: Looking in  on input line 231
+ 230
+Module gregoriotex Info: Looking in  on input line 230
 Module gregoriotex Info: Found fratres_sobrii_estote-6_0_0.gtex directly on inpu
-t line 231
+t line 230
 (./fratres_sobrii_estote-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Processing gabc snippet... on input line 244
+Module gregoriotex Info: Processing gabc snippet... on input line 243
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [4]
-Overfull \hbox (1.1543pt too wide) in paragraph at lines 267--268
+Overfull \hbox (1.1543pt too wide) in paragraph at lines 266--267
 []\T1/mdbch/m/it/10.95 Our Fa-ther, who art in heaven, hal-lowed be thy name.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Overfull \hbox (7.32484pt too wide) in paragraph at lines 302--302
+Overfull \hbox (7.32484pt too wide) in paragraph at lines 301--301
 \T1/mdbch/m/n/10.95 Sanc-tis, et tibi, pa-ter: quia pec-cávi nimis cog-i-tati
 óne,
  []
 
 
-Overfull \hbox (9.59372pt too wide) in paragraph at lines 302--303
+Overfull \hbox (9.59372pt too wide) in paragraph at lines 301--302
 \T1/mdbch/m/it/10.95 fault. There-fore I pray Blessed Mary ever Vir-gin, blesse
 d
  []
 
 
-Overfull \hbox (2.89937pt too wide) in paragraph at lines 315--315
+Overfull \hbox (2.89937pt too wide) in paragraph at lines 314--314
 []\T1/mdbch/m/n/10.95 Mis-ereá-tur vestri om-nípotens Deus, et, dimís-sis pe
 c-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Overfull \hbox (4.25542pt too wide) in paragraph at lines 329--329
+Overfull \hbox (4.25542pt too wide) in paragraph at lines 328--328
 []\T1/mdbch/m/n/10.95 In-dul-gén-tiam, [] ab-so-lu-tiónem, et re-mis-siónem 
 pec-
  []
 
 
-Overfull \hbox (5.05647pt too wide) in paragraph at lines 329--329
+Overfull \hbox (5.05647pt too wide) in paragraph at lines 328--328
 \T1/mdbch/m/n/10.95 ca-tórum nos-trórum tríbuat no-bis om-nípotens et mis-
  []
 
 [5]
-Overfull \hbox (2.24336pt too wide) in paragraph at lines 344--344
+Overfull \hbox (2.24336pt too wide) in paragraph at lines 343--343
 \T1/mdbch/m/n/10.95 nibus Sanc-tis: quia pec-cávi nimis cog-i-tatióne, verbo
  []
 
 [6]
-Module gregoriotex Info: Processing gabc snippet... on input line 377
+Module gregoriotex Info: Processing gabc snippet... on input line 376
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 386
+Module gregoriotex Info: Processing gabc snippet... on input line 385
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Looking in  on input line 402
+Module gregoriotex Info: Looking in  on input line 401
 Module gregoriotex Info: Found deus_in_adjutorium_compline.gabc directly on inpu
-t line 402
-Module gregoriotex Info: Looking in  on input line 402
+t line 401
+Module gregoriotex Info: Looking in  on input line 401
 Module gregoriotex Info: Found deus_in_adjutorium_compline-6_0_0.gtex directly o
-n input line 402
+n input line 401
  (./deus_in_adjutorium_compline-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1361,64 +1354,43 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 38.40027pt on input line 16.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Processing gabc snippet... on input line 414
+Module gregoriotex Info: Processing gabc snippet... on input line 413
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [7
 
 ]
-Module gregoriotex Info: Looking in  on input line 470
-Module gregoriotex Info: Found psalm_128_compline.gabc directly on input line 47
-0
-Module gregoriotex Info: Looking in  on input line 470
-Module gregoriotex Info: Found psalm_128_compline-6_0_0.gtex directly on input l
-ine 470
+Module gregoriotex Info: Looking in  on input line 469
+Module gregoriotex Info: Found psalm_128_1_compline.gabc directly on input line 
+469
+Module gregoriotex Info: Looking in  on input line 469
+Module gregoriotex Info: Found psalm_128_1_compline-6_0_0.gtex directly on input
+ line 469
 
-(./psalm_128_compline-6_0_0.gtex
+(./psalm_128_1_compline-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (5.10335pt too wide) in paragraph at lines 470--470
+Overfull \hbox (5.10335pt too wide) in paragraph at lines 469--469
 \T1/mdbch/m/it/10 my back: they have length-ened their
  []
 
 
-Overfull \hbox (1.12253pt too wide) in paragraph at lines 470--470
+Overfull \hbox (1.12253pt too wide) in paragraph at lines 469--469
 []\T1/mdbch/m/it/10 6. Where-with the mower fil-leth not
  []
 
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 532.
 [8]
-Module gregoriotex Info: Looking in  on input line 533
-Module gregoriotex Info: Found psalm_129_compline.gabc directly on input line 53
-3
-Module gregoriotex Info: Looking in  on input line 533
-Module gregoriotex Info: Found psalm_129_compline-6_0_0.gtex directly on input l
-ine 533
- (./psalm_129_compline-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [9]
-Module gregoriotex Info: Looking in  on input line 579
-Module gregoriotex Info: Found psalm_130_compline.gabc directly on input line 57
-9
-Module gregoriotex Info: Looking in  on input line 579
-Module gregoriotex Info: Found psalm_130_compline-6_0_0.gtex directly on input l
-ine 579
- (./psalm_130_compline-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-[10]
-Module gregoriotex Info: Looking in  on input line 603
+Module gregoriotex Info: Looking in  on input line 602
 Module gregoriotex Info: Found memento_rerum_conditor.gabc directly on input lin
-e 603
-Module gregoriotex Info: Looking in  on input line 603
+e 602
+Module gregoriotex Info: Looking in  on input line 602
 Module gregoriotex Info: Found memento_rerum_conditor-6_0_0.gtex directly on inp
-ut line 603
+ut line 602
  (./memento_rerum_conditor-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1438,64 +1410,65 @@ Overfull \hbox (8.45567pt too wide) detected at line 724
 
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (7.66083pt too wide) in paragraph at lines 603--603
+Overfull \hbox (7.66083pt too wide) in paragraph at lines 602--602
 \T1/mdbch/m/it/10 That once the form of our flesh, From
  []
 
 
-Overfull \hbox (10.19519pt too wide) in paragraph at lines 603--603
+Overfull \hbox (10.19519pt too wide) in paragraph at lines 602--602
 \T1/mdbch/m/it/10 the Vir-gin's sa-cred womb, Be-ing born,
  []
 
+[9]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 610.
+(Font)              scaled to size 11.52008pt on input line 609.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 610.
-Module gregoriotex Info: Processing gabc snippet... on input line 617
+(Font)              scaled to size 11.52008pt on input line 609.
+Module gregoriotex Info: Processing gabc snippet... on input line 616
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [11]
-Module gregoriotex Info: Processing gabc snippet... on input line 639
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [10]
+Module gregoriotex Info: Processing gabc snippet... on input line 638
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (7.83365pt too wide) in paragraph at lines 639--639
+Overfull \hbox (7.83365pt too wide) in paragraph at lines 638--638
 \T1/mdbch/m/it/10 honey shall he eat, that he may know
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 647
+Module gregoriotex Info: Processing gabc snippet... on input line 646
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (0.35454pt too wide) in paragraph at lines 647--648
+Overfull \hbox (0.35454pt too wide) in paragraph at lines 646--647
 \T1/mdbch/m/it/10 God. [][]R. That we may be made wor-
  []
 
-Module gregoriotex Info: Looking in  on input line 660
+Module gregoriotex Info: Looking in  on input line 659
 Module gregoriotex Info: Found nunc_dimittis_antiphon_per_annum.gabc directly on
- input line 660
-Module gregoriotex Info: Looking in  on input line 660
+ input line 659
+Module gregoriotex Info: Looking in  on input line 659
 Module gregoriotex Info: Found nunc_dimittis_antiphon_per_annum-6_0_0.gtex direc
-tly on input line 660
+tly on input line 659
 (./nunc_dimittis_antiphon_per_annum-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (14.89844pt too wide) in paragraph at lines 660--661
+Overfull \hbox (14.89844pt too wide) in paragraph at lines 659--660
 []\T1/mdbch/m/it/10 We fly to thy pa-tron-age, O holy Mother
  []
 
-[12]
-Module gregoriotex Info: Looking in  on input line 676
+[11]
+Module gregoriotex Info: Looking in  on input line 675
 Module gregoriotex Info: Found regina_coeli_paschal.gabc directly on input line 
-676
-Module gregoriotex Info: Looking in  on input line 676
+675
+Module gregoriotex Info: Looking in  on input line 675
 Module gregoriotex Info: Found regina_coeli_paschal-6_0_0.gtex directly on input
- line 676
+ line 675
  (./regina_coeli_paschal-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1507,265 +1480,263 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 (Font)              scaled to size 10.51207pt on input line 11.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (2.30977pt too wide) in paragraph at lines 676--677
+Overfull \hbox (2.30977pt too wide) in paragraph at lines 675--676
 \T1/mdbch/m/it/10 For he whom thou was meet to bear,
  []
 
 
-Overfull \hbox (0.4831pt too wide) in paragraph at lines 676--677
+Overfull \hbox (0.4831pt too wide) in paragraph at lines 675--676
 \T1/mdbch/m/it/10 al-leluia. Hath arisen, as he as said,
  []
 
-Module gregoriotex Info: Looking in  on input line 685
+Module gregoriotex Info: Looking in  on input line 684
 Module gregoriotex Info: Found nunc_dimittis_antiphon_adventus.gabc directly on 
-input line 685
-Module gregoriotex Info: Looking in  on input line 685
+input line 684
+Module gregoriotex Info: Looking in  on input line 684
 Module gregoriotex Info: Found nunc_dimittis_antiphon_adventus-6_0_0.gtex direct
-ly on input line 685
+ly on input line 684
 (./nunc_dimittis_antiphon_adventus-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Looking in  on input line 698
+Module gregoriotex Info: Looking in  on input line 697
 Module gregoriotex Info: Found nunc_dimittis_antiphon_christmastide.gabc directl
-y on input line 698
-Module gregoriotex Info: Looking in  on input line 698
+y on input line 697
+Module gregoriotex Info: Looking in  on input line 697
 Module gregoriotex Info: Found nunc_dimittis_antiphon_christmastide-6_0_0.gtex d
-irectly on input line 698
+irectly on input line 697
 
 (./nunc_dimittis_antiphon_christmastide-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (4.83261pt too wide) in paragraph at lines 698--699
+Overfull \hbox (4.83261pt too wide) in paragraph at lines 697--698
 \T1/mdbch/m/it/10 all na-tions shall come, say-ing, Glory
  []
 
-[13]
-Module gregoriotex Info: Looking in  on input line 719
+[12]
+Module gregoriotex Info: Looking in  on input line 718
 Module gregoriotex Info: Found nunc_dimittis_per_annum.gabc directly on input li
-ne 719
-Module gregoriotex Info: Looking in  on input line 719
+ne 718
+Module gregoriotex Info: Looking in  on input line 718
 Module gregoriotex Info: Found nunc_dimittis_per_annum-6_0_0.gtex directly on in
-put line 719
+put line 718
  (./nunc_dimittis_per_annum-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Processing gabc snippet... on input line 735
+Module gregoriotex Info: Processing gabc snippet... on input line 734
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
 
  []
 
-[14]
-Module gregoriotex Info: Processing gabc snippet... on input line 750
+[13]
+Module gregoriotex Info: Processing gabc snippet... on input line 749
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (11.20323pt too wide) in paragraph at lines 750--751
+Overfull \hbox (11.20323pt too wide) in paragraph at lines 749--750
 \T1/mdbch/m/it/10 Christ thy son, who livest and reignest
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 764
+Module gregoriotex Info: Processing gabc snippet... on input line 763
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (3.8554pt too wide) in paragraph at lines 764--765
+Overfull \hbox (3.8554pt too wide) in paragraph at lines 763--764
 \T1/mdbch/m/it/10 we be-lieve her to be truly the Mother
  []
 
 
-Overfull \hbox (6.4601pt too wide) in paragraph at lines 764--765
+Overfull \hbox (6.4601pt too wide) in paragraph at lines 763--764
 \T1/mdbch/m/it/10 her in-ter-ces-sions with thee. Through
  []
 
-[15]
-Module gregoriotex Info: Processing gabc snippet... on input line 782
+[14]
+Module gregoriotex Info: Processing gabc snippet... on input line 781
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 791
+Module gregoriotex Info: Processing gabc snippet... on input line 790
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
-[16]
-Module gregoriotex Info: Processing gabc snippet... on input line 802
+[15]
+Module gregoriotex Info: Processing gabc snippet... on input line 801
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 813
+Module gregoriotex Info: Processing gabc snippet... on input line 812
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (13.74149pt too wide) in paragraph at lines 813--814
+Overfull \hbox (13.74149pt too wide) in paragraph at lines 812--813
 \T1/mdbch/m/it/10 Lord, Fa-ther and Son, and Holy Ghost,
  []
 
-Module gregoriotex Info: Looking in  on input line 834
+Module gregoriotex Info: Looking in  on input line 833
 Module gregoriotex Info: Found alma_redemptoris_mater.gabc directly on input lin
-e 834
-Module gregoriotex Info: Looking in  on input line 834
+e 833
+Module gregoriotex Info: Looking in  on input line 833
 Module gregoriotex Info: Found alma_redemptoris_mater-6_0_0.gtex directly on inp
-ut line 834
+ut line 833
 (./alma_redemptoris_mater-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [17]
-Module gregoriotex Info: Processing gabc snippet... on input line 849
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [16]
+Module gregoriotex Info: Processing gabc snippet... on input line 848
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (0.26875pt too wide) in paragraph at lines 849--849
+Overfull \hbox (0.26875pt too wide) in paragraph at lines 848--848
 \T1/mdbch/m/it/10 have re-ceived the au-thor of life, our
  []
 
-Module gregoriotex Info: Looking in  on input line 865
+Module gregoriotex Info: Looking in  on input line 864
 Module gregoriotex Info: Found ave_regina_caelorum_simple_tone.gabc directly on 
-input line 865
-Module gregoriotex Info: Looking in  on input line 865
+input line 864
+Module gregoriotex Info: Looking in  on input line 864
 Module gregoriotex Info: Found ave_regina_caelorum_simple_tone-6_0_0.gtex direct
-ly on input line 865
+ly on input line 864
 (./ave_regina_caelorum_simple_tone-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (4.87592pt too wide) in paragraph at lines 865--866
+Overfull \hbox (4.87592pt too wide) in paragraph at lines 864--865
 []\T1/mdbch/m/it/10 Hail, O Queen of Heav'n en-throne'd!
  []
 
 
-Overfull \hbox (5.27357pt too wide) in paragraph at lines 865--866
+Overfull \hbox (5.27357pt too wide) in paragraph at lines 864--865
 \T1/mdbch/m/it/10 Hail, by an-gles mis-tress own'd! Root
  []
 
 
-Overfull \hbox (6.38339pt too wide) in paragraph at lines 865--866
+Overfull \hbox (6.38339pt too wide) in paragraph at lines 864--865
 \T1/mdbch/m/it/10 the world's true Light was born. Glo-
  []
 
-[18]
-Module gregoriotex Info: Processing gabc snippet... on input line 880
+[17]
+Module gregoriotex Info: Processing gabc snippet... on input line 879
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Looking in  on input line 892
+Module gregoriotex Info: Looking in  on input line 891
 Module gregoriotex Info: Found regina_coeli_simple_tone.gabc directly on input l
-ine 892
-Module gregoriotex Info: Looking in  on input line 892
+ine 891
+Module gregoriotex Info: Looking in  on input line 891
 Module gregoriotex Info: Found regina_coeli_simple_tone-6_0_0.gtex directly on i
-nput line 892
+nput line 891
  (./regina_coeli_simple_tone-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (2.30977pt too wide) in paragraph at lines 892--893
+Overfull \hbox (2.30977pt too wide) in paragraph at lines 891--892
 \T1/mdbch/m/it/10 For he whom thou was meet to bear,
  []
 
 
-Overfull \hbox (0.4831pt too wide) in paragraph at lines 892--893
+Overfull \hbox (0.4831pt too wide) in paragraph at lines 891--892
 \T1/mdbch/m/it/10 al-leluia. Hath arisen, as he as said,
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 909
+Module gregoriotex Info: Processing gabc snippet... on input line 908
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (9.38792pt too wide) in paragraph at lines 909--909
+Overfull \hbox (9.38792pt too wide) in paragraph at lines 908--908
 [][][]\T1/mdbch/m/it/10 V. Re-joice and be glad, O Vir-gin Mary:
  []
 
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 909.
-[19]
-Module gregoriotex Info: Looking in  on input line 927
+[18]
+Module gregoriotex Info: Looking in  on input line 926
 Module gregoriotex Info: Found salve_regina_simple_tone.gabc directly on input l
-ine 927
-Module gregoriotex Info: Looking in  on input line 927
+ine 926
+Module gregoriotex Info: Looking in  on input line 926
 Module gregoriotex Info: Found salve_regina_simple_tone-6_0_0.gtex directly on i
-nput line 927
+nput line 926
  (./salve_regina_simple_tone-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (14.1726pt too wide) in paragraph at lines 927--928
+Overfull \hbox (14.1726pt too wide) in paragraph at lines 926--927
 []\T1/mdbch/m/it/10 Mother of mercy, hail, O gen-tle Queen!
  []
 
 
-Overfull \hbox (10.07428pt too wide) in paragraph at lines 927--928
+Overfull \hbox (10.07428pt too wide) in paragraph at lines 926--927
 \T1/mdbch/m/it/10 Our life, our sweet-ness, and our hope,
  []
 
 
-Overfull \hbox (3.1533pt too wide) in paragraph at lines 927--928
+Overfull \hbox (3.1533pt too wide) in paragraph at lines 926--927
 \T1/mdbch/m/it/10 Come, then, our Ad-vo-cate; Oh, turn
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 946
+Module gregoriotex Info: Processing gabc snippet... on input line 945
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [20]
-Overfull \hbox (7.17699pt too wide) in paragraph at lines 946--946
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [19]
+Overfull \hbox (7.17699pt too wide) in paragraph at lines 945--945
 \T1/mdbch/m/it/10 by the co-op-er-a-tion of the Holy Ghost,
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 959
+Module gregoriotex Info: Processing gabc snippet... on input line 958
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (0.84084pt too wide) in paragraph at lines 959--959
+Overfull \hbox (0.84084pt too wide) in paragraph at lines 958--958
 [][][]\T1/mdbch/m/it/10 V. May the di-vine as-sis-tance re-main
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 990--990
 []\T1/mdbch/m/n/10.95 Sacrosánctæ et in-di-ví-duæ Trinitáti, Cru-cifíxi
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 991--991
+Underfull \hbox (badness 3503) in paragraph at lines 990--990
 [][][]\T1/mdbch/m/n/10.95 R. Et beáta úbera quæ lac-tavérunt Chris-tum
  []
 
 
-Overfull \hbox (2.57974pt too wide) in paragraph at lines 991--991
+Overfull \hbox (2.57974pt too wide) in paragraph at lines 990--990
 \T1/mdbch/m/it/10.95 ity, to the Hu-man-ity of our cru-ci-fied Lord Je-sus Chri
 st,
  []
 
 
-Overfull \hbox (1.1543pt too wide) in paragraph at lines 1007--1008
+Overfull \hbox (1.1543pt too wide) in paragraph at lines 1006--1007
 []\T1/mdbch/m/it/10.95 Our Fa-ther, who art in heaven, hal-lowed be thy name.
  []
 
-[22
+[21
 
 ] (./Little_Office_Compline.aux)
 
@@ -1774,31 +1745,34 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39497 strings out of 494385
- 305221,794899 words of node,token memory allocated
+ 39474 strings out of 494385
+ 305233,794899 words of node,token memory allocated
  2259 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 107 kern, 3 glyph, 293 attribute, 174 glue_
 spec, 53 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:6,2:38992,3:5553,4:53,5:8626,6:592,7:8559,8:6,9:10201,10:50,11
+   avail lists: 1:6,2:38992,3:5561,4:43,5:8634,6:592,7:8558,8:6,9:10201,10:39,11
 :236
- 42874 multiletter control sequences out of 65536+600000
+ 42873 multiletter control sequences out of 65536+600000
  133 fonts using 14222047 bytes
- 49i,6n,82p,1210b,5795s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,6n,82p,1210b,3786s stack positions out of 5000i,500n,10000p,200000b,80000s
 Module gregoriotex Info: Writing Little_Office_Compline.gaux on input line 0
 Module gregoriotex Warning: Line heights or variable brace lengths may have chan
 ged. Rerun to fix. on input line 0
 <C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/public/gregoriote
-x/greextra.ttf><C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/pu
-blic/gregoriotex/greciliae.ttf>{C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/ly1/texnansi.enc}<C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Dan/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Dan/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Dan/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri8t.pfb><C:/Users/Da
-n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
-Output written on Little_Office_Compline.pdf (22 pages, 184273 bytes).
+x/greciliae-hollow.ttf><C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/tru
+etype/public/gregoriotex/greciliae-hole.ttf><C:/Users/Dan/AppData/Local/Programs
+/MiKTeX 2.9/fonts/truetype/public/gregoriotex/greextra.ttf><C:/Users/Dan/AppData
+/Local/Programs/MiKTeX 2.9/fonts/truetype/public/gregoriotex/greciliae.ttf>{C:/U
+sers/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}<C:/
+Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchb8a.
+pfb><C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter
+/bchr8a.pfb><C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea
+/charter/bchri8a.pfb><C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/mathdesign/mdbch/md-chri8t.pfb><C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/mathdesign/mdbch/md-chrma.pfb>
+Output written on Little_Office_Compline.pdf (21 pages, 162432 bytes).
 
-PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
