@@ -1,0 +1,9 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = per-annum.tex
+
+name: Psalm112-first-verse;
+office-part: psalmus;
+annotation: 4A*;
+%%
+
+(c3)1. Lau(i)dá(hi)te,(i) pú(i)<i>e(h)</i>ri,(i) <b>Dó(j)</b>mi(i)num:(i.) <v>\greheightstar</v>(:) lau(i)dá(i)<i>te(h)</i> <i>no(i)men(j) Dó(h)mi(f)</i><b>ni.(fg..)</b> (::)

@@ -1,0 +1,9 @@
+% !TEX TS-program = LuaLaTeX+se
+% !TEX root = per-annum.tex
+
+name: Psalm109-first-verse;
+office-part: psalmus;
+annotation: 3a;
+%%
+
+(c4)1. <i>Di(g)xit(hj)</i> Dó(j)mi(j)nus(j) <b>Dó(k)</b>mi(j)no(j) <b>me(ih)</b>o:(j.) <v>\greheightstar</v>(:) Se(j)de(j) a(j) dex(j)<i>tris(h)</i> <b>me(j)</b>is:(ih..) (::)
