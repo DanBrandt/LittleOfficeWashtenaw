@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.9)  18 OCT 2021 23:58
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.9)  19 OCT 2021 08:09
  system commands enabled.
 **Little_Office_Vespers.tex
 (./Little_Office_Vespers.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 2.073 seconds
+luaotfload | main : initialization completed in 2.184 seconds
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/report.cls"
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 ("C:/Users/Dan/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size11.clo"
@@ -1442,30 +1442,72 @@ Overfull \hbox (0.15573pt too wide) in paragraph at lines 457--458
 []\T1/mdbch/m/it/10 I am black, but beau-ti-ful, O daugh-
  []
 
-[7
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 Missing character: There is no ǽ (U+01FD) in font mdbchr8t!
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Module gregoriotex Info: Looking in  on input line 474
+Module gregoriotex Info: Found jam_hiems_antiphon.gabc directly on input line 47
+4
+Module gregoriotex Info: Looking in  on input line 474
+Module gregoriotex Info: Found jam_hiems_antiphon-6_0_0.gtex directly on input l
+ine 474
+
+(./jam_hiems_antiphon-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 525
+Module gregoriotex Info: Found psalm_126_1_vespers.gabc directly on input line 5
+25
+Module gregoriotex Info: Looking in  on input line 525
+Module gregoriotex Info: Found psalm_126_1_vespers-6_0_0.gtex directly on input 
+line 525
+ (./psalm_126_1_vespers-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 525
+Module gregoriotex Info: Found jam_hiems.gabc directly on input line 525
+Module gregoriotex Info: Looking in  on input line 525
+Module gregoriotex Info: Found jam_hiems-6_0_0.gtex directly on input line 525
+
+(./jam_hiems-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
+Missing character: There is no ǽ (U+01FD) in font mdbchr8t!
+]
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 []\T1/mdbch/m/n/10.95 Sacrosánctæ et in-di-ví-duæ Trinitáti, Cru-cifíxi
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 493--493
+Underfull \hbox (badness 3503) in paragraph at lines 564--564
 [][][]\T1/mdbch/m/n/10.95 R. Et beáta úbera quæ lac-tavérunt Chris-tum
  []
 
 
-Overfull \hbox (2.57974pt too wide) in paragraph at lines 493--493
+Overfull \hbox (2.57974pt too wide) in paragraph at lines 564--564
 \T1/mdbch/m/it/10.95 ity, to the Hu-man-ity of our cru-ci-fied Lord Je-sus Chri
 st,
  []
 
 
-Overfull \hbox (1.1543pt too wide) in paragraph at lines 509--510
+Overfull \hbox (1.1543pt too wide) in paragraph at lines 580--581
 []\T1/mdbch/m/it/10.95 Our Fa-ther, who art in heaven, hal-lowed be thy name.
  []
 
-[8
+[10
 
 ] (./Little_Office_Vespers.aux)
 
@@ -1474,12 +1516,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39439 strings out of 494385
+ 39460 strings out of 494385
  125005,794899 words of node,token memory allocated
- 1411 words of node memory still in use:
-   4 hlist, 3 vlist, 1 rule, 2 glue, 37 kern, 3 glyph, 105 attribute, 158 glue_s
-pec, 23 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:6,2:9562,3:1882,4:18,5:2598,6:244,7:5890,8:4,9:3067,10:15,11:2
+ 1603 words of node memory still in use:
+   4 hlist, 9 vlist, 1 rule, 2 glue, 41 kern, 3 glyph, 147 attribute, 162 glue_s
+pec, 30 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 1:6,2:9513,3:1882,4:18,5:2591,6:244,7:5890,8:4,9:3061,10:15,11:2
 21
  42868 multiletter control sequences out of 65536+600000
  123 fonts using 13582151 bytes
@@ -1493,9 +1535,9 @@ TeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Dan/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Dan/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri8t.pfb><C:/Users/Da
 n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
-Output written on Little_Office_Vespers.pdf (8 pages, 91692 bytes).
+Output written on Little_Office_Vespers.pdf (10 pages, 96879 bytes).
 
-PDF statistics: 62 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
