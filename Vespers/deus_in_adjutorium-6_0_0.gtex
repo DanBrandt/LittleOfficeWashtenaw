@@ -7,7 +7,7 @@
 \GreHeader{book}{The Liber Usualis, 1961, p. 263 & The Liber Usualis, 1961, p. 264}%
 \GreHeader{commentary}{ferial tone}%
 \GreEndHeaders %
-\GreBeginScore{cc985191a24aa2a0f13d9f7b3c963c4ba9571417}{11}{9}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
+\GreBeginScore{28073ff95869155485c6adf6481f1d31200d7364}{11}{9}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
 \GreSetLargestClef{c}{3}{3}{c}{0}{3}%
 \GreScoreOpening{%
 }{%
@@ -122,12 +122,12 @@
 }{}%
 }%
 %
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{\GreSpecial{R/}. D}{ó}{}{\GreSpecial{R/}}{. Dó}}{}{{0}{0}}{}{%
+\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{\GreColored{\GreSpecial{R/}.} D}{ó}{}{\GreColored{\GreSpecial{R/}}}{\GreColored{.} Dó}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{0}%
 \GreDivisioFinalis{0}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{\GreSpecial{R/}. D}{ó}{}{\GreSpecial{R/}}{. Dó}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{m}{i}{}{m}{i}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{\GreColored{\GreSpecial{R/}.} D}{ó}{}{\GreColored{\GreSpecial{R/}}}{\GreColored{.} Dó}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{m}{i}{}{m}{i}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
