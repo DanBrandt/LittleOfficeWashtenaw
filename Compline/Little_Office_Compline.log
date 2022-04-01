@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  27 MAR 2022 23:31
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  1 APR 2022 05:54
  system commands enabled.
 **Little_Office_Compline.tex
 (./Little_Office_Compline.tex
@@ -1034,13 +1034,15 @@ Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [4
 
 ]
 Module gregoriotex Info: Looking in  on input line 283
-Module gregoriotex Info: Found psalm_128_1_compline.gabc directly on input line 
-283
+Module gregoriotex Info: Found psalm_128_1_8G.gabc directly on input line 283
 Module gregoriotex Info: Looking in  on input line 283
-Module gregoriotex Info: Found psalm_128_1_compline-6_0_0.gtex directly on input
- line 283
+Module gregoriotex Info: Cannot find psalm_128_1_8G-6_0_0.gtex on input line 283
 
-(./psalm_128_1_compline-6_0_0.gtex
+Module gregoriotex Info: The file psalm_128_1_8G-6_0_0.gtex does not exist. Will
+ use gabc file on input line 283
+Module gregoriotex Info: compiling the score psalm_128_1_8G.gabc... on input lin
+e 283
+ (./psalm_128_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1055,12 +1057,15 @@ Overfull \hbox (1.12253pt too wide) in paragraph at lines 283--283
  []
 
 Module gregoriotex Info: Looking in  on input line 346
-Module gregoriotex Info: Found psalm_129_1_compline.gabc directly on input line 
-346
+Module gregoriotex Info: Found psalm_129_1_8G.gabc directly on input line 346
 Module gregoriotex Info: Looking in  on input line 346
-Module gregoriotex Info: Found psalm_129_1_compline-6_0_0.gtex directly on input
- line 346
-(./psalm_129_1_compline-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_129_1_8G-6_0_0.gtex on input line 346
+
+Module gregoriotex Info: The file psalm_129_1_8G-6_0_0.gtex does not exist. Will
+ use gabc file on input line 346
+Module gregoriotex Info: compiling the score psalm_129_1_8G.gabc... on input lin
+e 346
+(./psalm_129_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1069,24 +1074,27 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 346.
  [5]
 Module gregoriotex Info: Looking in  on input line 392
-Module gregoriotex Info: Found psalm_130_1_compline.gabc directly on input line 
-392
+Module gregoriotex Info: Found psalm_130_1_8G.gabc directly on input line 392
 Module gregoriotex Info: Looking in  on input line 392
-Module gregoriotex Info: Found psalm_130_1_compline-6_0_0.gtex directly on input
- line 392
- (./psalm_130_1_compline-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_130_1_8G-6_0_0.gtex on input line 392
+
+Module gregoriotex Info: The file psalm_130_1_8G-6_0_0.gtex does not exist. Will
+ use gabc file on input line 392
+Module gregoriotex Info: compiling the score psalm_130_1_8G.gabc... on input lin
+e 392
+ (./psalm_130_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-[6]
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [6]
 Module gregoriotex Info: Looking in  on input line 421
 Module gregoriotex Info: Found memento_rerum_conditor.gabc directly on input lin
 e 421
 Module gregoriotex Info: Looking in  on input line 421
 Module gregoriotex Info: Found memento_rerum_conditor-6_0_0.gtex directly on inp
 ut line 421
- (./memento_rerum_conditor-6_0_0.gtex
+
+(./memento_rerum_conditor-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Overfull \hbox (8.45567pt too wide) detected at line 178
@@ -1488,7 +1496,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28057 strings out of 481365
+ 28051 strings out of 481365
  195331,794899 words of node,token memory allocated
  6871 words of node memory still in use:
    4 hlist, 5 vlist, 1 rule, 226 glue, 101 kern, 3 glyph, 1598 attribute, 170 gl
@@ -1498,6 +1506,9 @@ ue_spec, 277 attribute_list, 1 write, 1 user_defined nodes
  44401 multiletter control sequences out of 65536+600000
  134 fonts using 12973315 bytes
  43i,6n,82p,1210b,3545s stack positions out of 5000i,500n,10000p,200000b,100000s
+Module gregoriotex Info: Writing Little_Office_Compline.gaux on input line 0
+Module gregoriotex Warning: Line heights or variable brace lengths may have chan
+ged. Rerun to fix. on input line 0
 </usr/local/share/texmf/fonts/truetype/public/gregoriotex/greciliae-hollow.ttf><
 /usr/local/share/texmf/fonts/truetype/public/gregoriotex/greciliae-hole.ttf></us
 r/local/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/local/s
@@ -1508,7 +1519,7 @@ strea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/cha
 rter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/md
 bch/md-chri8t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/m
 dbch/md-chrma.pfb>
-Output written on Little_Office_Compline.pdf (20 pages, 133080 bytes).
+Output written on Little_Office_Compline.pdf (20 pages, 133077 bytes).
 
 PDF statistics: 116 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream

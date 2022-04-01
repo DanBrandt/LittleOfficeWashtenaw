@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  31 MAR 2022 21:45
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  1 APR 2022 06:14
  system commands enabled.
 **Little_Office_Sext.tex
 (./Little_Office_Sext.tex
@@ -1077,13 +1077,12 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
 Module gregoriotex Info: Looking in  on input line 293
-Module gregoriotex Info: Found psalm_122_1_vespers_4ASTAR.gabc directly on input
- line 293
+Module gregoriotex Info: Found psalm_122_1_4ASTAR.gabc directly on input line 29
+3
 Module gregoriotex Info: Looking in  on input line 293
-Module gregoriotex Info: Found psalm_122_1_vespers_4ASTAR-6_0_0.gtex directly on
- input line 293
-
-(./psalm_122_1_vespers_4ASTAR-6_0_0.gtex
+Module gregoriotex Info: Found psalm_122_1_4ASTAR-6_0_0.gtex directly on input l
+ine 293
+ (./psalm_122_1_4ASTAR-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1094,12 +1093,12 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 293--294
 
 [6]
 Module gregoriotex Info: Looking in  on input line 355
-Module gregoriotex Info: Found psalm_123_1_vespers_4ASTAR.gabc directly on input
- line 355
+Module gregoriotex Info: Found psalm_123_1_4ASTAR.gabc directly on input line 35
+5
 Module gregoriotex Info: Looking in  on input line 355
-Module gregoriotex Info: Found psalm_123_1_vespers_4ASTAR-6_0_0.gtex directly on
- input line 355
- (./psalm_123_1_vespers_4ASTAR-6_0_0.gtex
+Module gregoriotex Info: Found psalm_123_1_4ASTAR-6_0_0.gtex directly on input l
+ine 355
+ (./psalm_123_1_4ASTAR-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1109,12 +1108,12 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 355--356
  []
 
 Module gregoriotex Info: Looking in  on input line 405
-Module gregoriotex Info: Found psalm_124_1_vespers_4ASTAR.gabc directly on input
- line 405
+Module gregoriotex Info: Found psalm_124_1_4ASTAR.gabc directly on input line 40
+5
 Module gregoriotex Info: Looking in  on input line 405
-Module gregoriotex Info: Found psalm_124_1_vespers_4ASTAR-6_0_0.gtex directly on
- input line 405
-(./psalm_124_1_vespers_4ASTAR-6_0_0.gtex
+Module gregoriotex Info: Found psalm_124_1_4ASTAR-6_0_0.gtex directly on input l
+ine 405
+(./psalm_124_1_4ASTAR-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1141,7 +1140,6 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 9.60007pt on input line 405.
 [7
 Missing character: There is no † (U+2020) in font mdbchr8t!
-Missing character: There is no † (U+2020) in font mdbchr8t!
 ]
 Overfull \hbox (0.23422pt too wide) in paragraph at lines 405--405
 \T1/mdbch/m/it/10 it was in the be-gin-ning, is now, and
@@ -1165,13 +1163,11 @@ Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
 Module gregoriotex Info: Looking in  on input line 465
-Module gregoriotex Info: Found psalm_122_1_vespers_8G.gabc directly on input lin
-e 465
+Module gregoriotex Info: Found psalm_122_1_8G.gabc directly on input line 465
 Module gregoriotex Info: Looking in  on input line 465
-Module gregoriotex Info: Found psalm_122_1_vespers_8G-6_0_0.gtex directly on inp
-ut line 465
-
-(./psalm_122_1_vespers_8G-6_0_0.gtex
+Module gregoriotex Info: Found psalm_122_1_8G-6_0_0.gtex directly on input line 
+465
+ (./psalm_122_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1182,12 +1178,11 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 465--466
 
 [9]
 Module gregoriotex Info: Looking in  on input line 527
-Module gregoriotex Info: Found psalm_123_1_vespers_8G.gabc directly on input lin
-e 527
+Module gregoriotex Info: Found psalm_123_1_8G.gabc directly on input line 527
 Module gregoriotex Info: Looking in  on input line 527
-Module gregoriotex Info: Found psalm_123_1_vespers_8G-6_0_0.gtex directly on inp
-ut line 527
- (./psalm_123_1_vespers_8G-6_0_0.gtex
+Module gregoriotex Info: Found psalm_123_1_8G-6_0_0.gtex directly on input line 
+527
+ (./psalm_123_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1197,12 +1192,11 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 527--528
  []
 
 Module gregoriotex Info: Looking in  on input line 577
-Module gregoriotex Info: Found psalm_124_1_vespers_8G.gabc directly on input lin
-e 577
+Module gregoriotex Info: Found psalm_124_1_8G.gabc directly on input line 577
 Module gregoriotex Info: Looking in  on input line 577
-Module gregoriotex Info: Found psalm_124_1_vespers_8G-6_0_0.gtex directly on inp
-ut line 577
-(./psalm_124_1_vespers_8G-6_0_0.gtex
+Module gregoriotex Info: Found psalm_124_1_8G-6_0_0.gtex directly on input line 
+577
+(./psalm_124_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1228,7 +1222,6 @@ Overfull \hbox (1.39772pt too wide) in paragraph at lines 577--577
 
 [10
 Missing character: There is no † (U+2020) in font mdbchr8t!
-Missing character: There is no † (U+2020) in font mdbchr8t!
 ]
 Overfull \hbox (0.23422pt too wide) in paragraph at lines 577--577
 \T1/mdbch/m/it/10 it was in the be-gin-ning, is now, and
@@ -1247,12 +1240,11 @@ Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
 Module gregoriotex Info: Looking in  on input line 646
-Module gregoriotex Info: Found psalm_122_1_vespers_4E.gabc directly on input lin
-e 646
+Module gregoriotex Info: Found psalm_122_1_4E.gabc directly on input line 646
 Module gregoriotex Info: Looking in  on input line 646
-Module gregoriotex Info: Found psalm_122_1_vespers_4E-6_0_0.gtex directly on inp
-ut line 646
- (./psalm_122_1_vespers_4E-6_0_0.gtex
+Module gregoriotex Info: Found psalm_122_1_4E-6_0_0.gtex directly on input line 
+646
+ (./psalm_122_1_4E-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1273,12 +1265,11 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 646--647
 
 [12]
 Module gregoriotex Info: Looking in  on input line 702
-Module gregoriotex Info: Found psalm_123_1_vespers_4E.gabc directly on input lin
-e 702
+Module gregoriotex Info: Found psalm_123_1_4E.gabc directly on input line 702
 Module gregoriotex Info: Looking in  on input line 702
-Module gregoriotex Info: Found psalm_123_1_vespers_4E-6_0_0.gtex directly on inp
-ut line 702
- (./psalm_123_1_vespers_4E-6_0_0.gtex
+Module gregoriotex Info: Found psalm_123_1_4E-6_0_0.gtex directly on input line 
+702
+ (./psalm_123_1_4E-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1293,12 +1284,11 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 702--703
  []
 
 Module gregoriotex Info: Looking in  on input line 758
-Module gregoriotex Info: Found psalm_124_1_vespers_4E.gabc directly on input lin
-e 758
+Module gregoriotex Info: Found psalm_124_1_4E.gabc directly on input line 758
 Module gregoriotex Info: Looking in  on input line 758
-Module gregoriotex Info: Found psalm_124_1_vespers_4E-6_0_0.gtex directly on inp
-ut line 758
-(./psalm_124_1_vespers_4E-6_0_0.gtex
+Module gregoriotex Info: Found psalm_124_1_4E-6_0_0.gtex directly on input line 
+758
+(./psalm_124_1_4E-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1324,7 +1314,6 @@ Overfull \hbox (1.08095pt too wide) in paragraph at lines 758--758
  []
 
 [13
-Missing character: There is no † (U+2020) in font mdbchr8t!
 Missing character: There is no † (U+2020) in font mdbchr8t!
 ]
 Overfull \hbox (0.23422pt too wide) in paragraph at lines 758--758
@@ -1431,10 +1420,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of LuaTeX's memory you used:
  28044 strings out of 481365
  156259,794899 words of node,token memory allocated
- 5158 words of node memory still in use:
-   4 hlist, 2 vlist, 1 rule, 166 glue, 66 kern, 3 glyph, 1124 attribute, 173 glu
-e_spec, 198 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:10,2:17736,3:2186,4:16,5:3158,6:260,7:5927,8:2,9:3991,10:15,11
+ 5284 words of node memory still in use:
+   4 hlist, 2 vlist, 1 rule, 172 glue, 66 kern, 3 glyph, 1160 attribute, 173 glu
+e_spec, 204 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 1:10,2:17750,3:2186,4:16,5:3158,6:260,7:5928,8:2,9:3991,10:15,11
 :179
  44398 multiletter control sequences out of 65536+600000
  128 fonts using 12558315 bytes
@@ -1447,7 +1436,7 @@ nts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 a/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter
 /bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/
 md-chrma.pfb>
-Output written on Little_Office_Sext.pdf (17 pages, 124125 bytes).
+Output written on Little_Office_Sext.pdf (17 pages, 124160 bytes).
 
 PDF statistics: 93 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream

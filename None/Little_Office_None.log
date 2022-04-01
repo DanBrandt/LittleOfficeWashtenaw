@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  31 MAR 2022 21:35
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  1 APR 2022 05:46
  system commands enabled.
 **Little_Office_None.tex
 (./Little_Office_None.tex
@@ -1077,13 +1077,16 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
 Module gregoriotex Info: Looking in  on input line 313
-Module gregoriotex Info: Found psalm_125_1_vespers_1g2.gabc directly on input li
-ne 313
+Module gregoriotex Info: Found psalm_125_1_1g2.gabc directly on input line 313
 Module gregoriotex Info: Looking in  on input line 313
-Module gregoriotex Info: Found psalm_125_1_vespers_1g2-6_0_0.gtex directly on in
-put line 313
+Module gregoriotex Info: Cannot find psalm_125_1_1g2-6_0_0.gtex on input line 31
+3
+Module gregoriotex Info: The file psalm_125_1_1g2-6_0_0.gtex does not exist. Wil
+l use gabc file on input line 313
+Module gregoriotex Info: compiling the score psalm_125_1_1g2.gabc... on input li
+ne 313
 
-(./psalm_125_1_vespers_1g2-6_0_0.gtex
+(./psalm_125_1_1g2-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1104,12 +1107,15 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 313--314
 
 [6]
 Module gregoriotex Info: Looking in  on input line 365
-Module gregoriotex Info: Found psalm_126_1_vespers_1g2.gabc directly on input li
-ne 365
+Module gregoriotex Info: Found psalm_126_1_1g2.gabc directly on input line 365
 Module gregoriotex Info: Looking in  on input line 365
-Module gregoriotex Info: Found psalm_126_1_vespers_1g2-6_0_0.gtex directly on in
-put line 365
- (./psalm_126_1_vespers_1g2-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_126_1_1g2-6_0_0.gtex on input line 36
+5
+Module gregoriotex Info: The file psalm_126_1_1g2-6_0_0.gtex does not exist. Wil
+l use gabc file on input line 365
+Module gregoriotex Info: compiling the score psalm_126_1_1g2.gabc... on input li
+ne 365
+ (./psalm_126_1_1g2-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1124,12 +1130,15 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 365--366
  []
 
 Module gregoriotex Info: Looking in  on input line 425
-Module gregoriotex Info: Found psalm_127_1_vespers_1g2.gabc directly on input li
-ne 425
+Module gregoriotex Info: Found psalm_127_1_1g2.gabc directly on input line 425
 Module gregoriotex Info: Looking in  on input line 425
-Module gregoriotex Info: Found psalm_127_1_vespers_1g2-6_0_0.gtex directly on in
-put line 425
-(./psalm_127_1_vespers_1g2-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_127_1_1g2-6_0_0.gtex on input line 42
+5
+Module gregoriotex Info: The file psalm_127_1_1g2-6_0_0.gtex does not exist. Wil
+l use gabc file on input line 425
+Module gregoriotex Info: compiling the score psalm_127_1_1g2.gabc... on input li
+ne 425
+(./psalm_127_1_1g2-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1188,12 +1197,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--449
  []
 
 Module gregoriotex Info: Looking in  on input line 502
-Module gregoriotex Info: Found psalm_125_1_vespers_8G.gabc directly on input lin
-e 502
+Module gregoriotex Info: Found psalm_125_1_8G.gabc directly on input line 502
 Module gregoriotex Info: Looking in  on input line 502
-Module gregoriotex Info: Found psalm_125_1_vespers_8G-6_0_0.gtex directly on inp
-ut line 502
-(./psalm_125_1_vespers_8G-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_125_1_8G-6_0_0.gtex on input line 502
+
+Module gregoriotex Info: The file psalm_125_1_8G-6_0_0.gtex does not exist. Will
+ use gabc file on input line 502
+Module gregoriotex Info: compiling the score psalm_125_1_8G.gabc... on input lin
+e 502
+(./psalm_125_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1214,12 +1226,15 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 502--503
 
 [9]
 Module gregoriotex Info: Looking in  on input line 554
-Module gregoriotex Info: Found psalm_126_1_vespers_8G.gabc directly on input lin
-e 554
+Module gregoriotex Info: Found psalm_126_1_8G.gabc directly on input line 554
 Module gregoriotex Info: Looking in  on input line 554
-Module gregoriotex Info: Found psalm_126_1_vespers_8G-6_0_0.gtex directly on inp
-ut line 554
- (./psalm_126_1_vespers_8G-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_126_1_8G-6_0_0.gtex on input line 554
+
+Module gregoriotex Info: The file psalm_126_1_8G-6_0_0.gtex does not exist. Will
+ use gabc file on input line 554
+Module gregoriotex Info: compiling the score psalm_126_1_8G.gabc... on input lin
+e 554
+ (./psalm_126_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1234,12 +1249,15 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 554--555
  []
 
 Module gregoriotex Info: Looking in  on input line 614
-Module gregoriotex Info: Found psalm_127_1_vespers_8G.gabc directly on input lin
-e 614
+Module gregoriotex Info: Found psalm_127_1_8G.gabc directly on input line 614
 Module gregoriotex Info: Looking in  on input line 614
-Module gregoriotex Info: Found psalm_127_1_vespers_8G-6_0_0.gtex directly on inp
-ut line 614
-(./psalm_127_1_vespers_8G-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_127_1_8G-6_0_0.gtex on input line 614
+
+Module gregoriotex Info: The file psalm_127_1_8G-6_0_0.gtex does not exist. Will
+ use gabc file on input line 614
+Module gregoriotex Info: compiling the score psalm_127_1_8G.gabc... on input lin
+e 614
+(./psalm_127_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1291,12 +1309,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 637--638
  []
 
 Module gregoriotex Info: Looking in  on input line 691
-Module gregoriotex Info: Found psalm_125_1_vespers_2D.gabc directly on input lin
-e 691
+Module gregoriotex Info: Found psalm_125_1_2D.gabc directly on input line 691
 Module gregoriotex Info: Looking in  on input line 691
-Module gregoriotex Info: Found psalm_125_1_vespers_2D-6_0_0.gtex directly on inp
-ut line 691
-(./psalm_125_1_vespers_2D-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_125_1_2D-6_0_0.gtex on input line 691
+
+Module gregoriotex Info: The file psalm_125_1_2D-6_0_0.gtex does not exist. Will
+ use gabc file on input line 691
+Module gregoriotex Info: compiling the score psalm_125_1_2D.gabc... on input lin
+e 691
+(./psalm_125_1_2D-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1317,12 +1338,15 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 691--692
 
 [12]
 Module gregoriotex Info: Looking in  on input line 743
-Module gregoriotex Info: Found psalm_126_1_vespers_2D.gabc directly on input lin
-e 743
+Module gregoriotex Info: Found psalm_126_1_2D.gabc directly on input line 743
 Module gregoriotex Info: Looking in  on input line 743
-Module gregoriotex Info: Found psalm_126_1_vespers_2D-6_0_0.gtex directly on inp
-ut line 743
- (./psalm_126_1_vespers_2D-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_126_1_2D-6_0_0.gtex on input line 743
+
+Module gregoriotex Info: The file psalm_126_1_2D-6_0_0.gtex does not exist. Will
+ use gabc file on input line 743
+Module gregoriotex Info: compiling the score psalm_126_1_2D.gabc... on input lin
+e 743
+ (./psalm_126_1_2D-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1337,12 +1361,15 @@ Overfull \hbox (0.23422pt too wide) in paragraph at lines 743--744
  []
 
 Module gregoriotex Info: Looking in  on input line 803
-Module gregoriotex Info: Found psalm_127_1_vespers_2D.gabc directly on input lin
-e 803
+Module gregoriotex Info: Found psalm_127_1_2D.gabc directly on input line 803
 Module gregoriotex Info: Looking in  on input line 803
-Module gregoriotex Info: Found psalm_127_1_vespers_2D-6_0_0.gtex directly on inp
-ut line 803
-(./psalm_127_1_vespers_2D-6_0_0.gtex
+Module gregoriotex Info: Cannot find psalm_127_1_2D-6_0_0.gtex on input line 803
+
+Module gregoriotex Info: The file psalm_127_1_2D-6_0_0.gtex does not exist. Will
+ use gabc file on input line 803
+Module gregoriotex Info: compiling the score psalm_127_1_2D.gabc... on input lin
+e 803
+(./psalm_127_1_2D-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
@@ -1485,7 +1512,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28044 strings out of 481365
+ 28026 strings out of 481365
  156259,794899 words of node,token memory allocated
  5139 words of node memory still in use:
    4 hlist, 2 vlist, 1 rule, 166 glue, 65 kern, 3 glyph, 1118 attribute, 173 glu
