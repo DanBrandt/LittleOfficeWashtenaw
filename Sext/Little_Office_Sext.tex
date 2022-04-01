@@ -1,0 +1,935 @@
+\documentclass[11pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{paracol}
+\usepackage{mdframed}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[autocompile]{gregoriotex}
+
+\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+
+\mdfsetup{skipabove=\topskip, skipbelow=\topskip}
+
+\newcommand{\rubric}[1]{
+	\switchcolumn[0] {
+		\itshape
+		#1
+	}
+}
+
+\newcommand{\latinenglish}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape\small
+		#2
+	}
+}
+
+\newcommand{\latinenglishequal}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape
+		#2
+	}
+}
+
+\newenvironment{latinenglishsection}
+	{\columnratio{.7, .3} \begin{paracol}{2}}
+	{\end{paracol}}
+
+\newenvironment{latinenglishequalsection}
+	{\columnratio{.5, .5}\begin{paracol}{2}}
+	{\end{paracol}}
+
+\setlength{\columnseprule}{0.4pt}
+
+\newcommand{\heading}[1]{
+	\begin{leftcolumn}
+		#1
+	\end{leftcolumn}
+}
+
+\newcommand{\spanning}[1]{
+	\switchcolumn*[#1]
+}
+
+\newenvironment{verses}[1]
+	{\begin{flushleft} \begin{enumerate}[leftmargin=*] \setcounter{enumi}{#1}}
+	{\end{enumerate} \end{flushleft}}
+
+\newenvironment{versicles}{\par\leavevmode\parskip=0pt}{}
+
+\newenvironment{collect}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+	\noindent Orémus.\par
+}{}
+
+\newenvironment{optionbox}
+{
+	\switchcolumn[0]
+	\begin{mdframed}
+%	\begin{minipage}{0.8\linewidth}
+}{
+%	\end{minipage}
+	\end{mdframed}
+}
+
+\newcommand{\optionrule}{
+	\begin{center}
+	\rule{0.5\linewidth}{0.6pt}
+	\end{center}
+}
+
+\newenvironment{optionruled}
+{
+	\optionrule
+}
+{
+	\optionrule
+}
+
+% for use inside the collect environment
+\newcommand{\Amen}{\par\noindent \Rbar. Amen.}
+
+\begin{document}
+
+\vspace*{4cm}
+
+\begin{center}
+	\textbf{\Huge Sext of the Blessed Virgin Mary}\\
+	{\LARGE According to the Washtenaw Use}
+\end{center}
+
+\vspace*{1cm}
+%\maketitle
+
+%\begin{figure}[h!]
+	%\centering
+%\end{figure}
+
+\hspace{0pt}
+\vfill
+
+\pagebreak
+
+\vspace*{7.5cm}
+``At the hour of \textit{Sext}, the sun waxeth more hot; and by means of Our Lady, the everlasting Son hath shown the heat of His charity more largely to mankind.'' (Paraphrased from the \textit{Mirror of Our Lady}.) O most Blessed Virgin, pray that we may be warmed by the heat of your Son's divine love. Amen.
+\vfill
+
+\pagebreak
+
+\chapter*{Before Sext}
+
+\section*{Preparatory Prayers}
+
+\textit{All kneel and pray silently. As you say the prayer \textnormal{Aperi, Domine}, make the sign of the cross with your thumb first over your lips, and then over your heart.}
+
+\begin{latinenglishequalsection}
+
+\latinenglishequal{
+	Áperi, {\color{red}\maltese}\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	{\color{red}\maltese}\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus;
+	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
+	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
+	Per Christum Dóminum nostrum. 
+	Amen.
+}{
+	Open, {\color{red}\maltese}\ O Lord, my mouth to bless Thy holy Name; {\color{red}\maltese}\ cleanse also my heart from all vain, evil, and wandering thoughts; enlighten my understanding and kindle my affections; that I may worthily, attentively, and devoutly say this Office of the Blessed Virgin Mary, and so merit to be heard before the presence of Thy divine Majesty.  Through Christ our Lord.  Amen.
+}
+
+\latinenglishequal{
+	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.
+}{
+	O Lord, in union with that divine intention wherewith thou, whilst here on earth, didst render praises unto God, I desire to offer this my Office of prayer unto thee.
+}
+
+\latinenglishequal{
+	Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+ Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+ }{
+ 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
+ Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+ }
+ 
+ \end{latinenglishequalsection}
+ 
+\chapter*{Sext}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Invitatory}}
+
+\rubric{\color{red}All make the Sign of the Cross as the Officiant says the ``Deus in Adjutorium''. All continue together with the entire ``Gloria Patri'' after the response: }
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{deus_in_adjutorium_minor}
+}{
+	O God, come to my assistance.
+		
+	O Lord, make haste to help me.
+	
+	Glory be to the Father, and to the Son, and to the Holy Spirit,
+	as it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	Alleluia.
+}
+
+\rubric{\color{red}From Septuagesima until Easter, \textnormal{Alleluia} is replaced with:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3)Lau(h)s ti(h)bi(h) Dó(h)mi(h)ne(h), Re(h)x æ(h)té(h)rnæ(i) gló(h)ri(h)æ.(g) (::)
+	}
+}{
+	Praise to thee, O Lord, King of everlasting glory.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\heading{\section*{Hymn}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{memento_rerum_conditor}
+}{
+	1. Remember, Make of all things, 
+	That once the form of our flesh, 
+	From the Virgin's sacred womb, 
+	Being born, Thou didst assume.
+	
+	2. Mary, Mother of grace, 
+	Sweet parent of clemency, 
+	Thou protect us from the enemy, 
+	And receive us at the hour of death.
+	
+	3. Jesus, to Thee be glory, 
+	Who wast born of the Virgin, 
+	With the Father, and the loving Spirit, 
+	Unto sempiternal ages. Amen.
+}
+
+\rubric{\color{red} For `Throughout the Year', \underline{see page 6}.}
+\rubric{\color{red} For `Advent', \underline{see page 9}.}
+\rubric{\color{red} For `Christmastide', \underline{see page 12}.'}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\section*{THROUGHOUT THE YEAR}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 122}}
+
+\rubric{\color{red}The Cantor intones the antiphon and leads the first Psalm verse to the star (*). All sit, while the Cantor's side finishes the first verse together. The Officiants side then says the second Psalm verse, with each side alternating thereafter. The remaining Psalms are intoned up to the asterisk by the Cantor, repeating the pattern of sitting and standing until the antiphon is said in full at the very end.}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{in_odorem_intonation}
+}{
+	We run to the odour...
+}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_122_1_vespers_4ASTAR}
+	
+	\begin{verses}{1}
+	
+	\item Ecce sicut ócu\textit{li} \textit{ser}\textbf{vó}rum,~* in mánibus domi\textit{nó}\textit{rum} \textit{su}\textbf{ó}rum.
+
+	\item Sicut óculi ancíllæ in mánibus dó\textit{mi}\textit{næ} \textbf{su}æ:~* ita óculi nostri ad Dóminum, Deum nostrum, donec mise\textit{re}\textit{á}\textit{tur} \textbf{nos}tri.
+	
+	\item Miserére nostri, Dómine, mise\textit{ré}\textit{re} \textbf{nos}tri:~* quia multum repléti sumus \textit{de}\textit{spec}\textit{ti}\textbf{ó}ne:
+	
+	\item Quia multum repléta est á\textit{ni}\textit{ma} \textbf{nos}tra:~* {\color{red}\textit{(stand)}} oppróbrium abundántibus, et despéc\textit{ti}\textit{o} \textit{su}\textbf{pér}bis.
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+}{
+	1. Unto thee have I lifted up mine eyes:
+	who dwellest in the heavens.
+	
+	2. Behold as the eyes of servants:
+	are the hands of their masters;
+	
+	3. As the eyes of the maiden are on the hands of her mistress:
+	even so are our eyes unto the Lord our God, until he have mercy upon us.
+	
+	4. Have mercy upon us, O Lord, have mercy upon us:
+	for we are greatly filled with contempt.
+	
+	5. Yea, our soul is greatly filled: 
+	we are an offence unto the wealthy, and a conempt unto the proud.
+	
+	6. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 123}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_123_1_vespers_4ASTAR}
+	
+	\begin{verses}{1}
+	
+	\item Cum exsúrgerent hó\textit{mi}\textit{nes} \textbf{in} nos,~* forte vi\textit{vos} \textit{de}\textit{glu}\textbf{tís}sent nos:
+
+	\item Cum irascerétur furor e\textit{ó}\textit{rum} \textbf{in} nos,~* fórsitan aqua \textit{ab}\textit{sor}\textit{bu}\textbf{ís}set nos.
+	
+	\item Torréntem pertransívit á\textit{ni}\textit{ma} \textbf{nos}tra:~* fórsitan pertransísset ánima nostra aquam \textit{in}\textit{to}\textit{le}\textbf{rá}bilem.
+	
+	\item Bene\textit{díc}\textit{tus} \textbf{Dó}minus~* qui non dedit nos, in captiónem dén\textit{ti}\textit{bus} \textit{e}\textbf{ó}rum.
+	
+	\item Anima nostra sicut pas\textit{ser} \textit{e}\textbf{rép}ta est~* de lá\textit{que}\textit{o} \textit{ve}\textbf{nán}tium.
+	
+	\item Láque\textit{us} \textit{con}\textbf{trí}tus est,~* et nos li\textit{be}\textit{rá}\textit{ti} \textbf{su}mus.
+	
+	\item Adjutórium nostrum in nó\textit{mi}\textit{ne} \textbf{Dó}mini,~* {\color{red}\textit{(stand)}} qui fecit \textit{cæ}\textit{lum} \textit{et} \textbf{ter}ram.
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+}{
+	1. Unless the Lord had been with us, now may Israel say:
+	unless the Lord had been with us;
+	
+	2. When men rose up against us:
+	peradventure they had swallowed us up alive.
+	
+	3. When their fury was enkindled against us:
+	peradventure the waters had swallowed us up.
+	
+	4. Our soul passed through a torrent:
+	peradventure our soul would have passed through waters insupportable.
+	
+	5. Blessed be the Lord:
+	who hath not given us over for a prey unto their teeth.
+	
+	6. Our soul hath been snatched as a sparrow:
+	out of the snare of the fowlers.
+	
+	7. The snare is broken:
+	and we are delivered.
+	
+	8. Our help is in the name of The Lord:
+	who hath made heaven and earth.
+	
+	9. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+}
+
+%\end{latinenglishsection}
+
+%\begin{latinenglishsection}
+
+\heading{\section*{Psalm 124}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_124_1_vespers_4ASTAR}
+	
+	\begin{verses}{1}
+	
+	\item Montes in circúitu ejus:~† et Dóminus in circúitu pó\textit{pu}\textit{li} \textbf{su}i,~* ex hoc nunc et \textit{us}\textit{que} \textit{in} \textbf{s\'{\ae}}culum.
+
+	\item Quia non relínquet Dóminus virgam peccatórum super sor\textit{tem} \textit{jus}\textbf{tó}rum:~* ut non exténdant justi ad iniquitá\textit{tem} \textit{ma}\textit{nus} \textbf{su}as.
+	
+	\item Bénefac, Dó\textit{mi}\textit{ne}, \textbf{bo}nis,~* \textit{et} \textit{rec}\textit{tis} \textbf{cor}de.
+	
+	\item Declinántes autem in obligatiónes addúcet Dóminus cum operántibus in\textit{i}\textit{qui}\textbf{tá}tem:~* {\color{red}\textit{(stand)}} \textit{pax} \textit{su}\textit{per} \textbf{Is}raël.
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+	
+	\gresetinitiallines{1}
+	\gregorioscore{in_odorem}
+}{
+	1. They who trust in The Lord shall be as Mount Sion:
+	he shall not be moved for ever, that dwelleth in Jerusalem.
+	
+	2. The hills are round about her:
+	even so is The Lord round about his people, from this time forth forever more.
+	
+	3. For The Lord will not leave the rod of sinners upon the lot of the just:
+	that the just stretch not forth their hands to iniquity.
+	
+	4. Do well, O Lord, to those that are good:
+	and to the right of heart.
+	
+	5. But such as turn aside unto deceits, the Lord shall number with the workers of iniquity:
+	peace upon Israel.
+	
+	6. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	We run to the odour of thy ointments: the young maidens have loved thee exceedingly.
+}
+
+\rubric{\color{red}Proceed to page 15.}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\section*{ADVENT}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 122}}
+
+\rubric{\color{red}The Cantor intones the antiphon and leads the first Psalm verse to the star (*). All sit, while the Cantor's side finishes the first verse together. The Officiants side then says the second Psalm verse, with each side alternating thereafter. The remaining Psalms are intoned up to the asterisk by the Cantor, repeating the pattern of sitting and standing until the antiphon is said in full at the very end.}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{ne_timeas_maria_intonation}
+}{
+	Fear not, Mary,...
+}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_122_1_vespers_8G}
+	
+	\begin{verses}{1}
+	
+	\item Ecce sicut óculi ser\textbf{vó}rum,~* in mánibus dominó\textit{rum} \textit{su}\textbf{ó}rum.
+
+	\item Sicut óculi ancíllæ in mánibus dóminæ \textbf{su}æ:~* ita óculi nostri ad Dóminum, Deum nostrum, donec misere\textit{á}\textit{tur} \textbf{nos}tri.
+	
+	\item Miserére nostri, Dómine, miserére \textbf{nos}tri:~* quia multum repléti sumus de\textit{spec}\textit{ti}\textbf{ó}ne:
+	
+	\item Quia multum repléta est ánima \textbf{nos}tra:~* {\color{red}\textit{(stand)}} oppróbrium abundántibus, et despécti\textit{o} \textit{su}\textbf{pér}bis.
+	
+	\item {\color{red}\textit{(bow)}} Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+}{
+	1. Unto thee have I lifted up mine eyes:
+	who dwellest in the heavens.
+	
+	2. Behold as the eyes of servants:
+	are the hands of their masters;
+	
+	3. As the eyes of the maiden are on the hands of her mistress:
+	even so are our eyes unto the Lord our God, until he have mercy upon us.
+	
+	4. Have mercy upon us, O Lord, have mercy upon us:
+	for we are greatly filled with contempt.
+	
+	5. Yea, our soul is greatly filled: 
+	we are an offence unto the wealthy, and a conempt unto the proud.
+	
+	6. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 123}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_123_1_vespers_8G}
+	
+	\begin{verses}{1}
+	
+	\item Cum exsúrgerent hómines \textbf{in} nos,~* forte vivos \textit{de}\textit{glu}\textbf{tís}sent nos:
+
+	\item Cum irascerétur furor eórum \textbf{in} nos,~* fórsitan aqua ab\textit{sor}\textit{bu}\textbf{ís}set nos.
+	
+	\item Torréntem pertransívit ánima \textbf{nos}tra:~* fórsitan pertransísset ánima nostra aquam in\textit{to}\textit{le}\textbf{rá}bilem.
+	
+	\item Benedíctus \textbf{Dó}minus~* qui non dedit nos, in captiónem dénti\textit{bus} \textit{e}\textbf{ó}rum.
+	
+	\item Anima nostra sicut passer e\textbf{rép}ta est~* de láque\textit{o} \textit{ve}\textbf{nán}tium.
+	
+	\item Láqueus con\textbf{trí}tus est,~* et nos libe\textit{rá}\textit{ti} \textbf{su}mus.
+	
+	\item Adjutórium nostrum in nómine \textbf{Dó}mini,~* {\color{red}\textit{(stand)}} qui fecit cæ\textit{lum} \textit{et} \textbf{ter}ram.
+	
+	\item {\color{red}\textit{(bow)}} Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+}{
+	1. Unless the Lord had been with us, now may Israel say:
+	unless the Lord had been with us;
+	
+	2. When men rose up against us:
+	peradventure they had swallowed us up alive.
+	
+	3. When their fury was enkindled against us:
+	peradventure the waters had swallowed us up.
+	
+	4. Our soul passed through a torrent:
+	peradventure our soul would have passed through waters insupportable.
+	
+	5. Blessed be the Lord:
+	who hath not given us over for a prey unto their teeth.
+	
+	6. Our soul hath been snatched as a sparrow:
+	out of the snare of the fowlers.
+	
+	7. The snare is broken:
+	and we are delivered.
+	
+	8. Our help is in the name of The Lord:
+	who hath made heaven and earth.
+	
+	9. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+}
+
+%\end{latinenglishsection}
+
+%\begin{latinenglishsection}
+
+\heading{\section*{Psalm 124}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_124_1_vespers_8G}
+	
+	\begin{verses}{1}
+	
+	\item Montes in circúitu ejus:~† et Dóminus in circúitu pópuli \textbf{su}i,~* ex hoc nunc et us\textit{que} \textit{in} \textbf{s\'{\ae}}culum.
+
+	\item Quia non relínquet Dóminus virgam peccatórum super sortem jus\textbf{tó}rum:~* ut non exténdant justi ad iniquitátem \textit{ma}\textit{nus} \textbf{su}as.
+	
+	\item Bénefac, Dómine, \textbf{bo}nis,~* et \textit{rec}\textit{tis} \textbf{cor}de.
+	
+	\item Declinántes autem in obligatiónes addúcet Dóminus cum operántibus iniqui\textbf{tá}tem:~* {\color{red}\textit{(stand)}} pax \textit{su}\textit{per} \textbf{Is}raël.
+	
+	\item {\color{red}\textit{(bow)}} Glória Patri, et \textbf{Fí}lio,~* et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et nunc, et \textbf{sem}per,~* et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+	
+	\gresetinitiallines{1}
+	\gregorioscore{ne_timeas_maria}
+}{
+	1. They who trust in The Lord shall be as Mount Sion:
+	he shall not be moved for ever, that dwelleth in Jerusalem.
+	
+	2. The hills are round about her:
+	even so is The Lord round about his people, from this time forth forever more.
+	
+	3. For The Lord will not leave the rod of sinners upon the lot of the just:
+	that the just stretch not forth their hands to iniquity.
+	
+	4. Do well, O Lord, to those that are good:
+	and to the right of heart.
+	
+	5. But such as turn aside unto deceits, the Lord shall number with the workers of iniquity:
+	peace upon Israel.
+	
+	6. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	Fear not, Mary, thou hast found grace with The Lord: behold, thou shalt conceive and bear a son, alleluia.
+}
+
+\rubric{\color{red}Proceed to page 15.}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\section*{CHRISTMASTIDE}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 122}}
+
+\rubric{\color{red}The Cantor intones the antiphon and leads the first Psalm verse to the star (*). All sit, while the Cantor's side finishes the first verse together. The Officiants side then says the second Psalm verse, with each side alternating thereafter. The remaining Psalms are intoned up to the asterisk by the Cantor, repeating the pattern of sitting and standing until the antiphon is said in full at the very end.}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{rubum_quem_intonation}
+}{
+	In the bush...
+}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_122_1_vespers_4E}
+	
+	\begin{verses}{1}
+	
+	\item Ecce sicut ócu\textit{li} \textit{ser}\textbf{vó}rum,~* in mánibus domi\textit{nó}\textit{rum} \textit{su}\textbf{ó}rum.
+
+	\item Sicut óculi ancíllæ in mánibus dó\textit{mi}\textit{næ} \textbf{su}æ:~* ita óculi nostri ad Dóminum, Deum nostrum, donec mise\textit{re}\textit{á}\textit{tur} \textbf{nos}tri.
+	
+	\item Miserére nostri, Dómine, mise\textit{ré}\textit{re} \textbf{nos}tri:~* quia multum repléti sumus \textit{de}\textit{spec}\textit{ti}\textbf{ó}ne:
+	
+	\item Quia multum repléta est á\textit{ni}\textit{ma} \textbf{nos}tra:~* {\color{red}\textit{(stand)}} oppróbrium abundántibus, et despéc\textit{ti}\textit{o} \textit{su}\textbf{pér}bis.
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+		
+	\end{verses}
+}{
+	1. When the Lord turned again the captivity of Sion:
+	we became like men that are comforted.
+	
+	2. Then was our mouth filled with gladness:
+	and our tongue with joy.
+	
+	3. Then shall they say among the gentiles:
+	The Lord hath done great things for them.
+	
+	4. The Lord hath done great things for us:
+	we are become very joyful.
+	
+	5. Turn again our captivity, O Lord:
+	as a river in the south.
+	
+	6. They that sow in tears:
+	shall reap in joy.
+	
+	7. Going on their way they went and wept:
+	scattering their seed.
+	
+	8. But returning they shall come with joyfulness:
+	bringing their sheaves with them.
+	
+	9. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 123}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_123_1_vespers_4E}
+	
+	\begin{verses}{1}
+	
+		\item Cum exsúrgerent hó\textit{mi}\textit{nes} \textbf{in} nos,~* forte vi\textit{vos} \textit{de}\textit{glu}\textbf{tís}\textbf{sent} nos:
+	
+	\item Cum irascerétur furor e\textit{ó}\textit{rum} \textbf{in} nos,~* fórsitan aqua \textit{ab}\textit{sor}\textit{bu}\textbf{ís}\textbf{set} nos.
+	
+	\item Torréntem pertransívit á\textit{ni}\textit{ma} \textbf{nos}tra:~* fórsitan pertransísset ánima nostra aquam \textit{in}\textit{to}\textit{le}\textbf{rá}\textbf{bi}lem.
+	
+	\item Bene\textit{díc}\textit{tus} \textbf{Dó}minus~* qui non dedit nos, in captiónem dén\textit{ti}\textit{bus} \textit{e}\textbf{ó}rum.
+	
+	\item Anima nostra sicut pas\textit{ser} \textit{e}\textbf{rép}ta est~* de lá\textit{que}\textit{o} \textit{ve}\textbf{nán}\textbf{ti}um.
+	
+	\item Láque\textit{us} \textit{con}\textbf{trí}tus est,~* et nos li\textit{be}\textit{rá}\textit{ti} \textbf{su}mus.
+	
+	\item Adjutórium nostrum in nó\textit{mi}\textit{ne} \textbf{Dó}mini,~* {\color{red}\textit{(stand)}} qui fecit \textit{cæ}\textit{lum} \textit{et} \textbf{ter}ram.
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+}{
+	1. Unless the Lord build the house:
+	they labour in vain that build it.
+	
+	2. Unless the Lord keep the city:
+	he watcheth in vain that keepeth it.
+	
+	3. In vain ye rise before the light:
+	rise not till ye have rest, O ye that eat the bread of sorrow.
+	
+	4. When he hath given sleep to his beloved:
+	lo, children are an heritage from the Lord, and the fruit of the womb a reward.
+	
+	5. Like as arrows in the hand of the mighty one:
+	so are the children of those who have been cast out.
+	
+	6. Blessed is the man whose desire is satisfied with them:
+	he shall not be confoundd, when he speaketh with his enemies in the gate.
+	
+	7. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+}
+
+%\end{latinenglishsection}
+
+%\begin{latinenglishsection}
+
+\heading{\section*{Psalm 124}}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_124_1_vespers_4E}
+	
+	\begin{verses}{1}
+	
+	\item Montes in circúitu ejus:~† et Dóminus in circúitu pó\textit{pu}\textit{li} \textbf{su}i,~* ex hoc nunc et \textit{us}\textit{que} \textit{in} \textbf{s\'{\ae}}\textbf{cu}lum.
+
+	\item Quia non relínquet Dóminus virgam peccatórum super sor\textit{tem} \textit{jus}\textbf{tó}rum:~* ut non exténdant justi ad iniquitá\textit{tem} \textit{ma}\textit{nus} \textbf{su}as.
+	
+	\item Bénefac, Dó\textit{mi}\textit{ne}, \textbf{bo}nis,~* \textit{et} \textit{rec}\textit{tis} \textbf{cor}de.
+	
+	\item Declinántes autem in obligatiónes addúcet Dóminus cum operántibus in\textit{i}\textit{qui}\textbf{tá}tem:~* {\color{red}\textit{(stand)}} \textit{pax} \textit{su}\textit{per} \textbf{Is}\textbf{ra}ël.
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+	
+	\gresetinitiallines{1}
+	\gregorioscore{ecce_maria_genuit}
+}{
+	1. Blessed are all they that fear the Lord:
+	that walk in his ways.
+	
+	2. For thou shalt eat the labours of thy hands:
+	blessed art thou, and it shall be well with thee.
+	
+	3. Thy wife shall be as a fruitful vine: 
+	on the walls of thy house.
+	
+	4. Thy children as olive plants:
+	round about thy table.
+	
+	5. Behold, thus shall the man be blessed:
+	that feareth the Lord.
+	
+	6. May the Lord bless thee out of Sion:
+	and mayest thou see the good things of Jerusalem all the days of thy life.
+	
+	7. And mayest thou see thy children's children:
+	peace upon Israel.
+	
+	8. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	In the bush which Moses saw unconsumed, we acknowledge thy admirable virginity preserved: intercede for us, O Mother of God.
+}
+
+\rubric{\color{red}Proceed to the next page.}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\section*{The Little Chapter}
+
+\rubric{\color{red}The Officiant leads the Little Chapter, which varies according to the season:}
+
+\rubric{\textbf{Throughout the Year and in Christmastide:  Sirach 24:16}}
+
+\latinenglish{
+	Et radicavi in populo honorificator, {\color{red}\GreDagger}\ et ni parte Dei mei hære\textit{ditas} \textbf{il}lius, et in plenitudine sanctorum detentio mea.
+	
+	{\color{red}\Rbar.} Deo gratias.\\
+	{\color{red}\Vbar.} Benedicta tu in mulieribus.\\
+	{\color{red}\Rbar.} Et benedictus fructus ventris tui.\\
+	{\color{red}\Vbar.} Domine, exaudi orationem meam.\\
+	{\color{red}\Rbar.} Et clamor meus ad te veniat.
+}{
+	And I took root in an honorable people, and in the portion of my God his inheritance: and my abode is in the full is  in the full assembly of Saints.
+	
+	{\color{red}\Rbar.} Thanks be to God.
+	{\color{red}\Vbar.} Blessed art thou among women.
+	{\color{red}\Rbar.} And blessed is the fruit of thy womb.
+	{\color{red}\Vbar.} O Lord, hear my prayer.
+	{\color{red}\Rbar.} And let my cry come unto thee.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\rubric{\textbf{In Advent: Luke 1:32}}
+
+\latinenglish{
+	Dabit illi Dominus Deus sedem David, {\color{red}\GreDagger}\ patris ejus; et regnabit in domo Jacob \textit{in æ}\textbf{ter}num, et regni ejus non erit finis.
+	
+	{\color{red}\Rbar.} Deo gratias.\\
+	{\color{red}\Vbar.} Benedicta tu in mulieribus.\\
+	{\color{red}\Rbar.} Et benedictus fructus ventris tui.
+}{
+	The Lord God shall give unto him the throne of David his father: and he shall reign in the house of Jacob forever, and of his kingdom there shall be no end.
+	
+	{\color{red}\Rbar.} Thanks be to God.
+	{\color{red}\Vbar.} Blessed art thou among women.
+	{\color{red}\Rbar.} And blessed is the fruit of thy womb.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\section*{Collect}
+
+\rubric{\color{red}The Officiant leads the concluding collect, which differs depending on the season:}
+
+\rubric{\textbf{Throughout the Year:}}
+
+\latinenglish{
+	Orémus.
+	Concede, misericors Dues, fragilitati nostræ præsidium, {\color{red}\GreDagger}\ ut qui sanctæ Dei Genitricis memo\textit{riam} \textbf{a}gimus; intercessionis ejus auxilio, a nostris iniquitatibus resurgamus. ~* Per eumdem Dominum nostrum Jesum Christum filium tuum, Qui tecum vivit et regnat in unitate Spiritu Sancti Deus, per omnia s\'{\ae}cula sæculórum.
+	
+	{\color{red}\Rbar.} Amen.
+}{
+	Let us pray.
+	Grant, O most merciful God, a support to our frailty, that we who commemorate the holy Mother of God, may, by the assistance of her intercession, arise from our iniquities. Through the same Lord Jesus Christ thy Son, who liveth and reigneth with Thee in the unity of the Holy Spirit, world without end.
+	
+	{\color{red}\Rbar.} Amen.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\rubric{\textbf{In Advent:}}
+
+\latinenglish{
+	Orémus.
+	Deus, qui de beatæ Mariæ virginis utero Verbum tuum, Angelo nuntiante, carnem suscipere voluisti: {\color{red}\GreDagger}\ præsta supplicibus tuis, ut qui vere eam Genitricem De\textit{i cre}\textbf{di}mus, ejus apud te intercessionibus adjuvemur. ~* Per eumdem Dominum nostrum Jesum Christum filium tuum, Qui tecum vivit et regnat in unitate Spiritu Sancti Deus, per omnia s\'{\ae}cula sæculórum.
+	
+	{\color{red}\Rbar.} Amen.
+}{
+	Let us pray.
+	O God, who wast pleased that thy Word, at the message of an Angel, should take flesh in the womb of the Blessed Virgin Mary; grant to us, thy humble servants, that, as we believe her to be truly the Mother of God, we may be assisted also by her intercessions with thee. Through the same Lord Jesus Christ thy Son, who liveth and reigneth with Thee in the unity of the Holy Spirit, world without end.
+	
+	{\color{red}\Rbar.} Amen.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\rubric{\textbf{In Christmastide:}}
+
+\latinenglish{
+	Orémus.
+	Deus, qui salutis æternæ, beatæ Mariæ virginitate foecunda, humano generi præmia præstitisti: {\color{red}\GreDagger}\ tribue, quæsumus; ut ipsam pro nobis intercedere \textit{senti}\textbf{a}mus, per quam meruimus auctorem vitæ suscipere, ~* Dominum nnostrum Jesum Christum, Filium tuum. Qui tecum vivit et regnat in unitate Spiritu Sancti Deus, per omnia s\'{\ae}cula sæculórum.
+	
+	{\color{red}\Rbar.} Amen.
+}{
+	Let us pray.
+	O God, who, by the fruitful virginity of the Blessed Mary, has given to mankind the rewards of eternal salvation; grant, we beseech thee, that we may be sensible of her intercession, through whom we have received the author of life, Our Lord Jesus Christ, Thy Son. Who liveth and reigneth in the unity of the Holy Spirit, world without end.
+	
+	{\color{red}\Rbar.} Amen.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\begin{latinenglishsection}
+
+\section*{Conclusion}
+
+\rubric{\color{red} The Officiant leads the conclusion; the Benedicamus is that of the common tone, except when during Paschal time:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3) <c><sp>V/</sp>.</c> Do(h)mi(h)ne(h) e(h)xau(h)di(h) o(h)ra(h)ti(h)ó(h)nem(h) me(h)am.(f) (::)}
+
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3) <c><sp>R/</sp>.</c> Et(h) cla(h)mor(h) me(h)us(h) ad(h) te(h) vé(h)ni(h)at.(f) (::)}
+}{
+	{\color{red}\Vbar.} O Lord, hear my prayer.
+	{\color{red}\Rbar.} And let my cry come unto thee.
+}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3)<c><sp>V/</sp>.</c> Be(h)ne(h)di(h)cá(h)mus(h) Dó(f)mi(ef)no.(f.) (::)}
+	
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3)<c><sp>R/</sp>.</c> De(h)o(h) grá(f)ti(ef)as.(f.) (::)}
+}{
+	
+	{\color{red}\Vbar.} Let us bless the Lord.
+	{\color{red}\Rbar.} Thanks be to God.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\rubric{\color{red}In Paschal Time:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{benedicamus_paschal}
+}{
+	{\color{red}\Vbar.} Let us bless the Lord.
+	{\color{red}\Rbar.} Thanks be to God.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\rubric{\color{red} The Officiant says the following in a low recto tono:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3) <c><sp>V/</sp>.</c> Fi(f)dé(f)li(f)um(f) á(f)ni(f)mæ(f) per(f) mi(f)se(f)ri(f)cór(f)di(f)am(f) De(f)i(f), re(f)qui(f)é(f)scant(f) in(f) pa(f)ce(f.). (::) <c><sp>R/</sp>.</c> Am(f.)en.(f.) (::)}
+}{
+	{\color{red}\Vbar.} May the souls of the faithful departed, through the mercy of God, rest in peace.
+	{\color{red}\Rbar.} Amen.
+}
+	
+\end{latinenglishsection}
+
+\end{document}
