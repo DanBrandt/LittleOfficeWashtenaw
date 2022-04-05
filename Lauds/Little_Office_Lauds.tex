@@ -1,0 +1,302 @@
+\documentclass[11pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{paracol}
+\usepackage{mdframed}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[autocompile]{gregoriotex}
+
+\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+
+\mdfsetup{skipabove=\topskip, skipbelow=\topskip}
+
+\newcommand{\rubric}[1]{
+	\switchcolumn[0] {
+		\itshape
+		#1
+	}
+}
+
+\newcommand{\latinenglish}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape\small
+		#2
+	}
+}
+
+\newcommand{\latinenglishequal}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape
+		#2
+	}
+}
+
+\newenvironment{latinenglishsection}
+	{\columnratio{.7, .3} \begin{paracol}{2}}
+	{\end{paracol}}
+
+\newenvironment{latinenglishequalsection}
+	{\columnratio{.5, .5}\begin{paracol}{2}}
+	{\end{paracol}}
+
+\setlength{\columnseprule}{0.4pt}
+
+\newcommand{\heading}[1]{
+	\begin{leftcolumn}
+		#1
+	\end{leftcolumn}
+}
+
+\newcommand{\spanning}[1]{
+	\switchcolumn*[#1]
+}
+
+\newenvironment{verses}[1]
+	{\begin{flushleft} \begin{enumerate}[leftmargin=*] \setcounter{enumi}{#1}}
+	{\end{enumerate} \end{flushleft}}
+
+\newenvironment{versicles}{\par\leavevmode\parskip=0pt}{}
+
+\newenvironment{collect}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+	\noindent Orémus.\par
+}{}
+
+\newenvironment{optionbox}
+{
+	\switchcolumn[0]
+	\begin{mdframed}
+%	\begin{minipage}{0.8\linewidth}
+}{
+%	\end{minipage}
+	\end{mdframed}
+}
+
+\newcommand{\optionrule}{
+	\begin{center}
+	\rule{0.5\linewidth}{0.6pt}
+	\end{center}
+}
+
+\newenvironment{optionruled}
+{
+	\optionrule
+}
+{
+	\optionrule
+}
+
+% for use inside the collect environment
+\newcommand{\Amen}{\par\noindent \Rbar. Amen.}
+
+\begin{document}
+
+\vspace*{4cm}
+
+\begin{center}
+	\textbf{\Huge Lauds of the Blessed Virgin Mary}\\
+	{\LARGE According to the Washtenaw Use}
+\end{center}
+
+\vspace*{1cm}
+%\maketitle
+
+%\begin{figure}[h!]
+	%\centering
+%\end{figure}
+
+\hspace{0pt}
+\vfill
+
+\pagebreak
+
+\vspace*{7.5cm}
+It is written in the Gospel of St. Mark, that Our Lord, after healing many afflicted with disease for an entire night, rose ``very early, going out, he went into a desert place: and there he prayed.'' And so, in praying \textit{Lauds} we imitate our tireless Saviour, folowing him as did Simon, to center our hearts on God, that we may receive the strength to carry out His Will. O Immaculate Virgin, pray for us that we may overcome sloth and malaise, and join thy Son in prayer and obesiance to the will of the Almighty Father. Amen.
+\vfill
+
+\pagebreak
+
+\chapter*{Before Lauds}
+
+\section*{Preparatory Prayers}
+
+\textit{All kneel and pray silently. As you say the prayer \textnormal{Aperi, Domine}, make the sign of the cross with your thumb first over your lips, and then over your heart.}
+
+\begin{latinenglishequalsection}
+
+\latinenglishequal{
+	Áperi, {\color{red}\maltese}\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	{\color{red}\maltese}\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus;
+	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
+	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
+	Per Christum Dóminum nostrum. 
+	Amen.
+}{
+	Open, {\color{red}\maltese}\ O Lord, my mouth to bless Thy holy Name; {\color{red}\maltese}\ cleanse also my heart from all vain, evil, and wandering thoughts; enlighten my understanding and kindle my affections; that I may worthily, attentively, and devoutly say this Office of the Blessed Virgin Mary, and so merit to be heard before the presence of Thy divine Majesty.  Through Christ our Lord.  Amen.
+}
+
+\latinenglishequal{
+	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.
+}{
+	O Lord, in union with that divine intention wherewith thou, whilst here on earth, didst render praises unto God, I desire to offer this my Office of prayer unto thee.
+}
+
+\latinenglishequal{
+	Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+ Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+ }{
+ 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
+ Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+ }
+ 
+ \end{latinenglishequalsection}
+ 
+\chapter*{Lauds}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Invitatory}}
+
+\rubric{\color{red}All make the Sign of the Cross as the Officiant says the ``Deus in Adjutorium''. All continue together with the entire ``Gloria Patri'' after the response: }
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{deus_in_adjutorium}
+}{
+	O God, come to my assistance.
+		
+	O Lord, make haste to help me.
+	
+	Glory be to the Father, and to the Son, and to the Holy Spirit,
+	as it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	Alleluia.
+}
+
+\rubric{\color{red}From Septuagesima until Easter, \textnormal{Alleluia} is replaced with:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3)Lau(h)s ti(h)bi(h) Dó(h)mi(h)ne(h), Re(h)x æ(h)té(h)rnæ(i) gló(h)ri(h)æ.(g) (::)
+	}
+}{
+	Praise to thee, O Lord, King of everlasting glory.
+}
+
+\rubric{\color{red}For `Throughout the Year', \underline{see page 3}.}
+\rubric{\color{red}For `Advent', \underline{see page 15}.}
+\rubric{\color{red}For `Christmastide, \underline{see page 32}.}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\section*{THROUGHOUT THE YEAR}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 53}}
+
+\rubric{\color{red}The Cantor intones the antiphon and leads the first Psalm verse to the star (*). All sit, while the Cantor's side finishes the first verse together. The Officiants side then says the second Psalm verse, with each side alternating thereafter. The remaining Psalms are intoned up to the asterisk by the Cantor, repeating the pattern of sitting and standing until the antiphon is said in full at the very end.}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{assumpta_est_intonation}
+}{
+	Mary was taken up...
+}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gregorioscore{psalm_92_1_7a}
+	
+	\begin{verses}{1}
+	
+	\item Etenim firmávit \textbf{or}bem \textbf{ter}ræ,~* qui non \textbf{com}mo\textbf{vé}bitur.
+
+	\item Paráta sedes \textbf{tu}a \textbf{ex} tunc:~* a \textbf{sǽ}culo \textbf{tu} es.
+	
+	\item Elevavérunt \textbf{flú}mina, \textbf{Dó}mine:~* elevavérunt flúmina \textbf{vo}cem \textbf{su}am.
+	
+	\item Elevavérunt flúmina \textbf{fluc}tus \textbf{su}os,~* a vócibus a\textbf{quá}rum mul\textbf{tá}rum.
+	
+	\item Mirábiles elati\textbf{ó}nes \textbf{ma}ris:~* mirábilis in \textbf{al}tis \textbf{Dó}minus.
+	
+	\item Testimónia tua credibília \textbf{fac}ta sunt \textbf{ni}mis:~* {\color{red}\textit{(stand)}} domum tuam decet sanctitúdo, Dómine, in longitúdi\textbf{nem} di\textbf{é}rum.
+	
+	\item {\color{red}\textit{(bow)}} Glória \textbf{Pa}tri, et \textbf{Fí}lio,~* et Spi\textbf{rí}tui \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per,~* et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+	
+	\end{verses}
+	
+	\gresetinitiallines{0}
+	\gregorioscore{assumpta_est}
+}{
+	1. The Lord hath reigned, he is clothed with beauty: 
+	the Lord is clothed with strength, and hath girded himself. 
+	
+	2. For he hath established the world:
+	And it shall not be moved.
+
+	3. Thy throne is prepared from of old: 
+	thou art from everlasting.
+	
+	3 .The floods have lifted up, O Lord: t
+	he floods have lifted up their voice. 
+	
+	4.The floods have lifted up their waves:
+	With the noise of many waters. 
+	
+	5. Wonderful are the surges of the sea: 
+	wonderful is the Lord on high.
+	
+	5. Thy testimonies are become exceedingly credible: 
+	holiness becometh thy house, O Lord, unto length of days.
+	
+	8. Glory be to the Father, and to the Son, and to the Holy Spirit:
+	As it was in the beginning, is now, and ever shall be, world without end. Amen.
+	
+	Mary was taken up into heaven, the angels rejoice, and with praises bless The Lord.
+}
+
+\end{latinenglishsection}
+
+\vfill\pagebreak
+
+\section*{ADVENT}
+
+\begin{latinenglishsection}
+
+
+
+\end{latinenglishsection}
+
+\section*{CHRISTMASTIDE}
+
+\begin{latinenglishsection}
+
+
+
+\end{latinenglishsection}
+
+\end{document}
