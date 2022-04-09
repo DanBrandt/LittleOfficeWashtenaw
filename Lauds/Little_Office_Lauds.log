@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  8 APR 2022 00:43
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  9 APR 2022 15:52
  system commands enabled.
 **Little_Office_Lauds.tex
 (./Little_Office_Lauds.tex
@@ -1379,7 +1379,7 @@ Overfull \hbox (8.45567pt too wide) detected at line 757
  []
 
 
-Overfull \hbox (8.45567pt too wide) detected at line 1048
+Overfull \hbox (8.45567pt too wide) detected at line 1047
 |
  []
 
@@ -2001,10 +2001,7 @@ Overfull \hbox (9.55133pt too wide) in paragraph at lines 1364--1364
  []
 
 [21
-Missing character: There is no ǽ (U+01FD) in font mdbchr8t!
-Missing character: There is no ǽ (U+01FD) in font mdbchb8t!
 Missing character: There is no † (U+2020) in font mdbchr8t!
-Missing character: There is no ǽ (U+01FD) in font mdbchr8t!
 ]
 Overfull \hbox (2.67455pt too wide) in paragraph at lines 1382--1383
 \T1/mdbch/m/it/10 the Spirit of the Lord shall rest upon
@@ -2034,7 +2031,7 @@ Overfull \hbox (8.45567pt too wide) detected at line 757
  []
 
 
-Overfull \hbox (8.45567pt too wide) detected at line 1048
+Overfull \hbox (8.45567pt too wide) detected at line 1047
 |
  []
 
@@ -2157,108 +2154,594 @@ Overfull \hbox (5.21346pt too wide) in paragraph at lines 1526--1527
 \T1/mdbch/m/it/10 thee, Mary; fear not, thou shalt bear
  []
 
-[24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1556--1556
+[24]
+Module gregoriotex Info: Looking in  on input line 1547
+Module gregoriotex Info: Found o_admirabile_intonation.gabc directly on input li
+ne 1547
+Module gregoriotex Info: Looking in  on input line 1547
+Module gregoriotex Info: Found o_admirabile_intonation-6_0_0.gtex directly on in
+put line 1547
+ (./o_admirabile_intonation-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1601
+Module gregoriotex Info: Found psalm_92_1_6.gabc directly on input line 1601
+Module gregoriotex Info: Looking in  on input line 1601
+Module gregoriotex Info: Found psalm_92_1_6-6_0_0.gtex directly on input line 16
+01
+ (./psalm_92_1_6-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1601
+Module gregoriotex Info: Found o_admirabile.gabc directly on input line 1601
+Module gregoriotex Info: Looking in  on input line 1601
+Module gregoriotex Info: Found o_admirabile-6_0_0.gtex directly on input line 16
+01
+
+(./o_admirabile-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (13.40164pt too wide) in paragraph at lines 1601--1601
+\T1/mdbch/m/it/10 clothed with strength, and hath girded
+ []
+
+
+Overfull \hbox (6.40256pt too wide) in paragraph at lines 1601--1601
+[]\T1/mdbch/m/it/10 2. For he hath es-tab-lished the world:
+ []
+
+
+Overfull \hbox (1.85194pt too wide) in paragraph at lines 1601--1601
+[]\T1/mdbch/m/it/10 3 .The floods have lifted up, O Lord:
+ []
+
+
+Overfull \hbox (0.26492pt too wide) in paragraph at lines 1601--1601
+\T1/mdbch/m/it/10 the floods have lifted up their voice. 
+ []
+
+
+Overfull \hbox (14.97221pt too wide) in paragraph at lines 1601--1601
+[]\T1/mdbch/m/it/10 4.The floods have lifted up their waves:
+ []
+
+
+Overfull \hbox (9.66331pt too wide) in paragraph at lines 1601--1601
+\T1/mdbch/m/it/10 ceed-ingly cred-i-ble: ho-li-ness be-cometh
+ []
+
+
+Overfull \hbox (0.23422pt too wide) in paragraph at lines 1601--1601
+\T1/mdbch/m/it/10 it was in the be-gin-ning, is now, and
+ []
+
+
+Overfull \hbox (4.71361pt too wide) in paragraph at lines 1601--1602
+\T1/mdbch/m/it/10 ator of mankind, tak-ing a body with
+ []
+
+
+Overfull \hbox (7.39774pt too wide) in paragraph at lines 1601--1602
+\T1/mdbch/m/it/10 of a Vir-gin: and be-com-ing man with-
+ []
+
+
+Overfull \hbox (13.90088pt too wide) in paragraph at lines 1601--1602
+\T1/mdbch/m/it/10 out man's con-cur-rence, be-stowed upon
+ []
+
+[25]
+Module gregoriotex Info: Looking in  on input line 1616
+Module gregoriotex Info: Found quando_natus_est_intonation.gabc directly on inpu
+t line 1616
+Module gregoriotex Info: Looking in  on input line 1616
+Module gregoriotex Info: Found quando_natus_est_intonation-6_0_0.gtex directly o
+n input line 1616
+ (./quando_natus_est_intonation-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1660
+Module gregoriotex Info: Found psalm_99_1_3a2.gabc directly on input line 1660
+Module gregoriotex Info: Looking in  on input line 1660
+Module gregoriotex Info: Found psalm_99_1_3a2-6_0_0.gtex directly on input line 
+1660
+ (./psalm_99_1_3a2-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1660
+Module gregoriotex Info: Found quando_natus_est.gabc directly on input line 1660
+
+Module gregoriotex Info: Looking in  on input line 1660
+Module gregoriotex Info: Found quando_natus_est-6_0_0.gtex directly on input lin
+e 1660
+
+(./quando_natus_est-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (6.32964pt too wide) in paragraph at lines 1660--1660
+[]\T1/mdbch/m/it/10 1. Sing joy-fully to God, all the earth:
+ []
+
+
+Overfull \hbox (5.1065pt too wide) in paragraph at lines 1660--1660
+[]\T1/mdbch/m/it/10 2. Come in be-fore his pres-ence: with
+ []
+
+
+Overfull \hbox (17.86566pt too wide) in paragraph at lines 1660--1660
+\T1/mdbch/m/it/10 with praise, into his courts with hymns;
+ []
+
+
+Overfull \hbox (6.32639pt too wide) in paragraph at lines 1660--1660
+\T1/mdbch/m/it/10 is sweet, his mercy en-dureth for ever:
+ []
+
+
+Overfull \hbox (4.22017pt too wide) in paragraph at lines 1660--1660
+\T1/mdbch/m/it/10 and his truth to gen-er-a-tion and gen-
+ []
+
+
+Overfull \hbox (0.23422pt too wide) in paragraph at lines 1660--1660
+\T1/mdbch/m/it/10 it was in the be-gin-ning, is now, and
+ []
+
+
+Overfull \hbox (4.47354pt too wide) in paragraph at lines 1660--1661
+\T1/mdbch/m/it/10 af-ter an in-ef-fa-ble man-ner, then were
+ []
+
+
+Overfull \hbox (3.91296pt too wide) in paragraph at lines 1660--1661
+\T1/mdbch/m/it/10 come down like rain upon the fleece,
+ []
+
+[26]
+Module gregoriotex Info: Looking in  on input line 1675
+Module gregoriotex Info: Found rubum_quem_intonation.gabc directly on input line
+ 1675
+Module gregoriotex Info: Looking in  on input line 1675
+Module gregoriotex Info: Found rubum_quem_intonation-6_0_0.gtex directly on inpu
+t line 1675
+ (./rubum_quem_intonation-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1744
+Module gregoriotex Info: Found psalm_62_1_4ASTAR.gabc directly on input line 174
+4
+Module gregoriotex Info: Looking in  on input line 1744
+Module gregoriotex Info: Found psalm_62_1_4ASTAR-6_0_0.gtex directly on input li
+ne 1744
+ (./psalm_62_1_4ASTAR-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1744
+Module gregoriotex Info: Found rubum_quem.gabc directly on input line 1744
+Module gregoriotex Info: Looking in  on input line 1744
+Module gregoriotex Info: Found rubum_quem-6_0_0.gtex directly on input line 1744
+
+
+(./rubum_quem-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (6.16237pt too wide) in paragraph at lines 1744--1744
+\T1/mdbch/m/it/10 for thee my flesh, O how many ways! 
+ []
+
+
+Overfull \hbox (2.04797pt too wide) in paragraph at lines 1744--1744
+[]\T1/mdbch/m/it/10 3. In a desert land, and where there
+ []
+
+
+Overfull \hbox (3.13855pt too wide) in paragraph at lines 1744--1744
+[]\T1/mdbch/m/it/10 4. For thy mercy is bet-ter than lives:
+ []
+
+
+Overfull \hbox (4.77693pt too wide) in paragraph at lines 1744--1744
+\T1/mdbch/m/it/10 mar-row and fat-ness: and my mouth
+ []
+
+
+Overfull \hbox (8.01218pt too wide) in paragraph at lines 1744--1744
+\T1/mdbch/m/it/10 the morn-ing: Be-cause thou hast been
+ []
+
+
+Overfull \hbox (4.23209pt too wide) in paragraph at lines 1744--1744
+[]\T1/mdbch/m/it/10 8. And I will re-joice un-der the covert
+ []
+
+
+Overfull \hbox (8.48256pt too wide) in paragraph at lines 1744--1744
+\T1/mdbch/m/it/10 de-liv-ered into the hands of the sword,
+ []
+
+
+Overfull \hbox (4.40256pt too wide) in paragraph at lines 1744--1744
+\T1/mdbch/m/it/10 is stopped of them that speak wicked
+ []
+
+
+Overfull \hbox (6.81206pt too wide) in paragraph at lines 1744--1745
+\T1/mdbch/m/it/10 mirable vir-gin-ity pre-served: in-terced
+ []
+
+[27]
+Module gregoriotex Info: Looking in  on input line 1761
+Module gregoriotex Info: Found germinavit_radix_intonation.gabc directly on inpu
+t line 1761
+Module gregoriotex Info: Looking in  on input line 1761
+Module gregoriotex Info: Found germinavit_radix_intonation-6_0_0.gtex directly o
+n input line 1761
+ (./germinavit_radix_intonation-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1873
+Module gregoriotex Info: Found benedicite_1f.gabc directly on input line 1873
+Module gregoriotex Info: Looking in  on input line 1873
+Module gregoriotex Info: Found benedicite_1f-6_0_0.gtex directly on input line 1
+873
+ (./benedicite_1f-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1873
+Module gregoriotex Info: Found germinavit_radix.gabc directly on input line 1873
+
+Module gregoriotex Info: Looking in  on input line 1873
+Module gregoriotex Info: Found germinavit_radix-6_0_0.gtex directly on input lin
+e 1873
+
+(./germinavit_radix-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (3.57118pt too wide) in paragraph at lines 1873--1873
+\T1/mdbch/m/it/10 the heav-ens, bless ye The Lord: bless
+ []
+
+
+Overfull \hbox (2.45758pt too wide) in paragraph at lines 1873--1873
+\T1/mdbch/m/it/10 ye The Lord: bless The Lord, ye frost
+ []
+
+[28
+Missing character: There is no ǽ (U+01FD) in font mdbchb8t!
+] [29]
+Module gregoriotex Info: Looking in  on input line 1888
+Module gregoriotex Info: Found ecce_maria_intonation.gabc directly on input line
+ 1888
+Module gregoriotex Info: Looking in  on input line 1888
+Module gregoriotex Info: Found ecce_maria_intonation-6_0_0.gtex directly on inpu
+t line 1888
+ (./ecce_maria_intonation-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1978
+Module gregoriotex Info: Found psalm_148_1_2.gabc directly on input line 1978
+Module gregoriotex Info: Looking in  on input line 1978
+Module gregoriotex Info: Found psalm_148_1_2-6_0_0.gtex directly on input line 1
+978
+ (./psalm_148_1_2-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 1978
+Module gregoriotex Info: Found ecce_maria.gabc directly on input line 1978
+Module gregoriotex Info: Looking in  on input line 1978
+Module gregoriotex Info: Found ecce_maria-6_0_0.gtex directly on input line 1978
+
+
+(./ecce_maria-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (1.83292pt too wide) in paragraph at lines 1978--1978
+[]\T1/mdbch/m/it/10 1. Praise ye the Lord from the heav-
+ []
+
+
+Overfull \hbox (5.98651pt too wide) in paragraph at lines 1978--1978
+\T1/mdbch/m/it/10 ens: praise ye him in the high places. 
+ []
+
+
+Overfull \hbox (8.07683pt too wide) in paragraph at lines 1978--1978
+[]\T1/mdbch/m/it/10 5. For he spoke, and they were made:
+ []
+
+
+Overfull \hbox (0.27837pt too wide) in paragraph at lines 1978--1978
+\T1/mdbch/m/it/10 made a de-cree, and it shall not pass
+ []
+
+
+Overfull \hbox (9.93152pt too wide) in paragraph at lines 1978--1978
+[]\T1/mdbch/m/it/10 8. Fire, hail, snow, ice, stormy winds:
+ []
+
+
+Overfull \hbox (9.55133pt too wide) in paragraph at lines 1978--1978
+[]\T1/mdbch/m/it/10 13. The praise of him is above heaven
+ []
+
+[30]
+Overfull \hbox (17.63142pt too wide) in paragraph at lines 1978--1979
+[]\T1/mdbch/m/it/10 Be-hold Mary hath borne us the Saviour,
+ []
+
+
+Overfull \hbox (2.67455pt too wide) in paragraph at lines 1994--1995
+\T1/mdbch/m/it/10 the Spirit of the Lord shall rest upon
+ []
+
+Module gregoriotex Info: Looking in  on input line 2031
+Module gregoriotex Info: Found o_gloriosa_virginum.gabc directly on input line 2
+031
+Module gregoriotex Info: Looking in  on input line 2031
+Module gregoriotex Info: Found o_gloriosa_virginum-6_0_0.gtex directly on input 
+line 2031
+(./o_gloriosa_virginum-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Overfull \hbox (8.45567pt too wide) detected at line 193
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 475
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 757
+|
+ []
+
+
+Overfull \hbox (8.45567pt too wide) detected at line 1047
+|
+ []
+
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (0.35133pt too wide) in paragraph at lines 2031--2031
+[]\T1/mdbch/m/it/10 Thou to the wretched here be-neath,
+ []
+
+
+Overfull \hbox (2.0793pt too wide) in paragraph at lines 2031--2031
+\T1/mdbch/m/it/10 Hast open'd Heaven's eter-nal doors. 
+ []
+
+
+Overfull \hbox (3.55428pt too wide) in paragraph at lines 2031--2031
+[]\T1/mdbch/m/it/10 Hail, O re-ful-gent Hall of light! Hail,
+ []
+
+
+Overfull \hbox (4.4409pt too wide) in paragraph at lines 2031--2031
+\T1/mdbch/m/it/10 Gate sub-lime of Hea-van's high King! 
+ []
+
+[31]
+Module gregoriotex Info: Looking in  on input line 2046
+Module gregoriotex Info: Found mirabile_mysterium_intonation.gabc directly on in
+put line 2046
+Module gregoriotex Info: Looking in  on input line 2046
+Module gregoriotex Info: Found mirabile_mysterium_intonation-6_0_0.gtex directly
+ on input line 2046
+ (./mirabile_mysterium_intonation-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 2125
+Module gregoriotex Info: Found benedictus_1_8G.gabc directly on input line 2125
+Module gregoriotex Info: Looking in  on input line 2125
+Module gregoriotex Info: Found benedictus_1_8G-6_0_0.gtex directly on input line
+ 2125
+ (./benedictus_1_8G-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Module gregoriotex Info: Looking in  on input line 2125
+Module gregoriotex Info: Found mirabile_mysterium.gabc directly on input line 21
+25
+Module gregoriotex Info: Looking in  on input line 2125
+Module gregoriotex Info: Found mirabile_mysterium-6_0_0.gtex directly on input l
+ine 2125
+ (./mirabile_mysterium-6_0_0.gtex
+Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (10.27202pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 rael: for he hath vis-ited, and wrought
+ []
+
+
+Overfull \hbox (3.55128pt too wide) in paragraph at lines 2125--2125
+[]\T1/mdbch/m/it/10 4. Sal-va-tion from our en-e-mies: and
+ []
+
+
+Overfull \hbox (0.42169pt too wide) in paragraph at lines 2125--2125
+[]\T1/mdbch/m/it/10 5. To per-form mercy to our fa-thers:
+ []
+
+
+Overfull \hbox (5.89052pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 and to re-mem-ber his holy tes-ta-ment. 
+ []
+
+
+Overfull \hbox (6.28418pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 ham our fa-ther: that he would grant
+ []
+
+
+Overfull \hbox (2.93372pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 hands of our en-e-mies: we may serve
+ []
+
+
+Overfull \hbox (1.69534pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 the Prophet of the High-est: for thou
+ []
+
+[32]
+Overfull \hbox (5.81697pt too wide) in paragraph at lines 2125--2125
+[]\T1/mdbch/m/it/10 11. Through the bow-els of the mercy
+ []
+
+
+Overfull \hbox (4.36415pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 of our God: whereby the ori-ent from
+ []
+
+
+Overfull \hbox (10.93443pt too wide) in paragraph at lines 2125--2125
+\T1/mdbch/m/it/10 dark-ness, and in the shadow of death:
+ []
+
+
+Overfull \hbox (2.37117pt too wide) in paragraph at lines 2125--2126
+\T1/mdbch/m/it/10 he was he hath re-mained, and what
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 2145--2145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1556--1557
+Underfull \hbox (badness 10000) in paragraph at lines 2145--2146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1570--1570
+Underfull \hbox (badness 10000) in paragraph at lines 2159--2159
 
  []
 
 
-Overfull \hbox (8.27757pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (8.27757pt too wide) in paragraph at lines 2159--2159
 []\T1/mdbch/m/it/10 Let us pray. O God, who wast pleased
  []
 
 
-Overfull \hbox (0.54329pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (0.54329pt too wide) in paragraph at lines 2159--2159
 \T1/mdbch/m/it/10 sisted also by her in-ter-ces-sions with
  []
 
 
-Overfull \hbox (0.192pt too wide) in paragraph at lines 1570--1570
+Overfull \hbox (0.192pt too wide) in paragraph at lines 2159--2159
 \T1/mdbch/m/it/10 the Holy Ghost, world with-out end. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1570--1571
+Underfull \hbox (badness 10000) in paragraph at lines 2159--2160
 
  []
 
 
-Overfull \hbox (3.96622pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (3.96622pt too wide) in paragraph at lines 2173--2173
 \T1/mdbch/m/n/10.95 suscipere, * Dominum nos-trum Je-sum Chris-tum Fil-ium tuum
 . Qui tecum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1584--1584
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2173
 
  []
 
 
-Overfull \hbox (7.64154pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (7.64154pt too wide) in paragraph at lines 2173--2173
 \T1/mdbch/m/it/10 frui-ful vir-gin-ity of Blessed Mary, hast
  []
 
 
-Overfull \hbox (3.00157pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (3.00157pt too wide) in paragraph at lines 2173--2173
 \T1/mdbch/m/it/10 eter-nal sal-va-tion; grant, we be-seech
  []
 
 
-Overfull \hbox (3.62814pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (3.62814pt too wide) in paragraph at lines 2173--2173
 \T1/mdbch/m/it/10 Our Lord Je-sus Christ thy Son. Who
  []
 
 
-Overfull \hbox (1.31906pt too wide) in paragraph at lines 1584--1584
+Overfull \hbox (1.31906pt too wide) in paragraph at lines 2173--2173
 \T1/mdbch/m/it/10 unity of the Holy Ghost, God, world
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1584--1585
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1592
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2182
 
  []
 
-Module gregoriotex Info: Processing gabc snippet... on input line 1603
+Module gregoriotex Info: Processing gabc snippet... on input line 2192
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [26]
-Module gregoriotex Info: Looking in  on input line 1619
-Module gregoriotex Info: Found benedicamus_paschal.gabc directly on input line 1
-619
-Module gregoriotex Info: Looking in  on input line 1619
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [34]
+Module gregoriotex Info: Looking in  on input line 2208
+Module gregoriotex Info: Found benedicamus_paschal.gabc directly on input line 2
+208
+Module gregoriotex Info: Looking in  on input line 2208
 Module gregoriotex Info: Found benedicamus_paschal-6_0_0.gtex directly on input 
-line 1619
+line 2208
  (./benedicamus_paschal-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Processing gabc snippet... on input line 1633
+Module gregoriotex Info: Processing gabc snippet... on input line 2222
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [27] (./Little_Of
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [35] (./Little_Of
 fice_Lauds.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2266,28 +2749,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28303 strings out of 481365
- 195334,794899 words of node,token memory allocated
- 6868 words of node memory still in use:
-   4 hlist, 3 vlist, 1 rule, 224 glue, 129 kern, 3 glyph, 1544 attribute, 173 gl
-ue_spec, 268 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:4,2:22840,3:2893,4:36,5:4159,6:354,7:6129,8:3,9:5304,10:33,11:
+ 28439 strings out of 481365
+ 195328,794899 words of node,token memory allocated
+ 8825 words of node memory still in use:
+   4 hlist, 3 vlist, 1 rule, 294 glue, 190 kern, 3 glyph, 2042 attribute, 173 gl
+ue_spec, 351 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 1:4,2:22357,3:2928,4:36,5:4366,6:354,7:6065,8:2,9:5552,10:35,11:
 222
- 44418 multiletter control sequences out of 65536+600000
- 174 fonts using 15494395 bytes
- 43i,6n,82p,1207b,3897s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 44419 multiletter control sequences out of 65536+600000
+ 174 fonts using 15495051 bytes
+ 43i,6n,82p,1207b,3909s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/loc
 al/share/texmf/fonts/truetype/public/gregoriotex/greciliae.ttf>{/usr/share/texli
 ve/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea
 /charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesig
-n/mdbch/md-chri8t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesi
-gn/mdbch/md-chrma.pfb>
-Output written on Little_Office_Lauds.pdf (27 pages, 161867 bytes).
+n/mdbch/md-chrma.pfb>
+Output written on Little_Office_Lauds.pdf (35 pages, 202002 bytes).
 
-PDF statistics: 124 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

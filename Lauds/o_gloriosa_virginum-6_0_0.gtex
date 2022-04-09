@@ -8,7 +8,7 @@
 \GreHeader{book}{The Liber Usualis, 1961, p. 1314 & Chants of the Church, 1956, p. 121}%
 \GreHeader{transcriber}{Andrew Hinkley}%
 \GreEndHeaders %
-\GreBeginScore{184569a65da6cf5715e6dca86032ddf7ee38e9e3}{14}{6}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
+\GreBeginScore{ae48d1ca138623459438e3840fcb6ad20a6eb50c}{14}{6}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
 \GreMode{\GreModeNumber{2}}{}{}%
 \GreSetLargestClef{c}{4}{3}{c}{0}{3}%
 \GreScoreOpening{%
@@ -844,7 +844,7 @@
 \GreGlyphHeights{9}{9}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{t}{e}{\GreProtrusion{\GreProtrusionFactor{period}}{.}}{t}{e\GreProtrusion{\GreProtrusionFactor{period}}{.}}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{{17}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{t}{e}{\GreProtrusion{\GreProtrusionFactor{period}}{.}}{t}{e\GreProtrusion{\GreProtrusionFactor{period}}{.}}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{\GreColored{\GreItalic{\GreSpecial{(}b}}}{\GreColored{\GreItalic{o}}}{\GreColored{\GreItalic{w\GreSpecial{)}}}}{\GreColored{\GreItalic{\GreSpecial{(}}}}{\GreColored{\GreItalic{b}}\GreColored{\GreItalic{o}}\GreColored{\GreItalic{w\GreSpecial{)}}}}}{}{{17}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
@@ -854,11 +854,10 @@
 }{}%
 }%
 %
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{4. J}{e}{}{4}{. Je}}{}{{0}{0}}{}{%
+\GreBarSyllable{\GreSetThisSyllable{\GreColored{\GreItalic{\GreSpecial{(}b}}}{\GreColored{\GreItalic{o}}}{\GreColored{\GreItalic{w\GreSpecial{)}}}}{\GreColored{\GreItalic{\GreSpecial{(}}}}{\GreColored{\GreItalic{b}}\GreColored{\GreItalic{o}}\GreColored{\GreItalic{w\GreSpecial{)}}}}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{4. J}{e}{}{4}{. Je}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{0}%
-\GreDivisioFinalis{0}{}%
+\GreDivisioFinalis{1}{}%
 }%
-%
 \GreSyllable{\GreSetThisSyllable{4. J}{e}{}{4}{. Je}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{s}{u}{\GreProtrusion{\GreProtrusionFactor{comma}}{,}}{s}{u\GreProtrusion{\GreProtrusionFactor{comma}}{,}}}{}{{8}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
@@ -1135,7 +1134,7 @@
 \GreGlyphHeights{9}{9}%
 }{}{}%
 }%
-\GreSyllable{\GreSetThisSyllable{l}{a}{\GreProtrusion{\GreProtrusionFactor{period}}{.}}{l}{a\GreProtrusion{\GreProtrusionFactor{period}}{.}}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{{17}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{l}{a}{\GreProtrusion{\GreProtrusionFactor{period}}{.}}{l}{a\GreProtrusion{\GreProtrusionFactor{period}}{.}}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{\GreColored{\GreItalic{\GreSpecial{(}r}}}{\GreColored{\GreItalic{i}}}{\GreColored{\GreItalic{se\GreSpecial{)}}}}{\GreColored{\GreItalic{\GreSpecial{(}}}}{\GreColored{\GreItalic{r}}\GreColored{\GreItalic{i}}\GreColored{\GreItalic{se\GreSpecial{)}}}}}{}{{17}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{10}{\GreNextCustos{10}{}}{0}%
 {%
@@ -1145,9 +1144,9 @@
 }{}%
 }%
 %
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{A}{}{A}{}}{}{{0}{0}}{}{%
+\GreBarSyllable{\GreSetThisSyllable{\GreColored{\GreItalic{\GreSpecial{(}r}}}{\GreColored{\GreItalic{i}}}{\GreColored{\GreItalic{se\GreSpecial{)}}}}{\GreColored{\GreItalic{\GreSpecial{(}}}}{\GreColored{\GreItalic{r}}\GreColored{\GreItalic{i}}\GreColored{\GreItalic{se\GreSpecial{)}}}}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{A}{}{A}{}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{0}%
-\GreDivisioFinalis{0}{}%
+\GreDivisioFinalis{1}{}%
 }%
 %
 \GreSyllable{\GreSetThisSyllable{}{A}{}{A}{}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{m}{e}{n\GreProtrusion{\GreProtrusionFactor{period}}{.}}{m}{en\GreProtrusion{\GreProtrusionFactor{period}}{.}}}{}{{0}{0}}{}{%
