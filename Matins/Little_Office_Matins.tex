@@ -1,0 +1,445 @@
+\documentclass[11pt, twoside]{report}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage{bbding}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{paracol}
+\usepackage{mdframed}
+\usepackage[margin=1in]{geometry}
+
+\usepackage[autocompile]{gregoriotex}
+
+\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1em}{}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+
+\mdfsetup{skipabove=\topskip, skipbelow=\topskip}
+
+\newcommand{\rubric}[1]{
+	\switchcolumn[0] {
+		\itshape
+		#1
+	}
+}
+
+\newcommand{\latinenglish}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape\small
+		#2
+	}
+}
+
+\newcommand{\latinenglishequal}[2]{
+	\switchcolumn[0]* {
+		#1
+	}
+	\switchcolumn[1] {
+		\itshape
+		#2
+	}
+}
+
+\newenvironment{latinenglishsection}
+	{\columnratio{.7, .3} \begin{paracol}{2}}
+	{\end{paracol}}
+
+\newenvironment{latinenglishequalsection}
+	{\columnratio{.5, .5}\begin{paracol}{2}}
+	{\end{paracol}}
+
+\setlength{\columnseprule}{0.4pt}
+
+\newcommand{\heading}[1]{
+	\begin{leftcolumn}
+		#1
+	\end{leftcolumn}
+}
+
+\newcommand{\spanning}[1]{
+	\switchcolumn*[#1]
+}
+
+\newenvironment{verses}[1]
+	{\begin{flushleft} \begin{enumerate}[leftmargin=*] \setcounter{enumi}{#1}}
+	{\end{enumerate} \end{flushleft}}
+
+\newenvironment{versicles}{\par\leavevmode\parskip=0pt}{}
+
+\newenvironment{collect}
+{
+	\leavevmode
+	\parindent=1em
+	\parskip=0pt
+	\noindent Orémus.\par
+}{}
+
+\newenvironment{optionbox}
+{
+	\switchcolumn[0]
+	\begin{mdframed}
+%	\begin{minipage}{0.8\linewidth}
+}{
+%	\end{minipage}
+	\end{mdframed}
+}
+
+\newcommand{\optionrule}{
+	\begin{center}
+	\rule{0.5\linewidth}{0.6pt}
+	\end{center}
+}
+
+\newenvironment{optionruled}
+{
+	\optionrule
+}
+{
+	\optionrule
+}
+
+% for use inside the collect environment
+\newcommand{\Amen}{\par\noindent \Rbar. Amen.}
+
+\begin{document}
+
+\vspace*{4cm}
+
+\begin{center}
+	\textbf{\Huge Matins of the Blessed Virgin Mary}\\
+	{\LARGE According to the Washtenaw Use}
+\end{center}
+
+\vspace*{1cm}
+%\maketitle
+
+%\begin{figure}[h!]
+	%\centering
+%\end{figure}
+
+\hspace{0pt}
+\vfill
+
+\pagebreak
+
+\vspace*{7.5cm}
+``Sts. Paul and Silas, being in prison praying, praised God at midnight, and then the earth quaked, and all the prison doors opened, and all fetters and bonds of prisoners were loosed. Our Lord Jesus Christ also prayed, not only in one part of the night, but all the night He woke in prayer, as the Gospel tells... furthermore, some say that for at the time of \textit{Matins}, there appeared a star in the firmament whereby shipmen are ruled in the sea, and bring themselves to right haven; and for our merciful Lady is that star which succours mankind in the troublesome sea of this world, and bringeth her lovers to the haven of health, therefore it is worthy that she be served and praised at the time of \textit{Matins}.'' (Paraphrased from the \textit{Mirror of Our Lady}.) O most Blessed Virgin, with you as the star we set our coruse on life's tempestuous seas, may we , like Sts. Paul and Silas, follow Our Lord's example and keep vigil in prayer, ever wakeful for His coming. Amen.
+\vfill
+
+\pagebreak
+
+\chapter*{Before Matins}
+
+\section*{Preparatory Prayers}
+
+\textit{All kneel and pray silently. As you say the prayer \textnormal{Aperi, Domine}, make the sign of the cross with your thumb first over your lips, and then over your heart.}
+
+\begin{latinenglishequalsection}
+
+\latinenglishequal{
+	Áperi, {\color{red}\maltese}\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	{\color{red}\maltese}\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus;
+	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
+	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
+	Per Christum Dóminum nostrum. 
+	Amen.
+}{
+	Open, {\color{red}\maltese}\ O Lord, my mouth to bless Thy holy Name; {\color{red}\maltese}\ cleanse also my heart from all vain, evil, and wandering thoughts; enlighten my understanding and kindle my affections; that I may worthily, attentively, and devoutly say this Office of the Blessed Virgin Mary, and so merit to be heard before the presence of Thy divine Majesty.  Through Christ our Lord.  Amen.
+}
+
+\latinenglishequal{
+	Domine, in unióne illíus divínæ intentiónis, qua ipse in terris laudes Deo persolvísti, has tibi Horas persólvo.
+}{
+	O Lord, in union with that divine intention wherewith thou, whilst here on earth, didst render praises unto God, I desire to offer this my Office of prayer unto thee.
+}
+
+\latinenglishequal{
+	Ave María, grátia plena, Dóminus tecum. Benedíc\-ta tu in muliéribus, et benedíctus fructus ventris tui, Jesus.
+ Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora mortis nostræ. Amen.
+ }{
+ 	Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.
+ Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
+ }
+ 
+ \end{latinenglishequalsection}
+ 
+\chapter*{Matins}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Invitatory}}
+
+\rubric{\color{red}All make the Sign of the Cross as the Officiant says the ``Domine Labia Mea'' and the ``Deus in Adjutorium''. All continue together with the entire ``Gloria Patri'' after the response: }
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{domine_labia_mea_aperies}
+}{
+	{\color{red}\Vbar.} Thou shalt open my lips, {\color{red}\maltese}\ O Lord.\\
+	{\color{red}\Rbar.} And my mouth shall shew forth thy prase.
+}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{deus_in_adjutorium}
+}{
+	{\color{red}\Vbar.} O God, {\color{red}\maltese}\ come to my assistance.\\
+	{\color{red}\Rbar.} O Lord, make haste to help me.
+	
+	Glory be to the Father, and to the Son: and to the Holy Spirit; as it was in the beginning, is now, and ever shall be: world without end. Amen. Alleluia.
+}
+
+\rubric{\color{red}From Septuagesima until Easter, \textnormal{Alleluia} is replaced with:}
+
+\latinenglish{
+	\gresetinitiallines{0}
+	\gabcsnippet{
+	(c3)Lau(h)s ti(h)bi(h) Dó(h)mi(h)ne(h), Re(h)x æ(h)té(h)rnæ(i) gló(h)ri(h)æ.(g) (::)
+	}
+}{
+	Praise to thee, O Lord, King of everlasting glory.
+}
+
+\rubric{\color{red}For ``Throughout the Year'', \underline{see pg. 5}.}
+\rubric{\color{red}For ``Advent'', \underline{see pg. []}.}
+\rubric{\color{red}For ``Christmastide'', \underline{see pg. []}.}
+
+\end{latinenglishsection}
+
+%\vfill\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{THROUGHOUT THE YEAR}
+
+\begin{latinenglishsection}
+
+\rubric{\color{red}The following incipit of the Hail Mary is said \underline{twice}, by the Officiant and Cantor together:}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{ave_maria_gratia_plena}
+}{
+	Hail Mary, full of grace, the Lord is with thee.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Psalm 94}}
+
+\rubric{\color{red}The psalm is said standing. All genuflect at ``Venite adoremus'':}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{venite_exsultemus}
+	
+}{
+	1. O come, let us sing unto The Lord, let us rejoice before God Our Savior:
+	let us come into his presence with thanksgiving, and with psalms rejoice before him.
+	
+	2. Hail Mary, full of grace:
+	the Lord is with thee.
+	
+	3. For The Lord is a great God, and a great King above all gods: 
+	
+	4. The Lord will not cast off his people; 
+	in his hands are all the ends of the earth, and he beholdeth the heights of the mountains.
+	
+	5. The Lord is with thee.
+	
+	6. The sea is his, and he made it, and his hands founded the dry land:
+	
+	7. {\color{red}\textit{(genuflect)}}  COME, LET US ADORE AND FALL DOWN BEFORE GOD; 
+	{\color{red}\textit{(stand)}} let us lament before the Lord who made us;
+	
+	8. For he is the Lord Our God:
+	we are his people, and the sheep of his pasture.
+	
+	9. Hail Mary, full of grace:
+	 the Lord is with thee.
+	 
+	10. Today if ye shall hear his voice:
+	harden not your hearts,
+	 
+	11. As in the provocation, and as in the day of temptation in the wilderness;
+	where your fathers tempted me, proved me, and saw my works.
+	
+	12. The Lord is with thee.
+	
+	13. Forty years long was I nigh unto this generation and said:
+	They do always err in their heart
+	
+	14. For they have not known my ways:
+	unto whom I sware in my wrath, that they should not enter into my rest.
+	
+	15. Haily Mary, full of grace,
+	the Lord is with thee.
+	
+	16. {\color{red}\textit{(bow)}} Glory be to the Father, and to the Son:
+	and to the Holy Spirit:
+	
+	17. {\color{red}\textit{(rise)}} As it was in the beginning, is now:
+	and ever shall be, world without end. Amen.
+	
+	18. The Lord is with thee;
+	Hail Mary, full of grace, the Lord is with thee.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Hymn}}
+
+\rubric{\color{red}The Hymn is lead by the Cantor:}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{quem_terra}
+}{
+	1. The Lord, whom earth, and sea and sky,
+	with one adoring voice proclaim;
+	Who rules them all in majesty'
+	Enclose'd himself in Mary's frame.
+	
+	2. Lo! in a humble Virgin's womb,
+	O'ershadowed by Almighty power;
+	He whom the stars, and sun, and moon,
+	Each serve in their appointed hour.
+	
+	3. O Mother blest! to whom was given
+	Within thy body to contain
+	The Architect of earth and heaven,
+	Whose hand the universe sustain.
+	
+	4. To thee was sent an angel down;
+	In thee the Spirit was enshrine'd;
+	Of thee was born that mighty one,
+	The long-desir'd of all mankind.
+	
+	5. O Jesu! born of Virgin bright,
+	Immortal glory be to thee;
+	Praise to the Father infinite,
+	And Holy Ghost eternally. Amen.
+}
+
+\rubric{\color{red}Then are said three Psalms, according to the day of the week:}
+\rubric{\color{red} Sunday, Monday, and Thursday: \underline{First Nocturn}: pg. 8}
+\rubric{\color{red} Tuesday and Friday: \underline{Second Nocturn}: pg. []}
+\rubric{\color{red} Wednesday and Saturday: \underline{Third Nocturn}: pg. []}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\heading{\section*{First Nocturn}}
+\rubric{\color{red}To be said on Sunday, Monday, and Thursday}
+
+\rubric{\color{red}Then Cantor says the antiphon and intones the psalm up to the asterisk (*), after which all sit. The Cantor, along with his side, finishes the remainder of the first verse, after which either side of the choir alternates between verses. All stand and bow for the ``Gloria Patri''. The remaining Psalms are said in the same manner.}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{benedicta_tu_intonation}
+}{
+	Blessed art thou...
+}
+
+\latinenglish{
+	\gresetinitiallines{1}
+	\gregorioscore{psalm_8_1_4ASTAR}
+	
+	\begin{verses}{1}
+	
+	\item Quóniam eleváta est magnificén\textit{ti}\textit{a} \textbf{tu}a,~* \textit{su}\textit{per} \textbf{cæ}los.
+
+	\item Ex ore infántium et lacténtium perfecísti laudem propter ini\textit{mí}\textit{cos} \textbf{tu}os,~* ut déstruas inimí\textit{cum} \textit{et} \textit{ul}\textbf{tó}rem.
+	
+	\item Quóniam vidébo cælos tuos, ópera digitó\textit{rum} \textit{tu}\textbf{ó}rum:~* lunam et stellas, \textit{quæ} \textit{tu} \textit{fun}\textbf{dás}ti.
+	
+	\item Quid est homo quod me\textit{mor} \textit{es} \textbf{e}jus?~* aut fílius hóminis, quóniam \textit{ví}\textit{si}\textit{tas} \textbf{e}um?
+	
+	\item Minuísti eum paulo minus ab Angelis,~{\color{red}\GreDagger}\ glória et honóre coro\textit{nás}\textit{ti} \textbf{e}um:~* et constituísti eum super ópera má\textit{nu}\textit{um} \textit{tu}\textbf{á}rum.
+	
+	\item Omnia subjecísti sub pé\textit{di}\textit{bus} \textbf{e}jus,~* oves et boves univérsas: ínsuper et \textit{pé}\textit{co}\textit{ra} \textbf{cam}pi.
+	
+	\item Vólucres cæli, et \textit{pi}\textit{sces} \textbf{ma}ris,~* qui perámbulant \textit{sé}\textit{mi}\textit{tas} \textbf{ma}ris.
+	
+	\item Dómine, Dó\textit{mi}\textit{nus} \textbf{nos}ter,~* {\color{red}\textit{(stand)}} quam admirábile est nomen tuum in u\textit{ni}\textit{vér}\textit{sa} \textbf{ter}ra!
+	
+	\item {\color{red}\textit{(bow)}} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spi\textit{rí}\textit{tu}\textit{i} \textbf{Sanc}to.
+	
+	\item {\color{red}\textit{(rise)}} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæ\textit{cu}\textit{ló}\textit{rum}. \textbf{A}men.
+	
+	\end{verses}
+	
+	\gresetinitiallines{0}
+	\gregorioscore{benedicta_tu}
+}{
+	1. O Lord our Lord, how admirable is thy name in the whole earth! 
+	For thy magnificence is elevated above the heavens.
+
+	2. Out of the mouth of infants and of sucklings thou hast perfected praise, because of thy enemies:
+	that thou mayst destroy the enemy and the avenger.
+	
+	3. For I will behold thy heavens, the works of thy fingers: 
+	the moon and the stars which thou hast founded.
+	
+	4. What is man that thou art mindful of him? 
+	or the son of man that thou visitest him?
+	
+	5. Thou hast made him a little less than the angels, thou hast crowned him with glory and honour:
+	And hast set him over the works of thy hands.
+	
+	6. Thou hast subjected all things under his feet:
+	all sheep and oxen: moreover the beasts also of the fields.
+	
+	7. The birds of the air, and the fishes of the sea: 
+	that pass through the paths of the sea.
+	
+	8. O Lord our Lord:
+	how admirable is thy name in all the earth!
+	
+	Blessed art thou among women, and blessed is the fruit of thy womb.
+}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Second Nocturn}}
+\rubric{\color{red}To be said on Tuesday and Friday}
+
+\end{latinenglishsection}
+
+\begin{latinenglishsection}
+
+\heading{\section*{Third Nocturn}}
+\rubric{\color{red}To be said on Wednesday and Saturday}
+
+\end{latinenglishsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{ADVENT}
+
+\begin{latinenglishsection}
+
+\end{latinenglishsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{CHRISTMASTIDE}
+
+\begin{latinenglishsection}
+
+\end{latinenglishsection}
+
+\end{document}
