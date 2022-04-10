@@ -8,7 +8,7 @@
 \GreHeader{book}{Nocturnale Romanum, 2002, p. [154]}%
 \GreHeader{commentary}{\string\123\string\092bfseries AR[122]\string\125}%
 \GreEndHeaders %
-\GreBeginScore{050f8b8e6af978e3e399f02c446232b478ff1139}{14}{6}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
+\GreBeginScore{d9611e4cd604b56f6db21f4e5b2885e0bfe901fe}{14}{6}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
 \GreMode{\GreModeNumber{2}}{}{}%
 \GreSetLargestClef{c}{4}{3}{c}{0}{3}%
 \GreScoreOpening{%
@@ -885,12 +885,12 @@
 }{}{}%
 }%
 %
-\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{F}{œ}{}{F}{œ}}{}{{0}{0}}{}{%
+\GreBarSyllable{\GreSetThisSyllable{}{}{}{}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{F}{oe}{}{F}{oe}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{0}%
 \GreDivisioMinima{0}{}{0}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{F}{œ}{}{F}{œ}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{c}{ú}{n}{c}{ún}}{}{{0}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{F}{oe}{}{F}{oe}}{}{\GreUnstyled}{0}{\GreSetNextSyllable{c}{ú}{n}{c}{ún}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{2}%
 \GreGlyph{\GreCPPesThreeNothing}{10}{\GreNextCustos{13}{}}{0}%
 {%

@@ -8,7 +8,7 @@
 \GreHeader{book}{Nocturnale Romanum, 2002, p. XLIX}%
 \GreHeader{transcriber}{Veronica Brandt}%
 \GreEndHeaders %
-\GreBeginScore{bb27938154c811167bc0471d51338858ec3f1000}{12}{8}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
+\GreBeginScore{7928e254fb38305c914e4fc2c97657a9cd480828}{12}{8}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
 \GreMode{\GreModeNumber{7}}{}{}%
 \GreSetLargestClef{c}{3}{3}{c}{0}{3}%
 \GreScoreOpening{%
@@ -2973,6 +2973,11 @@
 \GreSyllable{\GreSetThisSyllable{\GreColored{\GreItalic{D}}}{\GreColored{\GreItalic{ó}}}{\GreColored{\GreItalic{minus tecum. Ave María grátia plena, Dóminus tecum.}} }{\GreColored{\GreItalic{D}}}{\GreColored{\GreItalic{ó}}\GreColored{\GreItalic{minus tecum. Ave María grátia plena, Dóminus tecum.}} }}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}\GreLastOfLine}{}{{18}{0}}{}{%
 \GreSyllableNoteCount{0}%
 \GreEndOfElement{2}{0}{0}%
+%
+%
+\GreNewParLine %
+%
+%
 }%
 %
 \GreEndScore %
