@@ -8,7 +8,7 @@
 \GreHeader{book}{Antiphonale Monasticum, 1934, p. 193}%
 \GreHeader{transcriber}{Frado}%
 \GreEndHeaders %
-\GreBeginScore{ae52a6d6e94328b08a863c96fa0273bef8cefddd}{11}{7}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
+\GreBeginScore{5af72769e2e08889ab47ab68fe2401535fc84822}{11}{7}{0}{0}{}{4}{\GreInitialClefPosition{3}{0}}%
 \GreMode{\GreModeNumber{4}}{}{}%
 \GreSetLargestClef{c}{3}{3}{c}{0}{3}%
 \GreScoreOpening{%
@@ -46,7 +46,7 @@
 }{}{}%
 }%
 %
-\GreSyllable{\GreSetThisSyllable{t}{u}{}{t}{u}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{{17}{0}}{}{%
+\GreSyllable{\GreSetThisSyllable{t}{u}{}{t}{u}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{\greheightstar}{}{\greheightstar}{}}{}{{18}{0}}{}{%
 \GreSyllableNoteCount{2}%
 \GreGlyph{\GreCPPunctum}{11}{\GreNextCustos{11}{}}{0}%
 {%
@@ -57,6 +57,10 @@
 {%
 \GreGlyphHeights{11}{11}%
 }{}{}%
+}%
+%
+\GreNoNoteSyllable{\GreSetThisSyllable{}{\greheightstar}{}{\greheightstar}{}}{}{\GreUnstyled}{1}{\GreSetNextSyllable{}{}{}{}{}}{}{{17}{0}}{}{%
+\GreSyllableNoteCount{0}%
 }%
 %
 \GreFinalDivisioFinalis{%
