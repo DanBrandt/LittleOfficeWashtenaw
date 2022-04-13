@@ -7,16 +7,15 @@
 \GreHeader{mode}{3}%
 \GreHeader{book}{Nocturnale Romanum, 2002, p. LXVIII}%
 \GreEndHeaders %
-\GreBeginScore{721b8ac99c9c44b8bc02963e9e8c958841dbf7d4}{12}{5}{0}{1}{}{4}{\GreInitialClefPosition{4}{0}}%
+\GreBeginScore{9b767f9de1688f1bdb16dbdb02bbd7ca862c2e52}{12}{5}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
 \GreMode{\GreModeNumber{3}}{}{}%
 \GreSetLargestClef{c}{4}{3}{c}{0}{3}%
 \GreScoreOpening{%
 }{%
-\GreSetInitialClef{c}{4}{3}{c}{0}{3}{1}%
+\GreSetInitialClef{c}{4}{3}{c}{0}{3}{0}%
 }{%
 }{\GreSyllable}{\GreSetFirstSyllableText{T}{e}{}{{}{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{e}}}}{}}{{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{T}}}}{\GreFirstWord{\GreFirstSyllable{e}}}{}}{}}{}{\GreFirstWord}{1}{\GreSetNextSyllable{D}{e}{}{D}{e}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
-\GreSetTextAboveLines{Tonus solemnis.}%
 \GreGlyph{\GreCPPunctum}{7}{\GreNextCustos{9}{}}{0}%
 {%
 \GreGlyphHeights{7}{7}%
