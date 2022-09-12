@@ -8,14 +8,14 @@
 \GreHeader{user-notes}{Psalm 147.}%
 \GreHeader{centering-scheme}{latin}%
 \GreEndHeaders %
-\GreBeginScore{c8b60fde799c7bb5617b818401f75e9e8e425d3b}{13}{9}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
+\GreBeginScore{08f4dc7250bd2a0d922646b7fe6995d9958f0111}{13}{9}{0}{0}{}{4}{\GreInitialClefPosition{4}{0}}%
 \GreAnnotationLines{8.G}{}%
 \GreSetLargestClef{c}{4}{3}{c}{0}{3}%
 \GreScoreOpening{%
 }{%
 \GreSetInitialClef{c}{4}{3}{c}{0}{3}{1}%
 }{%
-}{\GreSyllable}{\GreSetFirstSyllableText{L}{a}{u}{{}{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{a}u}}}{}}{{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{L}}}}{\GreFirstWord{\GreFirstSyllable{au}}}{}}{}}{}{\GreFirstWord}{0}{\GreSetNextSyllable{\GreFirstWord{d}}{\GreFirstWord{a}}{\GreFirstWord{\GreProtrusion{\GreProtrusionFactor{comma}}{,}}}{\GreFirstWord{d}}{\GreFirstWord{a}\GreFirstWord{\GreProtrusion{\GreProtrusionFactor{comma}}{,}}}}{}{{0}{0}}{}{%
+}{\GreSyllable}{\GreSetFirstSyllableText{1}{.}{ Lau}{{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{.} L}}}{\GreFirstWord{\GreFirstSyllable{au}}}{}}{{\GreFirstWord{\GreFirstSyllable{\GreFirstSyllableInitial{1}. L}}}{\GreFirstWord{\GreFirstSyllable{au}}}{}}{}}{}{\GreFirstWord}{0}{\GreSetNextSyllable{\GreFirstWord{d}}{\GreFirstWord{a}}{\GreFirstWord{\GreProtrusion{\GreProtrusionFactor{comma}}{,}}}{\GreFirstWord{d}}{\GreFirstWord{a}\GreFirstWord{\GreProtrusion{\GreProtrusionFactor{comma}}{,}}}}{}{{0}{0}}{}{%
 \GreSyllableNoteCount{1}%
 \GreGlyph{\GreCPPunctum}{9}{\GreNextCustos{10}{}}{0}%
 {%

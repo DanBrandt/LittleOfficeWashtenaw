@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  12 JUN 2022 23:22
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  12 SEP 2022 18:05
  system commands enabled.
 **Little_Office_Lauds.tex
 (./Little_Office_Lauds.tex
@@ -1074,18 +1074,13 @@ Overfull \hbox (6.40256pt too wide) in paragraph at lines 284--284
  []
 
 
-Overfull \hbox (1.85194pt too wide) in paragraph at lines 284--284
-[]\T1/mdbch/m/it/10 3 .The floods have lifted up, O Lord:
+Overfull \hbox (3.32394pt too wide) in paragraph at lines 284--284
+[]\T1/mdbch/m/it/10 4. The floods have lifted up, O Lord:
  []
 
 
 Overfull \hbox (0.26492pt too wide) in paragraph at lines 284--284
 \T1/mdbch/m/it/10 the floods have lifted up their voice. 
- []
-
-
-Overfull \hbox (14.97221pt too wide) in paragraph at lines 284--284
-[]\T1/mdbch/m/it/10 4.The floods have lifted up their waves:
  []
 
 
@@ -1716,18 +1711,13 @@ Overfull \hbox (6.40256pt too wide) in paragraph at lines 991--991
  []
 
 
-Overfull \hbox (1.85194pt too wide) in paragraph at lines 991--991
-[]\T1/mdbch/m/it/10 3 .The floods have lifted up, O Lord:
+Overfull \hbox (3.32394pt too wide) in paragraph at lines 991--991
+[]\T1/mdbch/m/it/10 4. The floods have lifted up, O Lord:
  []
 
 
 Overfull \hbox (0.26492pt too wide) in paragraph at lines 991--991
 \T1/mdbch/m/it/10 the floods have lifted up their voice. 
- []
-
-
-Overfull \hbox (14.97221pt too wide) in paragraph at lines 991--991
-[]\T1/mdbch/m/it/10 4.The floods have lifted up their waves:
  []
 
 
@@ -2201,18 +2191,13 @@ Overfull \hbox (6.40256pt too wide) in paragraph at lines 1605--1605
  []
 
 
-Overfull \hbox (1.85194pt too wide) in paragraph at lines 1605--1605
-[]\T1/mdbch/m/it/10 3 .The floods have lifted up, O Lord:
+Overfull \hbox (3.32394pt too wide) in paragraph at lines 1605--1605
+[]\T1/mdbch/m/it/10 4. The floods have lifted up, O Lord:
  []
 
 
 Overfull \hbox (0.26492pt too wide) in paragraph at lines 1605--1605
 \T1/mdbch/m/it/10 the floods have lifted up their voice. 
- []
-
-
-Overfull \hbox (14.97221pt too wide) in paragraph at lines 1605--1605
-[]\T1/mdbch/m/it/10 4.The floods have lifted up their waves:
  []
 
 
@@ -2758,7 +2743,7 @@ Here is how much of LuaTeX's memory you used:
  8825 words of node memory still in use:
    4 hlist, 3 vlist, 1 rule, 294 glue, 190 kern, 3 glyph, 2042 attribute, 173 gl
 ue_spec, 351 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:4,2:22357,3:2928,4:36,5:4366,6:354,7:6065,8:2,9:5552,10:35,11:
+   avail lists: 1:5,2:22357,3:2928,4:36,5:4366,6:354,7:6065,8:2,9:5552,10:35,11:
 222
  44427 multiletter control sequences out of 65536+600000
  174 fonts using 15495051 bytes
@@ -2770,7 +2755,7 @@ nts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /bitstrea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea
 /charter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesig
 n/mdbch/md-chrma.pfb>
-Output written on Little_Office_Lauds.pdf (35 pages, 511354 bytes).
+Output written on Little_Office_Lauds.pdf (35 pages, 511487 bytes).
 
 PDF statistics: 146 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  13 JUN 2022 00:08
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  12 SEP 2022 19:00
  system commands enabled.
 **Little_Office_Vespers.tex
 (./Little_Office_Vespers.tex
@@ -1242,6 +1242,11 @@ Module gregoriotex Info: Found psalm_147_1_4A_STAR.gabc directly on input line 6
 Module gregoriotex Info: Looking in  on input line 617
 Module gregoriotex Info: Found psalm_147_1_4A_STAR-6_0_0.gtex directly on input 
 line 617
+Module gregoriotex Info: psalm_147_1_4A_STAR.gabc has been modified and psalm_14
+7_1_4A_STAR-6_0_0.gtex needs to be updated. Recompiling the gabc file. on input 
+line 617
+Module gregoriotex Info: compiling the score psalm_147_1_4A_STAR.gabc... on inpu
+t line 617
 
 (./psalm_147_1_4A_STAR-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
@@ -1325,6 +1330,10 @@ Module gregoriotex Info: Found Magnificat-2.gabc directly on input line 787
 Module gregoriotex Info: Looking in  on input line 787
 Module gregoriotex Info: Found Magnificat-2-6_0_0.gtex directly on input line 78
 7
+Module gregoriotex Info: Magnificat-2.gabc has been modified and Magnificat-2-6_
+0_0.gtex needs to be updated. Recompiling the gabc file. on input line 787
+Module gregoriotex Info: compiling the score Magnificat-2.gabc... on input line 
+787
  (./Magnificat-2-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1415,6 +1424,10 @@ Module gregoriotex Info: Found Magnificat-6.gabc directly on input line 870
 Module gregoriotex Info: Looking in  on input line 870
 Module gregoriotex Info: Found Magnificat-6-6_0_0.gtex directly on input line 87
 0
+Module gregoriotex Info: Magnificat-6.gabc has been modified and Magnificat-6-6_
+0_0.gtex needs to be updated. Recompiling the gabc file. on input line 870
+Module gregoriotex Info: compiling the score Magnificat-6.gabc... on input line 
+870
  (./Magnificat-6-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1655,6 +1668,10 @@ Module gregoriotex Info: Found psalm_147_1_8G.gabc directly on input line 1223
 Module gregoriotex Info: Looking in  on input line 1223
 Module gregoriotex Info: Found psalm_147_1_8G-6_0_0.gtex directly on input line 
 1223
+Module gregoriotex Info: psalm_147_1_8G.gabc has been modified and psalm_147_1_8
+G-6_0_0.gtex needs to be updated. Recompiling the gabc file. on input line 1223
+Module gregoriotex Info: compiling the score psalm_147_1_8G.gabc... on input lin
+e 1223
 (./psalm_147_1_8G-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -1740,6 +1757,10 @@ Module gregoriotex Info: Found Magnificat-8.gabc directly on input line 1372
 Module gregoriotex Info: Looking in  on input line 1372
 Module gregoriotex Info: Found Magnificat-8-6_0_0.gtex directly on input line 13
 72
+Module gregoriotex Info: Magnificat-8.gabc has been modified and Magnificat-8-6_
+0_0.gtex needs to be updated. Recompiling the gabc file. on input line 1372
+Module gregoriotex Info: compiling the score Magnificat-8.gabc... on input line 
+1372
  (./Magnificat-8-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
 Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
@@ -2011,6 +2032,10 @@ Module gregoriotex Info: Found psalm_147_1_2.gabc directly on input line 1746
 Module gregoriotex Info: Looking in  on input line 1746
 Module gregoriotex Info: Found psalm_147_1_2-6_0_0.gtex directly on input line 1
 746
+Module gregoriotex Info: psalm_147_1_2.gabc has been modified and psalm_147_1_2-
+6_0_0.gtex needs to be updated. Recompiling the gabc file. on input line 1746
+Module gregoriotex Info: compiling the score psalm_147_1_2.gabc... on input line
+ 1746
 
 (./psalm_147_1_2-6_0_0.gtex
 Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
@@ -2071,9 +2096,6 @@ Overfull \hbox (11.42719pt too wide) in paragraph at lines 1812--1813
 Underfull \hbox (badness 10000) in paragraph at lines 1812--1813
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2280,15 +2302,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Here is how much of LuaTeX's memory you used:
  28475 strings out of 481365
- 305222,794899 words of node,token memory allocated
+ 305209,794899 words of node,token memory allocated
  8397 words of node memory still in use:
    4 hlist, 6 vlist, 1 rule, 262 glue, 207 kern, 3 glyph, 1906 attribute, 173 gl
 ue_spec, 329 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:5,2:28001,3:4314,4:37,5:6700,6:520,7:7572,8:2,9:8269,10:34,11:
+   avail lists: 1:7,2:28073,3:4324,4:35,5:6703,6:520,7:7598,8:2,9:8269,10:32,11:
 274
  44427 multiletter control sequences out of 65536+600000
  174 fonts using 15499315 bytes
- 43i,5n,70p,1209b,4903s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 43i,5n,70p,1209b,4913s stack positions out of 5000i,500n,10000p,200000b,100000s
+Module gregoriotex Info: Writing Little_Office_Vespers.gaux on input line 0
+Module gregoriotex Warning: Line heights or variable brace lengths may have chan
+ged. Rerun to fix. on input line 0
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/local/shar
 e/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/local/share/texmf/f
 onts/truetype/public/gregoriotex/greciliae.ttf></usr/share/texlive/texmf-dist/fo
@@ -2297,7 +2322,7 @@ nts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 a/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter
 /bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/
 md-chrma.pfb>
-Output written on Little_Office_Vespers.pdf (34 pages, 640729 bytes).
+Output written on Little_Office_Vespers.pdf (34 pages, 641213 bytes).
 
 PDF statistics: 147 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
