@@ -1,156 +1,212 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.11.17)  13 JUN 2022 00:23
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.7.21)  22 JUL 2025 00:17
  system commands enabled.
 **Little_Office_Compline.tex
 (./Little_Office_Compline.tex
-LaTeX2e <2020-02-02> patch level 2
-Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
-Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
-n
-Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
-ollection.
-Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
-ig file reader
-luaotfload | conf : Root cache directory is /home/dan/.texlive2019/texmf-var/lua
-tex-cache/generic-dev/names.
-luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
--resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
--2020-01-26.lua”.
-Lua-only attribute luaotfload@state = 2
-Lua-only attribute luaotfload@noligature = 3
-Lua-only attribute luaotfload@syllabe = 4
-luaotfload | init : Context OpenType loader version “3.11”
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
-andling
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
-lpers
-Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
-Lua-only attribute luaotfload_color_attribute = 5
-Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
-s
-luaotfload | conf : Root cache directory is /home/dan/.texlive2019/texmf-var/lua
-tex-cache/generic-dev/names.
-Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
-Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
-y functions
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
-cript
-Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
-ers
-Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
-e
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/dan/.texlive2019/texmf-v
-ar/luatex-cache/generic-dev/names/luaotfload-names.luc)
-\c@part=\count163
-\c@chapter=\count164
-\c@section=\count165
-\c@subsection=\count166
-\c@subsubsection=\count167
-\c@paragraph=\count168
-\c@subparagraph=\count169
-\c@figure=\count170
-\c@table=\count171
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-11>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "/home/dan/.miktex/texmfs/data/luate
+x-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/home/dan/.miktex/texmfs/install/tex/luatex/luaotfload/fontloader-20
+23-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/dan/.miktex/texmfs/data/luate
+x-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/home/dan/.miktex/texm
+fs/install/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(/home/dan/.miktex/texmfs/install/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/dan/.miktex/texmfs/data/
+luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\c@figure=\count280
+\c@table=\count281
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-14 L3 programming layer (loader) 
+(/home/dan/.miktex/texmfs/install/tex/latex/fontspec/fontspec.sty
+(/home/dan/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+(/home/dan/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-07-11 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count172
-\l__pdf_internal_box=\box45
-))
-Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count173
-\g__xparse_grabber_int=\count174
-\l__xparse_m_args_int=\count175
-\l__xparse_v_nesting_int=\count176
+(/home/dan/.miktex/texmfs/install/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-06-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count282
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count177
-\l__fontspec_language_int=\count178
-\l__fontspec_strnum_int=\count179
-\l__fontspec_tmp_int=\count180
-\l__fontspec_tmpa_int=\count181
-\l__fontspec_tmpb_int=\count182
-\l__fontspec_tmpc_int=\count183
-\l__fontspec_em_int=\count184
-\l__fontspec_emdef_int=\count185
-\l__fontspec_strong_int=\count186
-\l__fontspec_strongdef_int=\count187
-\l__fontspec_tmpa_dim=\dimen135
-\l__fontspec_tmpb_dim=\dimen136
-\l__fontspec_tmpc_dim=\dimen137
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+(/home/dan/.miktex/texmfs/install/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count283
+\l__fontspec_language_int=\count284
+\l__fontspec_strnum_int=\count285
+\l__fontspec_tmp_int=\count286
+\l__fontspec_tmpa_int=\count287
+\l__fontspec_tmpb_int=\count288
+\l__fontspec_tmpc_int=\count289
+\l__fontspec_em_int=\count290
+\l__fontspec_emdef_int=\count291
+\l__fontspec_strong_int=\count292
+\l__fontspec_strongdef_int=\count293
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+(/home/dan/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+(/home/dan/.miktex/texmfs/install/tex/latex/fontspec/fontspec.cfg)))
+(/home/dan/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mathdesign.sty
+) (/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mathdesign.sty
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/home/dan/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbch.sty
-Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Design
- Project)
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/mdbch.cfg)
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding OMS) on
+ input line 206.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdfont.def
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/mdbch.sty
+Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
+n Project)
+
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdfont.def
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdsffont.def
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdsffont.def
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdttfont.def
+
+
+LaTeX Info: Font shape OT1/phv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 53.
+
+
+LaTeX Info: Font shape OT1/phv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 56.
+
+
+LaTeX Info: Font shape OT1/phv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 59.
+
+
+LaTeX Info: Font shape OT1/phv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 79.
+
+
+LaTeX Info: Font shape T1/phv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 102.
+
+
+LaTeX Info: Font shape T1/phv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 105.
+
+
+LaTeX Info: Font shape T1/phv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 108.
+
+
+LaTeX Info: Font shape T1/phv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 128.
+
+
+LaTeX Info: Font shape OT1/uhv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 259.
+
+
+LaTeX Info: Font shape OT1/uhv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 262.
+
+
+LaTeX Info: Font shape OT1/uhv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 265.
+
+
+LaTeX Info: Font shape OT1/uhv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 268.
+
+
+LaTeX Info: Font shape T1/uhv/mc/n has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 313.
+
+
+LaTeX Info: Font shape T1/uhv/mc/sc has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 316.
+
+
+LaTeX Info: Font shape T1/uhv/mc/sl has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 319.
+
+
+LaTeX Info: Font shape T1/uhv/mc/it has incorrect series value `mc'.
+            It should not contain an `m'! Please correct it.
+            Found on input line 322.
+
+) (/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdttfont.def
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup4
@@ -204,19 +260,19 @@ LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
 
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/home/dan/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+(/home/dan/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/dan/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
-\XKV@depth=\count188
+\XKV@depth=\count294
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-LaTeX Font Info:    Trying to load font information for TU+mdbch on input line 1
-86.
+LaTeX Font Info:    Trying to load font information for TU+mdbch on input line 
+186.
 LaTeX Font Info:    No file TUmdbch.fd. on input line 186.
 
 
@@ -231,541 +287,548 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignA' in version `bold'
 \symmathdesignB=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 (Font)                  MDB/mdbch/m/n --> MDB/mdbch/b/n on input line 498.
-\@emptytoks=\toks19
+\@emptytoks=\toks22
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip49
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 1
-12.
+\rulethickness=\skip51
+) (/home/dan/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 
+116.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/t1mdbch.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/t1mdbch.fd
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 112.
+(Font)              scaled to size 10.51207pt on input line 116.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/bbding/bbding.sty
+(/home/dan/.miktex/texmfs/install/tex/latex/bbding/bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
-
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
-Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+(/home/dan/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
 )
-\CenteringLeftskip=\skip50
-\RaggedLeftLeftskip=\skip51
-\RaggedRightLeftskip=\skip52
-\CenteringRightskip=\skip53
-\RaggedLeftRightskip=\skip54
-\RaggedRightRightskip=\skip55
-\CenteringParfillskip=\skip56
-\RaggedLeftParfillskip=\skip57
-\RaggedRightParfillskip=\skip58
-\JustifyingParfillskip=\skip59
-\CenteringParindent=\skip60
-\RaggedLeftParindent=\skip61
-\RaggedRightParindent=\skip62
-\JustifyingParindent=\skip63
-)
-(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+(/home/dan/.miktex/texmfs/install/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+(/home/dan/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+(/home/dan/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/home/dan/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count189
+(/home/dan/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count295
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip64
-\enit@outerparindent=\dimen138
-\enit@toks=\toks20
-\enit@inbox=\box46
-\enit@count@id=\count190
-\enitdp@description=\count191
+(/home/dan/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip66
+\enit@outerparindent=\dimen151
+\enit@toks=\toks23
+\enit@inbox=\box53
+\enit@count@id=\count296
+\enitdp@description=\count297
 )
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box47
-\beforetitleunit=\skip65
-\aftertitleunit=\skip66
-\ttl@plus=\dimen139
-\ttl@minus=\dimen140
-\ttl@toksa=\toks21
-\titlewidth=\dimen141
-\titlewidthlast=\dimen142
-\titlewidthfirst=\dimen143
+(/home/dan/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen152
+\ttl@minus=\dimen153
+\ttl@toksa=\toks24
+\titlewidth=\dimen154
+\titlewidthlast=\dimen155
+\titlewidthfirst=\dimen156
 )
-(/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
-Package: paracol 2018/12/31 v1.35 
-\pcol@currcol=\count192
-\pcol@nextcol=\count193
-\pcol@ncol=\count194
-\pcol@ncolleft=\count195
-\pcol@page=\count196
-\pcol@basepage=\count197
-\pcol@toppage=\count198
-\pcol@footnotebase=\count199
-\pcol@nfootnotes=\count266
-\pcol@mcid=\count267
-\pcol@prevdepth=\dimen144
-\pcol@colht=\dimen145
-\pcol@textfloatsep=\dimen146
-\pcol@lrmargin=\dimen147
-\pagerim=\dimen148
-\pcol@topskip=\skip67
-\belowfootnoteskip=\skip68
-\pcol@topfnotes=\box48
-\pcol@prespan=\box49
-\pcol@rightpage=\box50
-\pcol@colorstack@saved=\box51
-\pcol@tempboxa=\box52
-\pcol@tempboxb=\box53
+(/home/dan/.miktex/texmfs/install/tex/latex/paracol/paracol.sty
+Package: paracol 2024/10/22 1.36 typeset columns in parallel
+\pcol@currcol=\count298
+\pcol@nextcol=\count299
+\pcol@ncol=\count300
+\pcol@ncolleft=\count301
+\pcol@page=\count302
+\pcol@basepage=\count303
+\pcol@toppage=\count304
+\pcol@footnotebase=\count305
+\pcol@nfootnotes=\count306
+\pcol@mcid=\count307
+\pcol@prevdepth=\dimen157
+\pcol@colht=\dimen158
+\pcol@textfloatsep=\dimen159
+\pcol@lrmargin=\dimen160
+\pagerim=\dimen161
+\pcol@topskip=\skip69
+\belowfootnoteskip=\skip70
+\pcol@topfnotes=\box55
+\pcol@prespan=\box56
+\pcol@rightpage=\box57
+\pcol@colorstack@saved=\box58
+\pcol@tempboxa=\box59
+\pcol@tempboxb=\box60
 \pcol@colorins=\insert252
-\pcol@everyvbox=\toks22
+\pcol@everyvbox=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+(/home/dan/.miktex/texmfs/install/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
-Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
+(/home/dan/.miktex/texmfs/install/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
+(/home/dan/.miktex/texmfs/install/tex/latex/zref/zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/home/dan/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(/home/dan/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+(/home/dan/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+(/home/dan/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks23
+\pdftexcmds@toks=\toks26
 )
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/home/dan/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+(/home/dan/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-Package zref Info: New property list: main on input line 763.
-Package zref Info: New property: default on input line 764.
-Package zref Info: New property: page on input line 765.
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+\c@abspage=\count308
+Package zref Info: New property: abspage on input line 67.
 )
-\c@abspage=\count268
-Package zref Info: New property: abspage on input line 66.
+(/home/dan/.miktex/texmfs/install/tex/latex/needspace/needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
 )
-(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
-Package: needspace 2010/09/12 v1.3d reserve vertical space
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: luatex.def on input line 147.
+Package color Info: Driver file: luatex.def on input line 149.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
-))
-\mdf@templength=\skip69
-\c@mdf@globalstyle@cnt=\count269
-\mdf@skipabove@length=\skip70
-\mdf@skipbelow@length=\skip71
-\mdf@leftmargin@length=\skip72
-\mdf@rightmargin@length=\skip73
-\mdf@innerleftmargin@length=\skip74
-\mdf@innerrightmargin@length=\skip75
-\mdf@innertopmargin@length=\skip76
-\mdf@innerbottommargin@length=\skip77
-\mdf@splittopskip@length=\skip78
-\mdf@splitbottomskip@length=\skip79
-\mdf@outermargin@length=\skip80
-\mdf@innermargin@length=\skip81
-\mdf@linewidth@length=\skip82
-\mdf@innerlinewidth@length=\skip83
-\mdf@middlelinewidth@length=\skip84
-\mdf@outerlinewidth@length=\skip85
-\mdf@roundcorner@length=\skip86
-\mdf@footenotedistance@length=\skip87
-\mdf@userdefinedwidth@length=\skip88
-\mdf@needspace@length=\skip89
-\mdf@frametitleaboveskip@length=\skip90
-\mdf@frametitlebelowskip@length=\skip91
-\mdf@frametitlerulewidth@length=\skip92
-\mdf@frametitleleftmargin@length=\skip93
-\mdf@frametitlerightmargin@length=\skip94
-\mdf@shadowsize@length=\skip95
-\mdf@extratopheight@length=\skip96
-\mdf@subtitleabovelinewidth@length=\skip97
-\mdf@subtitlebelowlinewidth@length=\skip98
-\mdf@subtitleaboveskip@length=\skip99
-\mdf@subtitlebelowskip@length=\skip100
-\mdf@subtitleinneraboveskip@length=\skip101
-\mdf@subtitleinnerbelowskip@length=\skip102
-\mdf@subsubtitleabovelinewidth@length=\skip103
-\mdf@subsubtitlebelowlinewidth@length=\skip104
-\mdf@subsubtitleaboveskip@length=\skip105
-\mdf@subsubtitlebelowskip@length=\skip106
-\mdf@subsubtitleinneraboveskip@length=\skip107
-\mdf@subsubtitleinnerbelowskip@length=\skip108
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+)
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx))
+\mdf@templength=\skip71
+\c@mdf@globalstyle@cnt=\count309
+\mdf@skipabove@length=\skip72
+\mdf@skipbelow@length=\skip73
+\mdf@leftmargin@length=\skip74
+\mdf@rightmargin@length=\skip75
+\mdf@innerleftmargin@length=\skip76
+\mdf@innerrightmargin@length=\skip77
+\mdf@innertopmargin@length=\skip78
+\mdf@innerbottommargin@length=\skip79
+\mdf@splittopskip@length=\skip80
+\mdf@splitbottomskip@length=\skip81
+\mdf@outermargin@length=\skip82
+\mdf@innermargin@length=\skip83
+\mdf@linewidth@length=\skip84
+\mdf@innerlinewidth@length=\skip85
+\mdf@middlelinewidth@length=\skip86
+\mdf@outerlinewidth@length=\skip87
+\mdf@roundcorner@length=\skip88
+\mdf@footenotedistance@length=\skip89
+\mdf@userdefinedwidth@length=\skip90
+\mdf@needspace@length=\skip91
+\mdf@frametitleaboveskip@length=\skip92
+\mdf@frametitlebelowskip@length=\skip93
+\mdf@frametitlerulewidth@length=\skip94
+\mdf@frametitleleftmargin@length=\skip95
+\mdf@frametitlerightmargin@length=\skip96
+\mdf@shadowsize@length=\skip97
+\mdf@extratopheight@length=\skip98
+\mdf@subtitleabovelinewidth@length=\skip99
+\mdf@subtitlebelowlinewidth@length=\skip100
+\mdf@subtitleaboveskip@length=\skip101
+\mdf@subtitlebelowskip@length=\skip102
+\mdf@subtitleinneraboveskip@length=\skip103
+\mdf@subtitleinnerbelowskip@length=\skip104
+\mdf@subsubtitleabovelinewidth@length=\skip105
+\mdf@subsubtitlebelowlinewidth@length=\skip106
+\mdf@subsubtitleaboveskip@length=\skip107
+\mdf@subsubtitlebelowskip@length=\skip108
+\mdf@subsubtitleinneraboveskip@length=\skip109
+\mdf@subsubtitleinnerbelowskip@length=\skip110
 
-(/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+(/home/dan/.miktex/texmfs/install/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box54
-\mdf@footnotebox=\box55
-\mdf@splitbox@one=\box56
-\mdf@splitbox@two=\box57
-\mdf@splitbox@save=\box58
-\mdfsplitboxwidth=\skip109
-\mdfsplitboxtotalwidth=\skip110
-\mdfsplitboxheight=\skip111
-\mdfsplitboxdepth=\skip112
-\mdfsplitboxtotalheight=\skip113
-\mdfframetitleboxwidth=\skip114
-\mdfframetitleboxtotalwidth=\skip115
-\mdfframetitleboxheight=\skip116
-\mdfframetitleboxdepth=\skip117
-\mdfframetitleboxtotalheight=\skip118
-\mdffootnoteboxwidth=\skip119
-\mdffootnoteboxtotalwidth=\skip120
-\mdffootnoteboxheight=\skip121
-\mdffootnoteboxdepth=\skip122
-\mdffootnoteboxtotalheight=\skip123
-\mdftotallinewidth=\skip124
-\mdfboundingboxwidth=\skip125
-\mdfboundingboxtotalwidth=\skip126
-\mdfboundingboxheight=\skip127
-\mdfboundingboxdepth=\skip128
-\mdfboundingboxtotalheight=\skip129
-\mdf@freevspace@length=\skip130
-\mdf@horizontalwidthofbox@length=\skip131
-\mdf@verticalmarginwhole@length=\skip132
-\mdf@horizontalspaceofbox=\skip133
-\mdfsubtitleheight=\skip134
-\mdfsubsubtitleheight=\skip135
-\c@mdfcountframes=\count270
+\mdf@frametitlebox=\box61
+\mdf@footnotebox=\box62
+\mdf@splitbox@one=\box63
+\mdf@splitbox@two=\box64
+\mdf@splitbox@save=\box65
+\mdfsplitboxwidth=\skip111
+\mdfsplitboxtotalwidth=\skip112
+\mdfsplitboxheight=\skip113
+\mdfsplitboxdepth=\skip114
+\mdfsplitboxtotalheight=\skip115
+\mdfframetitleboxwidth=\skip116
+\mdfframetitleboxtotalwidth=\skip117
+\mdfframetitleboxheight=\skip118
+\mdfframetitleboxdepth=\skip119
+\mdfframetitleboxtotalheight=\skip120
+\mdffootnoteboxwidth=\skip121
+\mdffootnoteboxtotalwidth=\skip122
+\mdffootnoteboxheight=\skip123
+\mdffootnoteboxdepth=\skip124
+\mdffootnoteboxtotalheight=\skip125
+\mdftotallinewidth=\skip126
+\mdfboundingboxwidth=\skip127
+\mdfboundingboxtotalwidth=\skip128
+\mdfboundingboxheight=\skip129
+\mdfboundingboxdepth=\skip130
+\mdfboundingboxtotalheight=\skip131
+\mdf@freevspace@length=\skip132
+\mdf@horizontalwidthofbox@length=\skip133
+\mdf@verticalmarginwhole@length=\skip134
+\mdf@horizontalspaceofbox=\skip135
+\mdfsubtitleheight=\skip136
+\mdfsubsubtitleheight=\skip137
+\c@mdfcountframes=\count310
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count271
-\c@mdf@env@i=\count272
-\c@mdf@env@ii=\count273
-\c@mdf@zref@counter=\count274
+\mdf@envdepth=\count311
+\c@mdf@env@i=\count312
+\c@mdf@env@ii=\count313
+\c@mdf@zref@counter=\count314
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/home/dan/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/home/dan/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
-\Gm@bindingoffset=\dimen149
-\Gm@wd@mp=\dimen150
-\Gm@odd@mp=\dimen151
-\Gm@even@mp=\dimen152
-\Gm@layoutwidth=\dimen153
-\Gm@layoutheight=\dimen154
-\Gm@layouthoffset=\dimen155
-\Gm@layoutvoffset=\dimen156
-\Gm@dimlist=\toks24
-)
-(/usr/local/share/texmf/tex/lualatex/gregoriotex/gregoriotex.sty
-Package: gregoriotex 2021/03/13 v6.0.0 GregorioTeX system.
+\Gm@cnth=\count315
+\Gm@cntv=\count316
+\c@Gm@tempcnt=\count317
+\Gm@bindingoffset=\dimen162
+\Gm@wd@mp=\dimen163
+\Gm@odd@mp=\dimen164
+\Gm@even@mp=\dimen165
+\Gm@layoutwidth=\dimen166
+\Gm@layoutheight=\dimen167
+\Gm@layouthoffset=\dimen168
+\Gm@layoutvoffset=\dimen169
+\Gm@dimlist=\toks27
 
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/home/dan/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/dan/.miktex/texmfs/install/tex/lualatex/gregoriotex/gregoriotex.sty
+Package: gregoriotex 2025/02/28 v6.1.0 GregorioTeX system.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/home/dan/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: luatex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/luacolor/luacolor.sty
-Package: luacolor 2019/11/29 v1.13 Color support via LuaTeX's attributes (HO)
-\LuaCol@Attribute=\attribute6
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/home/dan/.miktex/texmfs/install/tex/latex/luacolor/luacolor.sty
+Package: luacolor 2023-08-18 v1.18 Color support via LuaTeX's attributes (HO)
+Inserting `luacolor.process' in `pre_shipout_filter'.
+\LuaCol@Attribute=\attribute4
+)
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/home/dan/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 105.
+Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen157
-\Gin@req@width=\dimen158
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
 )
-(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/home/dan/.miktex/texmfs/install/tex/luatex/luatexbase/luatexbase.sty
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+(/home/dan/.miktex/texmfs/install/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count278
+\@catcodetablestackcnt=\count318
 )
-\CatcodeTableOther=\catcodetable5
-\CatcodeTableExpl=\catcodetable6
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
 )
-(/usr/share/texlive/texmf-dist/tex/luatex/luamplib/luamplib.sty
-Package: luamplib 2019/12/11 v2.20.4 mplib package for LuaTeX
-Lua module: luamplib 2019/12/11 2.20.4 Lua package to typeset Metapost with LuaT
-eX's MPLib.
-\mplibtmptoks=\toks25
-\everymplibtoks=\toks26
-\everyendmplibtoks=\toks27
-\mplibscratchbox=\box59
+(/home/dan/.miktex/texmfs/install/tex/luatex/luamplib/luamplib.sty
+Package: luamplib 2025/05/26 v2.37.5 mplib package for LuaTeX
+Lua module: luamplib 2025/05/26 v2.37.5 Lua package to typeset Metapost with Lua
+TeX's MPLib.
+\luamplibcctabexplat=\catcodetable16
+\mplibtmptoks=\toks28
+\mplibscratchbox=\box66
 )
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count279
-\decimalpart=\count280
+(/home/dan/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/dan/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+\xs_counta=\count319
+\xs_countb=\count320
 )
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-common.tex)
-\gre@attr@dash=\attribute7
-\gre@attr@center=\attribute8
-\GreScoreId=\attribute9
-\gre@attr@glyph@id=\attribute10
-\gre@attr@glyph@top=\attribute11
-\gre@attr@glyph@bottom=\attribute12
-\gre@attr@syllable@id=\attribute13
-\gre@atletter=\catcodetable7
-Lua module: gregoriotex 2021/03/13 6.0.0 GregorioTeX module.
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-main.tex
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-common.tex
+\gre@count@parsecommas@cur=\count321
+)
+\gre@attr@part=\attribute5
+\gre@attr@dash=\attribute6
+\gre@attr@center=\attribute7
+\GreScoreId=\attribute8
+\gre@attr@glyph@id=\attribute9
+\gre@attr@glyph@top=\attribute10
+\gre@attr@glyph@bottom=\attribute11
+\gre@attr@syllable@id=\attribute12
+\gre@attr@alteration@id=\attribute13
+\gre@attr@alteration@pitch=\attribute14
+\gre@attr@alteration@type=\attribute15
+\gre@atletter=\catcodetable17
+Lua module: gregoriotex 2025/02/28 v6.1.0 GregorioTeX module.
 Custom whatsit marker = 1
-Module gregoriotex Info: marker whatsit id is 1 on input line 121
+Module gregoriotex Info: marker whatsit id is 1 on input line 141
 
 (Little_Office_Compline.gaux)
-Module gregoriotex Info: Reading Little_Office_Compline.gaux on input line 125
-Inserting `gregoriotex.write_greaux' at position 1 in `finish_pdffile'.
+Module gregoriotex Info: Reading Little_Office_Compline.gaux on input line 145
+Inserting `gregoriotex.write_greaux' in `finish_pdffile'.
 \gre@gaux=\write3
 \gre@read@temp=\read2
-\gre@factor=\count281
+\gre@factor=\count322
 
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex
-\gre@saved@prescore@hyphenpenalty=\count282
-\gre@saved@prescore@exhyphenpenalty=\count283
-\gre@saved@prescore@exhyphenchar=\count284
-\gre@saved@prescore@doublehyphendemerits=\count285
-\gre@saved@prescore@finalhyphendemerits=\count286
-\gre@saved@prescore@brokenpenalty=\count287
-\gre@saved@prescore@looseness=\count288
-\gre@saved@prescore@tolerance=\count289
-\gre@saved@prescore@pretolerance=\count290
-\gre@saved@prescore@emergencystretch=\skip136
-\gre@saved@prescore@widowpenalty=\count291
-\gre@saved@prescore@clubpenalty=\count292
-\gre@saved@prescore@parskip=\skip137
-\gre@saved@prescore@lineskip=\skip138
-\gre@saved@prescore@baselineskip=\skip139
-\gre@saved@prescore@lineskiplimit=\skip140
-\gre@dimen@textlower=\dimen159
-\gre@dimen@stafflinewidth=\dimen160
-\gre@dimen@linewidth=\dimen161
-\gre@dimen@stafflineheight=\dimen162
-\gre@dimen@interstafflinespace=\dimen163
-\gre@dimen@stafflinediff=\dimen164
-\gre@dimen@constantglyphraise=\dimen165
-\gre@dimen@staffheight=\dimen166
-\gre@skip@syllablefinalskip=\skip141
-\gre@skip@minTextDistance=\skip142
-\gre@skip@minNotesDistance=\skip143
-\gre@dimen@curTextDistance=\dimen167
-\gre@dimen@curNotesDistance=\dimen168
-\gre@skip@minShiftText=\skip144
-\gre@skip@minShiftNotes=\skip145
-\gre@dimen@bolshift=\dimen169
-\gre@dimen@bolextra=\dimen170
-\gre@dimen@clefwidth@current=\dimen171
-\gre@dimen@clefwidth@largest=\dimen172
-\gre@dimen@clefwidth@bol=\dimen173
-\gre@dimen@eolshift=\dimen174
-\gre@dimen@glyphraisevalue=\dimen175
-\gre@dimen@additionalbottomspace=\dimen176
-\gre@dimen@additionaltopspace=\dimen177
-\gre@dimen@additionaltopspacealt=\dimen178
-\gre@dimen@additionaltopspacenabc=\dimen179
-\gre@space@count@additionaltopspacethreshold=\count293
-\gre@space@count@additionaltopspacealtthreshold=\count294
-\gre@space@count@additionaltopspacenabcthreshold=\count295
-\gre@space@count@noteadditionalspacelinestextthreshold=\count296
-\gre@saved@prediscretionary@dimen@additionalbottomspace=\dimen180
-\gre@saved@prediscretionary@dimen@additionaltopspace=\dimen181
-\gre@saved@prediscretionary@dimen@additionaltopspacealt=\dimen182
-\gre@saved@prediscretionary@dimen@additionaltopspacenabc=\dimen183
-\gre@saved@prediscretionary@dimen@currenttranslationheight=\dimen184
-\gre@saved@prediscretionary@dimen@textlower=\dimen185
-\gre@saved@prediscretionary@dimen@currentabovelinestextheight=\dimen186
-\gre@saved@prediscretionary@dimen@constantglyphraise=\dimen187
-\gre@dimen@textaligncenter=\dimen188
-\gre@dimen@enddifference=\dimen189
-\gre@dimen@previousenddifference=\dimen190
-\gre@dimen@currenttranslationheight=\dimen191
-\gre@skip@nextbegindifference=\skip146
-\gre@dimen@annotationtrueraise=\dimen192
-\gre@dimen@commentarytrueraise=\dimen193
-\gre@skip@bar@requirement=\skip147
-\gre@skip@bar@allocation=\skip148
-\gre@dimen@bar@shift=\dimen194
-\gre@skip@text@requirement=\skip149
-\gre@skip@text@allocation=\skip150
-\gre@dimen@text@shift=\dimen195
-\gre@dimen@adjustedpreviousenddifference=\dimen196
-\gre@skip@adjustednextbegindifference=\dimen197
-\gre@skip@punctummorashift=\skip151
-\gre@skip@alterationshift=\skip152
-\gre@dimen@begindifference=\dimen198
-\gre@dimen@lastglyphwidth=\dimen199
-\gre@dimen@notesaligncenter=\dimen256
-\gre@dimen@additionalleftspace=\dimen257
-\gre@dimen@initialwidth=\dimen258
-\gre@dimen@currentabovelinestextheight=\dimen259
-\gre@dimen@temp@one=\dimen260
-\gre@dimen@temp@two=\dimen261
-\gre@dimen@temp@three=\dimen262
-\gre@dimen@temp@four=\dimen263
-\gre@dimen@temp@five=\dimen264
-\gre@skip@temp@one=\skip153
-\gre@skip@temp@two=\skip154
-\gre@skip@temp@three=\skip155
-\gre@skip@temp@four=\skip156
-\gre@count@temp@one=\count297
-\gre@count@temp@two=\count298
-\gre@count@temp@three=\count299
-\gre@space@count@newlinepenalty=\count300
-\gre@space@count@nobreakpenalty=\count301
-\gre@space@count@endofwordpenalty=\count302
-\gre@space@count@endofsyllablepenalty=\count303
-\gre@space@count@endafterbarpenalty=\count304
-\gre@space@count@endafterbaraltpenalty=\count305
-\gre@space@count@finalpenalty=\count306
-\gre@space@count@endofelementpenalty=\count307
-\gre@space@count@hyphenpenalty=\count308
-\gre@space@count@brokenpenalty=\count309
-\gre@space@count@looseness=\count310
-\gre@space@count@tolerance=\count311
-\gre@space@count@pretolerance=\count312
-\gre@space@count@widowpenalty=\count313
-\gre@space@count@clubpenalty=\count314
-\greconffactor=\count315
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-spaces.tex
+\gre@saved@prescore@hyphenpenalty=\count323
+\gre@saved@prescore@exhyphenpenalty=\count324
+\gre@saved@prescore@exhyphenchar=\count325
+\gre@saved@prescore@doublehyphendemerits=\count326
+\gre@saved@prescore@finalhyphendemerits=\count327
+\gre@saved@prescore@brokenpenalty=\count328
+\gre@saved@prescore@looseness=\count329
+\gre@saved@prescore@tolerance=\count330
+\gre@saved@prescore@pretolerance=\count331
+\gre@saved@prescore@emergencystretch=\skip138
+\gre@saved@prescore@widowpenalty=\count332
+\gre@saved@prescore@clubpenalty=\count333
+\gre@saved@prescore@parskip=\skip139
+\gre@saved@prescore@lineskip=\skip140
+\gre@saved@prescore@baselineskip=\skip141
+\gre@saved@prescore@lineskiplimit=\skip142
+\gre@dimen@textlower=\dimen172
+\gre@dimen@stafflinewidth=\dimen173
+\gre@dimen@linewidth=\dimen174
+\gre@dimen@stafflineheight=\dimen175
+\gre@dimen@interstafflinespace=\dimen176
+\gre@dimen@stafflinediff=\dimen177
+\gre@dimen@constantglyphraise=\dimen178
+\gre@dimen@staffheight=\dimen179
+\gre@skip@syllablefinalskip=\skip143
+\gre@skip@minTextDistance=\skip144
+\gre@skip@minNotesDistance=\skip145
+\gre@dimen@curTextDistance=\dimen180
+\gre@dimen@curNotesDistance=\dimen181
+\gre@skip@minShiftText=\skip146
+\gre@skip@minShiftNotes=\skip147
+\gre@dimen@bolshift=\dimen182
+\gre@dimen@bolextra=\dimen183
+\gre@dimen@clefwidth@current=\dimen184
+\gre@dimen@clefwidth@largest=\dimen185
+\gre@dimen@clefwidth@bol=\dimen186
+\gre@dimen@eolshift=\dimen187
+\gre@dimen@glyphraisevalue=\dimen188
+\gre@dimen@additionalbottomspace=\dimen189
+\gre@dimen@additionaltopspace=\dimen190
+\gre@dimen@additionaltopspacealt=\dimen191
+\gre@dimen@additionaltopspacenabc=\dimen192
+\gre@space@count@additionaltopspacethreshold=\count334
+\gre@space@count@additionaltopspacealtthreshold=\count335
+\gre@space@count@additionaltopspacenabcthreshold=\count336
+\gre@space@count@noteadditionalspacelinestextthreshold=\count337
+\gre@saved@prediscretionary@dimen@additionalbottomspace=\dimen193
+\gre@saved@prediscretionary@dimen@additionaltopspace=\dimen194
+\gre@saved@prediscretionary@dimen@additionaltopspacealt=\dimen195
+\gre@saved@prediscretionary@dimen@additionaltopspacenabc=\dimen196
+\gre@saved@prediscretionary@dimen@currenttranslationheight=\dimen197
+\gre@saved@prediscretionary@dimen@textlower=\dimen198
+\gre@saved@prediscretionary@dimen@currentabovelinestextheight=\dimen199
+\gre@saved@prediscretionary@dimen@constantglyphraise=\dimen256
+\gre@dimen@textaligncenter=\dimen257
+\gre@dimen@enddifference=\dimen258
+\gre@dimen@previousenddifference=\dimen259
+\gre@dimen@currenttranslationheight=\dimen260
+\gre@skip@nextbegindifference=\skip148
+\gre@dimen@annotationtrueraise=\dimen261
+\gre@dimen@commentarytrueraise=\dimen262
+\gre@skip@bar@requirement=\skip149
+\gre@skip@bar@allocation=\skip150
+\gre@dimen@bar@shift=\dimen263
+\gre@skip@text@requirement=\skip151
+\gre@skip@text@allocation=\skip152
+\gre@dimen@text@shift=\dimen264
+\gre@dimen@adjustedpreviousenddifference=\dimen265
+\gre@skip@adjustednextbegindifference=\dimen266
+\gre@skip@punctummorashift=\skip153
+\gre@skip@alterationshift=\skip154
+\gre@dimen@begindifference=\dimen267
+\gre@dimen@lastglyphwidth=\dimen268
+\gre@dimen@notesaligncenter=\dimen269
+\gre@dimen@initialwidth=\dimen270
+\gre@dimen@currentabovelinestextheight=\dimen271
+\gre@dimen@temp@one=\dimen272
+\gre@dimen@temp@two=\dimen273
+\gre@dimen@temp@three=\dimen274
+\gre@dimen@temp@four=\dimen275
+\gre@dimen@temp@five=\dimen276
+\gre@skip@temp@one=\skip155
+\gre@skip@temp@two=\skip156
+\gre@skip@temp@three=\skip157
+\gre@skip@temp@four=\skip158
+\gre@count@temp@one=\count338
+\gre@count@temp@two=\count339
+\gre@count@temp@three=\count340
+\gre@space@count@newlinepenalty=\count341
+\gre@space@count@nobreakpenalty=\count342
+\gre@space@count@endofwordpenalty=\count343
+\gre@space@count@endofsyllablepenalty=\count344
+\gre@space@count@endafterbarpenalty=\count345
+\gre@space@count@endafterbaraltpenalty=\count346
+\gre@space@count@finalpenalty=\count347
+\gre@space@count@endofelementpenalty=\count348
+\gre@space@count@hyphenpenalty=\count349
+\gre@space@count@brokenpenalty=\count350
+\gre@space@count@looseness=\count351
+\gre@space@count@tolerance=\count352
+\gre@space@count@pretolerance=\count353
+\gre@space@count@widowpenalty=\count354
+\gre@space@count@clubpenalty=\count355
+\greconffactor=\count356
 )
-\gre@box@temp@width=\box60
-\gre@box@initial=\box61
-\gre@biginitial=\count316
-\gre@knownline=\count317
-\gre@box@annotation=\box62
-\gre@box@add=\box63
-\gre@box@old=\box64
-\gre@count@annotationvalign=\count318
-\gre@box@commentary=\box65
-\gre@box@lines=\box66
+\gre@box@temp@width=\box67
+\gre@box@initial=\box68
+\gre@count@initialposition=\count357
+\gre@count@initialanchor=\count358
+\gre@box@annotation=\box69
+\gre@box@add=\box70
+\gre@box@old=\box71
+\gre@count@annotationvalign=\count359
+\gre@box@commentary=\box72
+\gre@box@lines=\box73
 Module gregoriotex Info: Registering variant font greciliae as gre@font@variant@
-A. on input line 987
+A. on input line 865
 Module gregoriotex Info: Registering variant font greciliae-hollow as gre@font@v
-ariant@B. on input line 987
+ariant@B. on input line 865
 Module gregoriotex Info: Registering variant font greciliae-hole as gre@font@var
-iant@C. on input line 987
-luaotfload | cache : Lookup cache loaded from /home/dan/.texlive2019/texmf-var/l
-uatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
-Module gregoriotex Info: Mapping font greciliae on input line 992
-Module gregoriotex Info: Mapping font greciliae-hollow on input line 992
-Module gregoriotex Info: Mapping font greciliae-hole on input line 992
+iant@C. on input line 865
+luaotfload | cache : Lookup cache loaded from /home/dan/.miktex/texmfs/data/luat
+ex-cache/generic/names/luaotfload-lookup-cache.luc.
+Module gregoriotex Info: Mapping font greciliae on input line 870
+Module gregoriotex Info: Mapping font greciliae-hollow on input line 870
+Module gregoriotex Info: Mapping font greciliae-hole on input line 870
 
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex
-\gre@box@hep=\box67
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-chars.tex
+\gre@box@hep=\box74
+) (/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-signs.te
+x
+\gre@box@temp@clef=\box75
+\gre@box@temp@cleftwo=\box76
+\greslurheight=\dimen277
+\gre@box@temp@sign=\box77
+\gre@count@shiftaftermora=\count360
+\gre@dimen@morawidth=\dimen278
+\gre@skip@bar@lastskip=\skip159
+\gre@count@lastglyphiscavum=\count361
 )
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex
-\gre@box@temp@clef=\box68
-\gre@box@temp@cleftwo=\box69
-\greslurheight=\dimen265
-\gre@box@temp@sign=\box70
-\gre@count@shiftaftermora=\count319
-\gre@dimen@morawidth=\dimen266
-\gre@skip@bar@lastskip=\skip157
-\gre@count@lastglyphiscavum=\count320
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-syllable.t
+ex
+\gre@generate@pointandclick=\count362
+\gre@box@syllablenotes=\box78
+\gre@box@syllabletext=\box79
+\gre@clivisalignment=\count363
+\gre@count@unbreakabletotalnotes=\count364
+\gre@count@unbreakableinitialnotes=\count365
+\gre@count@unbreakablefinalnotes=\count366
+\gre@count@syllablenotes=\count367
+\gre@count@initiallines=\count368
 )
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex
-\gre@generate@pointandclick=\count321
-\gre@box@syllablenotes=\box71
-\gre@box@syllabletext=\box72
-\gre@clivisalignment=\count322
-\gre@count@unbreakabletotalnotes=\count323
-\gre@count@unbreakableinitialnotes=\count324
-\gre@count@unbreakablefinalnotes=\count325
-\gre@count@syllablenotes=\count326
-)
-\gre@variableheightexpansion=\count327
-\gre@lastoflinecount=\count328
-\gre@saved@prenlba@nobreakpenalty=\count329
-\gre@saved@prenlba@endofwordpenalty=\count330
-\gre@saved@prenlba@endofsyllablepenalty=\count331
-\gre@saved@prenlba@endafterbarpenalty=\count332
-\gre@saved@prenlba@endafterbaraltpenalty=\count333
-\gre@saved@prenlba@endofelementpenalty=\count334
-\gre@saved@prenlba@hyphenpenalty=\count335
-\gre@lasteuouaeindex=\count336
+\gre@variableheightexpansion=\count369
+\gre@count@stafflines=\count370
+\gre@lastoflinecount=\count371
+\gre@saved@prenlba@nobreakpenalty=\count372
+\gre@saved@prenlba@endofwordpenalty=\count373
+\gre@saved@prenlba@endofsyllablepenalty=\count374
+\gre@saved@prenlba@endafterbarpenalty=\count375
+\gre@saved@prenlba@endafterbaraltpenalty=\count376
+\gre@saved@prenlba@endofelementpenalty=\count377
+\gre@saved@prenlba@hyphenpenalty=\count378
+\gre@lasteuouaeindex=\count379
 
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-symbols.tex
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-symbols.te
+x
 Module gregoriotex Info: Registering variant font greextra as gre@font@variant@D
 . on input line 53
 )
-\gre@dimen@stafflinethicknessbase=\dimen267
-\gre@dimen@glyphraisebase=\dimen268
-\gre@dimen@interstafflinedistancebase=\dimen269
-\gre@dimen@inclinatumonlinemoravshiftbase=\dimen270
-\gre@dimen@inclinatumonlinemorahshiftbase=\dimen271
-\gre@dimen@inclinatumofflinemorahshiftbase=\dimen272
+\gre@dimen@stafflinethicknessbase=\dimen279
+\gre@dimen@glyphraisebase=\dimen280
+\gre@dimen@interstafflinedistancebase=\dimen281
+\gre@dimen@inclinatumonlinemoravshiftbase=\dimen282
+\gre@dimen@inclinatumonlinemorahshiftbase=\dimen283
+\gre@dimen@inclinatumofflinemorahshiftbase=\dimen284
 
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-gsp-default.tex)
-(/usr/local/share/texmf/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
-(./Little_Office_Compline.aux)
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-gsp-defaul
+t.tex)
+(/home/dan/.miktex/texmfs/install/tex/luatex/gregoriotex/gregoriotex-nabc.tex)))
+ (./Little_Office_Compline.aux)
 \openout1 = Little_Office_Compline.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
@@ -777,12 +840,6 @@ LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 11
-0.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
@@ -791,65 +848,64 @@ LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 110.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 11
-0.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 1
+10.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 110.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 110.
-LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 11
-0.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 1
+10.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 110.
 
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 110.
-\AtBeginShipoutBox=\box73
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/home/dan/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count337
-\scratchdimen=\dimen273
-\scratchbox=\box74
-\nofMPsegments=\count338
-\nofMParguments=\count339
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count340
-\MPscratchDim=\dimen274
-\MPnumerator=\count341
-\makeMPintoPDFobject=\count342
-\everyMPtoPDFconversion=\toks29
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count380
+\scratchdimen=\dimen285
+\scratchbox=\box80
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen286
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks30
+) (/home/dan/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
-5.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-
+(/home/dan/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
+(/home/dan/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
 *geometry* verbose mode - [ preamble ] result:
 * driver: luatex
-* paper: <default>
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* modes: twoside heightrounded showframe 
+* h-part:(L,W,R)=(18.06749pt, 252.945pt, 18.06749pt)
+* v-part:(T,H,B)=(18.06749pt, 397.48502pt, 18.06749pt)
+* \paperwidth=289.07999pt
+* \paperheight=433.62pt
+* \textwidth=252.945pt
+* \textheight=391.80017pt
+* \oddsidemargin=-54.2025pt
+* \evensidemargin=-54.2025pt
+* \topmargin=-91.2025pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -873,16 +929,21 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 23.88496pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 16.58891pt on input line 119.
-<ChristResurrected.jpg, id=1, 252.4632pt x 390.9807pt>
-File: ChristResurrected.jpg Graphic file (type jpg)
-<use ChristResurrected.jpg>
-Package luatex.def Info: ChristResurrected.jpg  used on input line 130.
-(luatex.def)             Requested size: 281.85587pt x 436.54114pt.
+<ChristGethsemani.jpg, id=1, 1003.75pt x 1263.72125pt>
+File: ChristGethsemani.jpg Graphic file (type jpg)
+<use ChristGethsemani.jpg>
+Package luatex.def Info: ChristGethsemani.jpg  used on input line 130.
+(luatex.def)             Requested size: 151.76854pt x 191.07335pt.
+
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./ChristResurrected.jpg>]
+{/home/dan/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}<./ChristGethsemani.j
+pg>]
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 10.51207pt on input line 139.
+
+
 [2]
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 19.91054pt on input line 144.
@@ -892,9 +953,9 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 13.82408pt on input line 146.
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 13.82408pt on input line 146.
-LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line 
-161.
- (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/ot1mdbch.fd
+LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line
+ 161.
+ (/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -903,10 +964,10 @@ LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 161.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 161.
-LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 
-161.
+LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
+ 161.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
@@ -915,10 +976,10 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 (Font)              scaled to size 7.68005pt on input line 161.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 (Font)              scaled to size 5.76004pt on input line 161.
-LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 
-161.
+LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
+ 161.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -927,10 +988,10 @@ LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 161.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 161.
-LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 
-161.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
+ 161.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
@@ -945,10 +1006,10 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 161.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 161.
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 
-161.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
+ 161.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
@@ -957,10 +1018,10 @@ LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 7.68005pt on input line 161.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 161.
-LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 
-161.
+LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
+ 161.
 
-(/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
+(/home/dan/.miktex/texmfs/install/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
@@ -970,40 +1031,148 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 161.
 
-Overfull \hbox (1.41939pt too wide) in paragraph at lines 161--161
-\T1/mdbch/m/n/10.95 nomen sanc-tum tuum: [] munda quoque cor meum
+Overfull \hbox (0.82272pt too wide) in paragraph at lines 161--161
+[]\T1/mdbch/m/n/10.95 Áperi, [] Dómine, os meum
  []
 
 
-Overfull \hbox (5.72287pt too wide) in paragraph at lines 161--161
-\T1/mdbch/m/n/10.95 ab óm-nibus va-nis, per-vér-sis et al-ié-nis cog-i-tati
-ónibus;
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 ad benedicén-dum
  []
 
 
-Overfull \hbox (3.84752pt too wide) in paragraph at lines 161--161
-\T1/mdbch/m/n/10.95 at-ténte ac de-vóte hoc Of-fí-cium beátæ Vírgi-nis Ma
-ríæ
+Overfull \hbox (1.84436pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 sis et al-ié-nis cog-i-tatiónibus;
  []
 
 
-Overfull \hbox (0.73952pt too wide) in paragraph at lines 161--161
-\T1/mdbch/m/n/10.95 tum di-vínæ Ma-jestátis tuæ. Per Chris-tum Dóminum
+Overfull \hbox (0.53458pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 in-tel-léc-tum il-lúmina, af-féc-
  []
 
 
-Overfull \hbox (3.81592pt too wide) in paragraph at lines 161--162
-\T1/mdbch/m/it/10.95 and de-voutly say this Of-fice of the Blessed Vir-gin Mary
-,
+Overfull \hbox (1.5585pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 tum in-flámma, ut digne, at-
+ []
+
+
+Overfull \hbox (6.49075pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 ténte ac de-vóte hoc Of-fí-cium
+ []
+
+
+Overfull \hbox (10.27507pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 beátæ Vírgi-nis Maríæ recitáre
+ []
+
+
+Overfull \hbox (7.32118pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 ante con-spéc-tum di-vínæ Ma-
+ []
+
+
+Overfull \hbox (0.40784pt too wide) in paragraph at lines 161--161
+\T1/mdbch/m/n/10.95 Dóminum nos-trum. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+
+ []
+
+
+Overfull \hbox (5.92303pt too wide) in paragraph at lines 161--162
+\T1/mdbch/m/it/10.95 un-der-stand-ing and kin-dle my
+ []
+
+
+Overfull \hbox (11.96304pt too wide) in paragraph at lines 161--162
+\T1/mdbch/m/it/10.95 af-fec-tions; that I may worthily,
+ []
+
+
+Overfull \hbox (1.82756pt too wide) in paragraph at lines 161--162
+\T1/mdbch/m/it/10.95 at-ten-tively, and de-voutly say
+ []
+
+
+Overfull \hbox (3.51929pt too wide) in paragraph at lines 161--162
+\T1/mdbch/m/it/10.95 Thy di-vine Majesty. Through
  []
 
 [3
 
 ]
+Overfull \hbox (0.24026pt too wide) in paragraph at lines 167--167
+[]\T1/mdbch/m/n/10.95 Domine, in unióne il-líus di-
+ []
+
+
+Overfull \hbox (16.37206pt too wide) in paragraph at lines 167--167
+\T1/mdbch/m/n/10.95 in ter-ris laudes Deo per-solvísti,
+ []
+
+
+Overfull \hbox (7.9098pt too wide) in paragraph at lines 167--168
+\T1/mdbch/m/it/10.95 didst ren-der praises unto God,
+ []
+
+
+Overfull \hbox (16.03357pt too wide) in paragraph at lines 175--175
+[]\T1/mdbch/m/n/10.95 Ave María, grá-tia plena, Dómi-
+ []
+
+
+Overfull \hbox (15.5774pt too wide) in paragraph at lines 175--175
+\T1/mdbch/m/n/10.95 muliéribus, et benedíc-tus fruc-
+ []
+
+
+Overfull \hbox (6.06743pt too wide) in paragraph at lines 175--175
+\T1/mdbch/m/n/10.95 tus ven-tris tui, Je-sus. Sancta
+ []
+
+
+Overfull \hbox (0.92354pt too wide) in paragraph at lines 175--175
+\T1/mdbch/m/n/10.95 no-bis pec-ca-tóribus, nunc et
+ []
+
+
+Overfull \hbox (10.60449pt too wide) in paragraph at lines 175--175
+\T1/mdbch/m/n/10.95 in hora mor-tis nos-træ. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+
+ []
+
+
+Overfull \hbox (1.85915pt too wide) in paragraph at lines 175--176
+\T1/mdbch/m/it/10.95 art thou among women, and
+ []
+
+
+Overfull \hbox (13.1974pt too wide) in paragraph at lines 175--176
+\T1/mdbch/m/it/10.95 blessed is the fruit of thy womb,
+ []
+
+
+
+[4]
+Overfull \hbox (2.37898pt too wide) in paragraph at lines 185--186
+\T1/mdbch/m/it/10.95 Cross your-self over your heart with your
+ []
+
 Module gregoriotex Info: Processing gabc snippet... on input line 194
-Module gregoriotex Info: will use gregorio-6_0_0 on input line 194
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: will use gregorio on input line 194
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+194
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 8.64006pt on input line 13.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
@@ -1013,82 +1182,359 @@ Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 9.60007pt on input line 194.
 Module gregoriotex Info: Processing gabc snippet... on input line 203
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+203
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Overfull \hbox (10.70346pt too wide) in paragraph at lines 203--204
+[]\T1/mdbch/m/it/10 And turn away Thine
+ []
+
+[5
+
+]
 Module gregoriotex Info: Looking in  on input line 219
 Module gregoriotex Info: Found deus_in_adjutorium_compline.gabc directly on inpu
 t line 219
-Module gregoriotex Info: Looking in  on input line 219
-Module gregoriotex Info: Found deus_in_adjutorium_compline-6_0_0.gtex directly o
-n input line 219
- (./deus_in_adjutorium_compline-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 219
+ (./tmp-gre/deus_in_adjutorium_compline-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 38.40027pt on input line 16.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Module gregoriotex Info: Processing gabc snippet... on input line 231
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [4
-
-]
-Module gregoriotex Info: Looking in  on input line 287
-Module gregoriotex Info: Found psalm_128_1_8G.gabc directly on input line 287
-Module gregoriotex Info: Looking in  on input line 287
-Module gregoriotex Info: Found psalm_128_1_8G-6_0_0.gtex directly on input line 
-287
- (./psalm_128_1_8G-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (5.10335pt too wide) in paragraph at lines 287--287
-\T1/mdbch/m/it/10 my back: they have length-ened their
+Overfull \hbox (1.04881pt too wide) in paragraph at lines 219--219
+[]\T1/mdbch/m/it/10 O God, come to my
  []
 
 
-Overfull \hbox (1.12253pt too wide) in paragraph at lines 287--287
-[]\T1/mdbch/m/it/10 6. Where-with the mower fil-leth not
+Overfull \hbox (3.60239pt too wide) in paragraph at lines 219--219
+[]\T1/mdbch/m/it/10 O Lord, make haste
+ []
+
+
+Overfull \hbox (6.22409pt too wide) in paragraph at lines 219--219
+\T1/mdbch/m/it/10 ther, and to the Son,
+ []
+
+
+Overfull \hbox (14.42828pt too wide) in paragraph at lines 219--219
+\T1/mdbch/m/it/10 and to the Holy Spirit,
+ []
+
+
+Overfull \hbox (7.12071pt too wide) in paragraph at lines 219--219
+\T1/mdbch/m/it/10 gin-ning, is now, and
+ []
+
+
+Overfull \hbox (2.91206pt too wide) in paragraph at lines 219--219
+\T1/mdbch/m/it/10 ever shall be, world
+ []
+
+
+Overfull \hbox (6.4058pt too wide) in paragraph at lines 219--219
+\T1/mdbch/m/it/10 with-out end. Amen. 
+ []
+
+
+Overfull \hbox (7.17662pt too wide) in paragraph at lines 222--223
+[]\T1/mdbch/m/it/10.95 From Sep-tu-a-ges-ima un-til Easter, \T1/mdbch/m/n/10.95
+ Al-leluia
+ []
+
+[6]
+Module gregoriotex Info: Processing gabc snippet... on input line 231
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+231
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Overfull \hbox (14.13365pt too wide) in paragraph at lines 231--232
+[]\T1/mdbch/m/it/10 Praise to thee, O Lord,
+ []
+
+
+Overfull \hbox (0.49857pt too wide) in paragraph at lines 231--232
+\T1/mdbch/m/it/10 King of ev-er-last-ing
+ []
+
+
+Overfull \hbox (12.0017pt too wide) in paragraph at lines 233--234
+\T1/mdbch/m/it/10.95 (us-ing the same tone), with-out an-tiphons.
+ []
+
+[7]
+Module gregoriotex Info: Looking in  on input line 287
+Module gregoriotex Info: Found psalm_128_1_8G.gabc directly on input line 287
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 287
+ (./tmp-gre/psalm_128_1_8G-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (5.08745pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 from my youth: but
+ []
+
+
+Overfull \hbox (0.45064pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 they could not pre-
+ []
+
+
+Overfull \hbox (2.9306pt too wide) in paragraph at lines 287--287
+[]\T1/mdbch/m/it/10 3. The wicked have
+ []
+
+
+Overfull \hbox (19.60274pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 back: they have length-
+ []
+
+
+Overfull \hbox (2.01534pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 ened their in-iq-uity. 
+ []
+
+
+Overfull \hbox (6.66182pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 necks of sin-ners: Let
+ []
+
+
+Overfull \hbox (18.46031pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 them all be con-founded
+ []
+
+
+Overfull \hbox (10.00269pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 and turned back that
+ []
+
+
+Overfull \hbox (16.2139pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 of houses: which with-
+ []
+
+
+Overfull \hbox (21.33073pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 ered be-fore it be plucked
+ []
+
+
+Overfull \hbox (8.17865pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 mower fil-leth not his
+ []
+
+
+Overfull \hbox (5.63463pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 have passed by have
+ []
+
+
+Overfull \hbox (3.13861pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 not said: The bless-
+ []
+
+
+Overfull \hbox (1.66985pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 upon you: we have
+ []
+
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 287.
+[8]
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 287--287
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 287--288
+\T1/mdbch/m/it/10 world with-out end.
  []
 
 Module gregoriotex Info: Looking in  on input line 350
 Module gregoriotex Info: Found psalm_129_1_8G.gabc directly on input line 350
-Module gregoriotex Info: Looking in  on input line 350
-Module gregoriotex Info: Found psalm_129_1_8G-6_0_0.gtex directly on input line 
-350
-(./psalm_129_1_8G-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 350
+(./tmp-gre/psalm_129_1_8G-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Missing character: There is no - (U+002D) in font nullfont!
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 350.
- [5]
+Overfull \hbox (5.34026pt too wide) in paragraph at lines 350--350
+[]\T1/mdbch/m/it/10 1. Out of the depths
+ []
+
+
+Overfull \hbox (2.81134pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 I have cried to thee,
+ []
+
+
+Overfull \hbox (1.63437pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 O Lord: Lord, hear
+ []
+
+
+Overfull \hbox (8.2266pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 wilt mark in-iq-ui-ties:
+ []
+
+
+Overfull \hbox (12.05132pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 Lord, who shall stand
+ []
+
+[9]
+Overfull \hbox (6.7674pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 there is mer-ci-ful for-
+ []
+
+
+Overfull \hbox (10.02185pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 give-ness: and by rea-
+ []
+
+
+Overfull \hbox (9.05525pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 son of thy law, I have
+ []
+
+
+Overfull \hbox (0.20099pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 re-lied on his word:
+ []
+
+
+Overfull \hbox (4.17543pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 my soul hath hoped
+ []
+
+
+Overfull \hbox (0.75139pt too wide) in paragraph at lines 350--350
+[]\T1/mdbch/m/it/10 6. From the morn-
+ []
+
+
+Overfull \hbox (0.91144pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 ing watch even un-
+ []
+
+
+Overfull \hbox (4.09222pt too wide) in paragraph at lines 350--350
+[]\T1/mdbch/m/it/10 7. Be-cause with the
+ []
+
+
+Overfull \hbox (4.8186pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 Lord there is mercy:
+ []
+
+
+Overfull \hbox (1.9194pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 and with him plen-
+ []
+
+
+Overfull \hbox (5.19298pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 deem Is-rael from all
+ []
+
+
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 350--350
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (13.0401pt too wide) in paragraph at lines 350--351
+\T1/mdbch/m/it/10 the be-gin-ning, is now,
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 350--351
+\T1/mdbch/m/it/10 world with-out end.
+ []
+
+[10]
 Module gregoriotex Info: Looking in  on input line 396
 Module gregoriotex Info: Found psalm_130_1_8G.gabc directly on input line 396
-Module gregoriotex Info: Looking in  on input line 396
-Module gregoriotex Info: Found psalm_130_1_8G-6_0_0.gtex directly on input line 
-396
- (./psalm_130_1_8G-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 396
+ (./tmp-gre/psalm_130_1_8G-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [6]
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (9.01385pt too wide) in paragraph at lines 396--396
+\T1/mdbch/m/it/10 walked in great mat-
+ []
+
+
+Overfull \hbox (2.2746pt too wide) in paragraph at lines 396--396
+\T1/mdbch/m/it/10 der-ful things above
+ []
+
+
+Overfull \hbox (13.64343pt too wide) in paragraph at lines 396--396
+[]\T1/mdbch/m/it/10 3. If I was not humbly
+ []
+
+
+Overfull \hbox (5.57126pt too wide) in paragraph at lines 396--396
+\T1/mdbch/m/it/10 minded, but ex-alted
+ []
+
+
+Overfull \hbox (7.79463pt too wide) in paragraph at lines 396--396
+\T1/mdbch/m/it/10 is weaned is to-wards
+ []
+
+
+Overfull \hbox (5.58662pt too wide) in paragraph at lines 396--396
+\T1/mdbch/m/it/10 hence-forth now and
+ []
+
+
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 396--396
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 396--397
+\T1/mdbch/m/it/10 world with-out end.
+ []
+
+[11]
+
+[12]
 Module gregoriotex Info: Looking in  on input line 425
 Module gregoriotex Info: Found memento_rerum_conditor.gabc directly on input lin
 e 425
-Module gregoriotex Info: Looking in  on input line 425
-Module gregoriotex Info: Found memento_rerum_conditor-6_0_0.gtex directly on inp
-ut line 425
-
-(./memento_rerum_conditor-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 425
+ (./tmp-gre/memento_rerum_conditor-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Overfull \hbox (8.45567pt too wide) detected at line 178
 |
  []
@@ -1103,15 +1549,94 @@ Overfull \hbox (8.45567pt too wide) detected at line 724
 |
  []
 
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (7.66083pt too wide) in paragraph at lines 425--425
-\T1/mdbch/m/it/10 That once the form of our flesh, From
+
+Underfull \hbox (badness 3746) in paragraph at lines 8--855
+[][][][][][][] [][][][][][] [][][] [][][] [][][] [][][] [] [] []
  []
 
 
-Overfull \hbox (10.19519pt too wide) in paragraph at lines 425--425
-\T1/mdbch/m/it/10 the Vir-gin's sa-cred womb, Be-ing born,
+Underfull \hbox (badness 5771) in paragraph at lines 8--855
+[][][][][][][] [][][] [][][] [][][][][][] [][][] [][][] [] []  [][][][]
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 8--855
+[][][][][][][][][][][][][][][][][] [][][] [][][] [][][] [] [] [] [] [] [] []
+ []
+
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (6.02562pt too wide) in paragraph at lines 425--425
+[]\T1/mdbch/m/it/10 1. Re-mem-ber, Make
+ []
+
+
+Overfull \hbox (5.70184pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 once the form of our
+ []
+
+
+Overfull \hbox (2.75844pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 flesh, From the Vir-
+ []
+
+
+Overfull \hbox (1.20898pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 gin's sa-cred womb,
+ []
+
+
+Overfull \hbox (4.51527pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 of grace, Sweet par-
+ []
+
+
+Overfull \hbox (11.9073pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 ent of clemency, Thou
+ []
+
+
+Overfull \hbox (1.02661pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 pro-tect us from the
+ []
+
+
+Overfull \hbox (1.9424pt too wide) in paragraph at lines 425--425
+\T1/mdbch/m/it/10 en-emy, And re-ceive
+ []
+
+
+Overfull \hbox (1.52966pt too wide) in paragraph at lines 425--426
+\T1/mdbch/m/it/10 be glory, Who wast
+ []
+
+
+Overfull \hbox (7.63525pt too wide) in paragraph at lines 425--426
+\T1/mdbch/m/it/10 With the Fa-ther, and
+ []
+
+
+Overfull \hbox (14.79692pt too wide) in paragraph at lines 425--426
+\T1/mdbch/m/it/10 the lov-ing Spirit, Unto
+ []
+
+
+Overfull \hbox (25.10666pt too wide) in paragraph at lines 425--426
+\T1/mdbch/m/it/10 sem-piter-nal ages. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+
  []
 
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -1119,52 +1644,213 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
 (Font)              scaled to size 11.52008pt on input line 432.
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Overfull \hbox (10.35503pt too wide) in paragraph at lines 432--432
+|\T1/mdbch/b/n/12 Through-out the Year and in Christ-
+ []
+
+[13] [14]
+Overfull \hbox (0.49284pt too wide) in paragraph at lines 447--448
+\T1/mdbch/m/it/10 fear, and of knowl-
+ []
+
+[15]
+Overfull \hbox (13.38936pt too wide) in paragraph at lines 494--494
+\T1/mdbch/m/n/10.95 sciat repro-bare malu, * et eligere bonum. 
+ []
+
+
+Overfull \hbox (1.08803pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 shall con-ceive, and
+ []
+
+
+Overfull \hbox (0.68484pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 bear a son, and his
+ []
+
+
+Overfull \hbox (6.06662pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 name shall be called
+ []
+
+
+Overfull \hbox (1.57697pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 Em-manuel. But-ter
+ []
+
+
+Overfull \hbox (0.4986pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 and honey shall he
+ []
+
+
+Overfull \hbox (14.89296pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 eat, that he may know
+ []
+
+
+Overfull \hbox (16.99149pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 an-nounced unto Mary.
+ []
+
+
+Overfull \hbox (8.21703pt too wide) in paragraph at lines 494--495
+[][]\T1/mdbch/m/it/10 R. And she con-ceived
+ []
+
+
+Overfull \hbox (8.52724pt too wide) in paragraph at lines 494--495
+[][]\T1/mdbch/m/it/10 V. Pray for us, O holy
+ []
+
+
+Overfull \hbox (3.16742pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 made wor-thy of the
+ []
+
+
+Overfull \hbox (0.75774pt too wide) in paragraph at lines 494--495
+\T1/mdbch/m/it/10 promises of Christ.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
-[7]
-Overfull \hbox (7.83365pt too wide) in paragraph at lines 494--495
-\T1/mdbch/m/it/10 honey shall he eat, that he may know
+
+
+[16]
+Overfull \hbox (1.559pt too wide) in paragraph at lines 504--505
+\T1/mdbch/m/it/10.95 All stand and re-main stand-ing through-
  []
 
-[8]
+
+Overfull \hbox (0.66548pt too wide) in paragraph at lines 504--505
+\T1/mdbch/m/it/10.95 Nunc Dimit-tis (the Can-ti-cle of Simeon).
+ []
+
+
+Overfull \hbox (6.52492pt too wide) in paragraph at lines 504--505
+\T1/mdbch/m/it/10.95 Nunc Dimit-tis, which has a dif-fer-ent tone
+ []
+
 Module gregoriotex Info: Looking in  on input line 516
 Module gregoriotex Info: Found nunc_dimittis_antiphon_per_annum.gabc directly on
  input line 516
-Module gregoriotex Info: Looking in  on input line 516
-Module gregoriotex Info: Found nunc_dimittis_antiphon_per_annum-6_0_0.gtex direc
-tly on input line 516
- (./nunc_dimittis_antiphon_per_annum-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (14.89844pt too wide) in paragraph at lines 516--517
-[]\T1/mdbch/m/it/10 We fly to thy pa-tron-age, O holy Mother
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 516
+(./tmp-gre/nunc_dimittis_antiphon_per_annum-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Overfull \hbox (20.33447pt too wide) in paragraph at lines 9--543
+[] [][][] [][][][][][] [][][][][][] [][][] [][][] [][][][][][][][][][]
  []
 
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (19.6057pt too wide) in paragraph at lines 516--517
+\T1/mdbch/m/it/10 tron-age, O holy Mother
+ []
+
+
+Overfull \hbox (2.0538pt too wide) in paragraph at lines 516--517
+\T1/mdbch/m/it/10 of God: de-spise not
+ []
+
+
+Overfull \hbox (3.12901pt too wide) in paragraph at lines 516--517
+\T1/mdbch/m/it/10 our pe-ti-tions in our
+ []
+
+
+Overfull \hbox (0.2842pt too wide) in paragraph at lines 516--517
+\T1/mdbch/m/it/10 ne-ces-si-ties; but de-
+ []
+
+
+Overfull \hbox (5.95142pt too wide) in paragraph at lines 516--517
+\T1/mdbch/m/it/10 liver us al-ways from
+ []
+
+
+Overfull \hbox (10.96263pt too wide) in paragraph at lines 516--517
+\T1/mdbch/m/it/10 ri-ous and blessed Vir-
+ []
+
+[17]
 Module gregoriotex Info: Looking in  on input line 552
 Module gregoriotex Info: Found nunc_dimittis_intonation_per_annum.gabc directly 
 on input line 552
-Module gregoriotex Info: Looking in  on input line 552
-Module gregoriotex Info: Found nunc_dimittis_intonation_per_annum-6_0_0.gtex dir
-ectly on input line 552
-(./nunc_dimittis_intonation_per_annum-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 552
+ (./tmp-gre/nunc_dimittis_intonation_per_annum-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 4634) in paragraph at lines 11--241
+[][] [][][] [][][] [][][] [][][] [][][][][][] [][][] [][][][]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [9]
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (4.80898pt too wide) in paragraph at lines 552--552
+\T1/mdbch/m/it/10 dis-miss thy ser-vant,
+ []
+
+
+Overfull \hbox (19.78513pt too wide) in paragraph at lines 552--552
+\T1/mdbch/m/it/10 ac-cord-ing to they word. 
+ []
+
+
+Overfull \hbox (0.21379pt too wide) in paragraph at lines 552--552
+[]\T1/mdbch/m/it/10 3. Which thou has
+ []
+
+
+Overfull \hbox (7.8522pt too wide) in paragraph at lines 552--552
+\T1/mdbch/m/it/10 pre-pared: be-fore the
+ []
+
+[18]
+Overfull \hbox (4.473pt too wide) in paragraph at lines 552--552
+\T1/mdbch/m/it/10 lighten the gen-tiles:
+ []
+
+
+Overfull \hbox (3.37865pt too wide) in paragraph at lines 552--552
+\T1/mdbch/m/it/10 and the glory of thy
+ []
+
+
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 552--552
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 552--553
+\T1/mdbch/m/it/10 world with-out end.
+ []
+
+
+Overfull \hbox (6.40504pt too wide) in paragraph at lines 554--555
+\T1/mdbch/m/it/10.95 The an-tiphon is re-peated (Sub tuum...);
+ []
+
+
+
+[19]
 Module gregoriotex Info: Looking in  on input line 572
 Module gregoriotex Info: Found regina_coeli_paschal.gabc directly on input line 
 572
-Module gregoriotex Info: Looking in  on input line 572
-Module gregoriotex Info: Found regina_coeli_paschal-6_0_0.gtex directly on input
- line 572
-
-(./regina_coeli_paschal-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 572
+ (./tmp-gre/regina_coeli_paschal-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 LaTeX Font Info:    Font shape `T1/mdbch/m/fsc' will be
 (Font)              scaled to size 10.51207pt on input line 11.
 LaTeX Font Info:    Font shape `T1/mdbch/b/fsc' will be
@@ -1173,345 +1859,1426 @@ LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
 (Font)              scaled to size 10.51207pt on input line 11.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (2.30977pt too wide) in paragraph at lines 572--573
-\T1/mdbch/m/it/10 For he whom thou was meet to bear,
+Overfull \hbox (7.67369pt too wide) in paragraph at lines 572--573
+\T1/mdbch/m/it/10 Queen of heaven, re-
  []
 
 
-Overfull \hbox (0.4831pt too wide) in paragraph at lines 572--573
-\T1/mdbch/m/it/10 al-leluia. Hath arisen, as he as said,
+Overfull \hbox (0.69063pt too wide) in paragraph at lines 572--573
+\T1/mdbch/m/it/10 he whom thou was
+ []
+
+
+Overfull \hbox (11.87848pt too wide) in paragraph at lines 572--573
+\T1/mdbch/m/it/10 meet to bear, al-leluia.
+ []
+
+
+Overfull \hbox (13.20647pt too wide) in paragraph at lines 572--573
+\T1/mdbch/m/it/10 as said, al-leluia. Pray
  []
 
 Module gregoriotex Info: Looking in  on input line 608
 Module gregoriotex Info: Found nunc_dimittis_intonation_paschal.gabc directly on
  input line 608
-Module gregoriotex Info: Looking in  on input line 608
-Module gregoriotex Info: Found nunc_dimittis_intonation_paschal-6_0_0.gtex direc
-tly on input line 608
-(./nunc_dimittis_intonation_paschal-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 608
+(./tmp-gre/nunc_dimittis_intonation_paschal-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 4634) in paragraph at lines 11--245
+[][] [][][] [][][] [][][] [][][] [][][][][][] [][][][][] [][][][]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [10]
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (4.80898pt too wide) in paragraph at lines 608--608
+\T1/mdbch/m/it/10 dis-miss thy ser-vant,
+ []
+
+
+Overfull \hbox (19.78513pt too wide) in paragraph at lines 608--608
+\T1/mdbch/m/it/10 ac-cord-ing to they word. 
+ []
+
+[20]
+Overfull \hbox (0.21379pt too wide) in paragraph at lines 608--608
+[]\T1/mdbch/m/it/10 3. Which thou has
+ []
+
+
+Overfull \hbox (7.8522pt too wide) in paragraph at lines 608--608
+\T1/mdbch/m/it/10 pre-pared: be-fore the
+ []
+
+
+Overfull \hbox (4.473pt too wide) in paragraph at lines 608--608
+\T1/mdbch/m/it/10 lighten the gen-tiles:
+ []
+
+
+Overfull \hbox (3.37865pt too wide) in paragraph at lines 608--608
+\T1/mdbch/m/it/10 and the glory of thy
+ []
+
+
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 608--608
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 608--609
+\T1/mdbch/m/it/10 world with-out end.
+ []
+
+
+Overfull \hbox (15.7292pt too wide) in paragraph at lines 610--611
+\T1/mdbch/m/it/10.95 The an-tiphon is re-peated (Regina coeli...);
+ []
+
+[21]
 Module gregoriotex Info: Looking in  on input line 625
 Module gregoriotex Info: Found nunc_dimittis_antiphon_adventus.gabc directly on 
 input line 625
-Module gregoriotex Info: Looking in  on input line 625
-Module gregoriotex Info: Found nunc_dimittis_antiphon_adventus-6_0_0.gtex direct
-ly on input line 625
-
-(./nunc_dimittis_antiphon_adventus-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 625
+ (./tmp-gre/nunc_dimittis_antiphon_adventus-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (8.53384pt too wide) in paragraph at lines 625--626
+\T1/mdbch/m/it/10 The Holy Ghost shall
+ []
+
+
+Overfull \hbox (17.42735pt too wide) in paragraph at lines 625--626
+\T1/mdbch/m/it/10 come upon thee, Mary:
+ []
+
+
+Overfull \hbox (2.76807pt too wide) in paragraph at lines 625--626
+\T1/mdbch/m/it/10 fear not, thou shalt
+ []
+
+
+Overfull \hbox (5.10666pt too wide) in paragraph at lines 625--626
+\T1/mdbch/m/it/10 ber in thy womb the
+ []
+
+
+Overfull \hbox (7.29927pt too wide) in paragraph at lines 625--626
+\T1/mdbch/m/it/10 Son of God, al-leluia.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
+
+ []
+
 Module gregoriotex Info: Looking in  on input line 661
 Module gregoriotex Info: Found nunc_dimittis_intonation_advent.gabc directly on 
 input line 661
-Module gregoriotex Info: Looking in  on input line 661
-Module gregoriotex Info: Found nunc_dimittis_intonation_advent-6_0_0.gtex direct
-ly on input line 661
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 661
+(./tmp-gre/nunc_dimittis_intonation_advent-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 4872) in paragraph at lines 11--241
+[][] [][][] [][][] [][][] [][][] [][][][][][] [][][] [][][][]
+ []
 
-(./nunc_dimittis_intonation_advent-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [11]
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (4.80898pt too wide) in paragraph at lines 661--661
+\T1/mdbch/m/it/10 dis-miss thy ser-vant,
+ []
+
+
+Overfull \hbox (19.78513pt too wide) in paragraph at lines 661--661
+\T1/mdbch/m/it/10 ac-cord-ing to they word. 
+ []
+
+
+Overfull \hbox (0.21379pt too wide) in paragraph at lines 661--661
+[]\T1/mdbch/m/it/10 3. Which thou has
+ []
+
+
+Overfull \hbox (7.8522pt too wide) in paragraph at lines 661--661
+\T1/mdbch/m/it/10 pre-pared: be-fore the
+ []
+
+
+Overfull \hbox (4.473pt too wide) in paragraph at lines 661--661
+\T1/mdbch/m/it/10 lighten the gen-tiles:
+ []
+
+
+Overfull \hbox (3.37865pt too wide) in paragraph at lines 661--661
+\T1/mdbch/m/it/10 and the glory of thy
+ []
+
+[22]
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 661--661
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 661--662
+\T1/mdbch/m/it/10 world with-out end.
+ []
+
+
+Overfull \hbox (3.97678pt too wide) in paragraph at lines 663--664
+\T1/mdbch/m/it/10.95 The an-tiphon is re-peated (Spir-i-tus Sanc-
+ []
+
+
+
+[23]
 Module gregoriotex Info: Looking in  on input line 682
 Module gregoriotex Info: Found nunc_dimittis_antiphon_christmastide.gabc directl
 y on input line 682
-Module gregoriotex Info: Looking in  on input line 682
-Module gregoriotex Info: Found nunc_dimittis_antiphon_christmastide-6_0_0.gtex d
-irectly on input line 682
-
-(./nunc_dimittis_antiphon_christmastide-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 682
+ (./tmp-gre/nunc_dimittis_antiphon_christmastide-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (4.83261pt too wide) in paragraph at lines 682--683
-\T1/mdbch/m/it/10 all na-tions shall come, say-ing, Glory
+Overfull \hbox (17.46187pt too wide) in paragraph at lines 682--683
+\T1/mdbch/m/it/10 in-her-i-tance: the womb
  []
 
+
+Overfull \hbox (1.78499pt too wide) in paragraph at lines 682--683
+\T1/mdbch/m/it/10 de-filed: all na-tions
+ []
+
+
+Overfull \hbox (1.74081pt too wide) in paragraph at lines 682--683
+\T1/mdbch/m/it/10 shall come, say-ing,
+ []
+
+[24]
 Module gregoriotex Info: Looking in  on input line 718
 Module gregoriotex Info: Found nunc_dimittis_intonation_christmastide.gabc direc
 tly on input line 718
-Module gregoriotex Info: Looking in  on input line 718
-Module gregoriotex Info: Found nunc_dimittis_intonation_christmastide-6_0_0.gtex
- directly on input line 718
-(./nunc_dimittis_intonation_christmastide-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 718
+ (./tmp-gre/nunc_dimittis_intonation_christmastide-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 2922) in paragraph at lines 11--186
+[][] [][][] [][][] [][][] [][][] [][][][][][] [][][] [][][][]
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 11--186
+[][][][][][][] [][][] [] [] []  [][][] [][][][][][] [][][][][][][]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.) [12]
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
+Overfull \hbox (4.80898pt too wide) in paragraph at lines 718--718
+\T1/mdbch/m/it/10 dis-miss thy ser-vant,
+ []
+
+
+Overfull \hbox (19.78513pt too wide) in paragraph at lines 718--718
+\T1/mdbch/m/it/10 ac-cord-ing to they word. 
+ []
+
+
+Overfull \hbox (0.21379pt too wide) in paragraph at lines 718--718
+[]\T1/mdbch/m/it/10 3. Which thou has
+ []
+
+
+Overfull \hbox (7.8522pt too wide) in paragraph at lines 718--718
+\T1/mdbch/m/it/10 pre-pared: be-fore the
+ []
+
+
+Overfull \hbox (4.473pt too wide) in paragraph at lines 718--718
+\T1/mdbch/m/it/10 lighten the gen-tiles:
+ []
+
+
+Overfull \hbox (3.37865pt too wide) in paragraph at lines 718--718
+\T1/mdbch/m/it/10 and the glory of thy
+ []
+
+
+Overfull \hbox (7.28012pt too wide) in paragraph at lines 718--718
+\T1/mdbch/m/it/10 Son, and to the Holy
+ []
+
+
+Overfull \hbox (2.36102pt too wide) in paragraph at lines 718--719
+\T1/mdbch/m/it/10 world with-out end.
+ []
+
+
+Overfull \hbox (3.57729pt too wide) in paragraph at lines 720--721
+\T1/mdbch/m/it/10.95 The an-tiphon is re-peated (Mag-num...);
+ []
+
+[25]
+
+[26]
+Overfull \hbox (7.01474pt too wide) in paragraph at lines 728--729
+\T1/mdbch/m/it/10.95 All re-main stand-ing as the Of-fi-ciant says:
+ []
+
 Module gregoriotex Info: Processing gabc snippet... on input line 741
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+741
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
 Module gregoriotex Info: Processing gabc snippet... on input line 741
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+741
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Underfull \hbox (badness 10000) in paragraph at lines 741--742
-
+Overfull \hbox (3.39174pt too wide) in paragraph at lines 764--764
+[]\T1/mdbch/m/n/10.95 Oré-mus. Beatæ et glo-riosæ sem-perque
  []
 
 
-Overfull \hbox (11.20323pt too wide) in paragraph at lines 764--764
-\T1/mdbch/m/it/10 Christ thy son, who livest and reignest
+Overfull \hbox (0.42868pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/n/10.95 Vir-gi-nis Mariæ, \gre@font@variant@D  \T1/mdbch/m/n/10
+.95 quæ-sumus, Domine,
  []
 
 
-Overfull \hbox (2.2905pt too wide) in paragraph at lines 781--781
-\T1/mdbch/m/it/10 Through the same Lord Je-sus Christ
+Overfull \hbox (1.90585pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/n/10.95 in-ter-ces-sio glo-rio\T1/mdbch/m/it/10.95 sa nos\T1/mdbch/
+b/n/10.95 pro\T1/mdbch/m/n/10.95 tegat: et ad
  []
 
 
-Overfull \hbox (4.87682pt too wide) in paragraph at lines 781--781
-\T1/mdbch/m/it/10 thy son, who livest and reignest with
+Overfull \hbox (16.31102pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/n/10.95 vi-tam per-d-u-cat æter-nam. * Per Dominum
  []
 
-[13]
+
+Overfull \hbox (3.57748pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/n/10.95 nos-trum Je-sum Chris-tum Fil-ium tuum,
+ []
+
+
+Overfull \hbox (10.24622pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/n/10.95 Spir-i-tus \T1/mdbch/m/it/10.95 Sancti \T1/mdbch/b/n/10.95 
+De\T1/mdbch/m/n/10.95 us, * Per óm-nia s[]æcula 
+ []
+
+
+Overfull \hbox (0.5946pt too wide) in paragraph at lines 764--764
+[]\T1/mdbch/m/it/10 Let the glo-ri-ous in-
+ []
+
+
+Overfull \hbox (19.41069pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/it/10 ter-ces-sion of the blessed
+ []
+
+
+Overfull \hbox (2.39362pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/it/10 ever Vir-gin, pro-tect
+ []
+
+
+Overfull \hbox (6.34888pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/it/10 us, we be-seech Thee,
+ []
+
+
+Overfull \hbox (9.17703pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/it/10 Lord Je-sus Christ thy
+ []
+
+
+Overfull \hbox (1.98087pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/it/10 son, who livest and
+ []
+
+
+Overfull \hbox (9.94888pt too wide) in paragraph at lines 764--764
+\T1/mdbch/m/it/10 Holy Spirit, one God,
+ []
+
+[27]
+Overfull \hbox (10.06659pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/n/10.95 eam Gen-i-tricem \T1/mdbch/m/it/10.95 DeI cre\T1/mdbch/b/n/
+10.95 di\T1/mdbch/m/n/10.95 mus, ejus apud
+ []
+
+
+Overfull \hbox (14.62566pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/n/10.95 eu-n-dem Dominum nos-trum Je-sum Chris-
+ []
+
+
+Overfull \hbox (16.07948pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 pleased that thy Word,
+ []
+
+
+Overfull \hbox (12.08012pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 an An-gel, should take
+ []
+
+
+Overfull \hbox (12.58511pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 to be truly the Mother
+ []
+
+
+Overfull \hbox (1.90019pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 as-sisted also by her
+ []
+
+
+Overfull \hbox (16.61705pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 same Lord Je-sus Christ
+ []
+
+
+Overfull \hbox (0.35461pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 thee in the unity of
+ []
+
+
+Overfull \hbox (3.62245pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 the Holy Spirit, one
+ []
+
+
+Overfull \hbox (12.46408pt too wide) in paragraph at lines 781--781
+\T1/mdbch/m/it/10 God, for-ever and ever. 
+ []
+
+
+Overfull \vbox (7.59987pt too high) has occurred while \output is active []
+
+
+[28]
+Overfull \hbox (13.91216pt too wide) in paragraph at lines 799--799
+[]\T1/mdbch/m/n/10.95 Oré-mus. Deus, qui salutis æternæ, beatæ
+ []
+
+
+Overfull \hbox (10.32333pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/n/10.95 generi præmia præsti-tisti; \gre@font@variant@D  \T1/m
+dbch/m/n/10.95 tribue, quæ-
+ []
+
+
+Overfull \hbox (0.39647pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/n/10.95 sumus, ut ip-sam pro no-bis in-ter-cedere
+ []
+
+
+Overfull \hbox (0.9852pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/n/10.95 suscipere, * Dominum nos-trum Je-sum
+ []
+
+
+Overfull \hbox (10.263pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/n/10.95 et reg-nat in unitáte Spir-i-tus \T1/mdbch/m/it/10.95 Sanct
+i \T1/mdbch/b/n/10.95 De\T1/mdbch/m/n/10.95 us,
+ []
+
+
+Overfull \hbox (1.12256pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 fruit-ful vir-gin-ity of
+ []
+
+
+Overfull \hbox (13.6545pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 the blessed Mary, hast
+ []
+
+
+Overfull \hbox (3.07141pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 the re-wards of eter-
+ []
+
+
+Overfull \hbox (8.50183pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 nal sal-va-tion; grant,
+ []
+
+
+Overfull \hbox (9.3153pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 we be-seech thee, that
+ []
+
+
+Overfull \hbox (0.55617pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 we may ex-pe-ri-ence
+ []
+
+
+Overfull \hbox (26.12495pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 her in-ter-ces-sion, through
+ []
+
+
+Overfull \hbox (4.21382pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 ceived the au-thor of
+ []
+
+
+Overfull \hbox (22.09871pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 Who liveth and reigneth
+ []
+
+
+Overfull \hbox (10.81868pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 with thee in the unity
+ []
+
+
+Overfull \hbox (8.95049pt too wide) in paragraph at lines 799--799
+\T1/mdbch/m/it/10 one God, for-ever and
+ []
+
 Module gregoriotex Info: Processing gabc snippet... on input line 812
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+812
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
 Module gregoriotex Info: Processing gabc snippet... on input line 812
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+812
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
-
- []
-
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'. [29]
 Module gregoriotex Info: Processing gabc snippet... on input line 823
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+823
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Module gregoriotex Info: Processing gabc snippet... on input line 834
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
-Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
-Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (13.74149pt too wide) in paragraph at lines 834--835
-\T1/mdbch/m/it/10 Lord, Fa-ther and Son, and Holy Ghost,
+Overfull \hbox (0.15616pt too wide) in paragraph at lines 823--824
+\T1/mdbch/m/it/10 Lord. [][]V. Thanks be
  []
 
-[14]
+Module gregoriotex Info: Processing gabc snippet... on input line 834
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+834
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
+Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
+Overfull \hbox (5.193pt too wide) in paragraph at lines 834--835
+[][][]\T1/mdbch/m/it/10 V. May the almighty
+ []
+
+
+Overfull \hbox (0.22015pt too wide) in paragraph at lines 834--835
+\T1/mdbch/m/it/10 and mer-ci-ful Lord,
+ []
+
+
+Overfull \hbox (7.35687pt too wide) in paragraph at lines 834--835
+\T1/mdbch/m/it/10 Fa-ther and Son, and
+ []
+
+
+Overfull \hbox (11.51372pt too wide) in paragraph at lines 834--835
+\T1/mdbch/m/it/10 Holy Ghost, bless and
+ []
+
+
+Overfull \hbox (12.56902pt too wide) in paragraph at lines 834--835
+\T1/mdbch/m/it/10 pre-serve us. [][]R. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--835
+
+ []
+
+
+Overfull \hbox (10.93578pt too wide) in paragraph at lines 838--839
+\T1/mdbch/m/it/10.95 to the sea-son and is led by the Lec-tor/Can-
+ []
+
+
+Overfull \hbox (3.58784pt too wide) in paragraph at lines 838--839
+\T1/mdbch/m/it/10.95 The in-di-vid-ual col-lect fol-low-ing each an-
+ []
+
+
+Overfull \hbox (2.91508pt too wide) in paragraph at lines 840--841
+[]\T1/mdbch/m/it/10.95 From Christ-mas Day to the Pu-rifi-ca-tion,
+ []
+
+[30]
+
+[31]
 Module gregoriotex Info: Looking in  on input line 863
 Module gregoriotex Info: Found alma_redemptoris_mater.gabc directly on input lin
 e 863
-Module gregoriotex Info: Looking in  on input line 863
-Module gregoriotex Info: Found alma_redemptoris_mater-6_0_0.gtex directly on inp
-ut line 863
- (./alma_redemptoris_mater-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 863
+ (./tmp-gre/alma_redemptoris_mater-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 1184) in paragraph at lines 11--825
+[] [][][] [][][][][] [] [][][] [] [] [][][] [][][][][][][] [][][][][]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (0.63881pt too wide) in paragraph at lines 883--883
-\T1/mdbch/m/n/10.95 suscipere, * Dominum nos-trum Je-sum Chris-tum Fil-ium tuum
-, qui tecum
+Overfull \hbox (0.69934pt too wide) in paragraph at lines 863--863
+[]\T1/mdbch/m/it/10 O lov-ing Mother of
  []
 
 
-Overfull \hbox (0.26875pt too wide) in paragraph at lines 883--883
-\T1/mdbch/m/it/10 have re-ceived the au-thor of life, our
+Overfull \hbox (3.69923pt too wide) in paragraph at lines 863--863
+\T1/mdbch/m/it/10 Our Re-deemer, gate
  []
 
 
-Overfull \hbox (9.78627pt too wide) in paragraph at lines 883--883
-\T1/mdbch/m/it/10 Lord Je-sus Christ, thy Son, who liveth
+Overfull \hbox (0.42183pt too wide) in paragraph at lines 863--863
+[]\T1/mdbch/m/it/10 Thou who brought
  []
 
-[15]
+
+Overfull \hbox (37.27063pt too wide) in paragraph at lines 863--863
+\T1/mdbch/m/it/10 ator, all cre-ation wond'ring, 
+ []
+
+
+Overfull \hbox (3.3824pt too wide) in paragraph at lines 863--863
+\T1/mdbch/m/it/10 Vir-gin, tak-ing from
+ []
+
+
+Overfull \hbox (7.77548pt too wide) in paragraph at lines 863--864
+\T1/mdbch/m/it/10 be mer-fi-cul to us sin-
+ []
+
+[32]
+Overfull \hbox (13.91216pt too wide) in paragraph at lines 883--883
+[]\T1/mdbch/m/n/10.95 Oré-mus. Deus, qui salutis æternæ, beatæ
+ []
+
+
+Overfull \hbox (19.88577pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/n/10.95 Mariæ vir-gini-tate fe-cunda, hu-mano generi
+ []
+
+
+Overfull \hbox (9.96944pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/n/10.95 præmia præsti-tisti: \gre@font@variant@D  \T1/mdbch/m/
+n/10.95 tribue, quæ-sumus;
+ []
+
+
+Overfull \hbox (2.85638pt too wide) in paragraph at lines 883--883
+\T1/mdbch/b/n/10.95 a\T1/mdbch/m/n/10.95 mus, * per quam meruimus auc-torem
+ []
+
+
+Overfull \hbox (10.23584pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/n/10.95 Je-sum Chris-tum Fil-ium tuum, qui tecum
+ []
+
+
+Overfull \hbox (3.90321pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/n/10.95 vivit et reg-nat in unitáte Spir-i-tus \T1/mdbch/m/it/10.9
+5 Sancti
+ []
+
+
+Overfull \hbox (0.46977pt too wide) in paragraph at lines 883--883
+[][][]\T1/mdbch/m/it/10 R. In-ter-cede for us,
+ []
+
+
+Overfull \hbox (1.93588pt too wide) in paragraph at lines 883--883
+[]\T1/mdbch/m/it/10 O God, who, by the
+ []
+
+
+Overfull \hbox (13.6545pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 the blessed Mary, hast
+ []
+
+
+Overfull \hbox (3.07141pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 the re-wards of eter-
+ []
+
+
+Overfull \hbox (7.99046pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 nal sal-va-tion, grant,
+ []
+
+
+Overfull \hbox (5.14888pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 we be-seech thee, the
+ []
+
+
+Overfull \hbox (0.55617pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 we may ex-pe-ri-ence
+ []
+
+
+Overfull \hbox (2.38016pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 her in-ter-ces-sion for
+ []
+
+
+Overfull \hbox (6.68103pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 we have re-ceived the
+ []
+
+
+Overfull \hbox (2.96968pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 thy Son, who liveth
+ []
+
+
+Overfull \hbox (0.35461pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 thee in the unity of
+ []
+
+
+Overfull \hbox (3.90085pt too wide) in paragraph at lines 883--883
+\T1/mdbch/m/it/10 the Holy Spirit, for-
+ []
+
+[33]
+
+[34]
 Module gregoriotex Info: Looking in  on input line 907
 Module gregoriotex Info: Found ave_regina_caelorum_simple_tone.gabc directly on 
 input line 907
-Module gregoriotex Info: Looking in  on input line 907
-Module gregoriotex Info: Found ave_regina_caelorum_simple_tone-6_0_0.gtex direct
-ly on input line 907
- (./ave_regina_caelorum_simple_tone-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 907
+ (./tmp-gre/ave_regina_caelorum_simple_tone-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 3657) in paragraph at lines 11--660
+[][][][][][][][] [][][] [][][][] [][][][][][][] [][][][][][][][] [] []  [][][][
+]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (4.87592pt too wide) in paragraph at lines 907--908
-[]\T1/mdbch/m/it/10 Hail, O Queen of Heav'n en-throne'd!
+Overfull \hbox (2.62018pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 Heav'n en-throne'd!
  []
 
 
-Overfull \hbox (5.27357pt too wide) in paragraph at lines 907--908
-\T1/mdbch/m/it/10 Hail, by an-gles mis-tress own'd! Root
+Overfull \hbox (4.49605pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 Hail, by an-gles mis-
  []
 
 
-Overfull \hbox (6.38339pt too wide) in paragraph at lines 907--908
-\T1/mdbch/m/it/10 the world's true Light was born. Glo-
+Overfull \hbox (18.76108pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 of Jess! Gate of mourn!
  []
 
-[16]
+
+Overfull \hbox (3.06181pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 Whence the world's
+ []
+
+
+Overfull \hbox (6.48904pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 true Light was born.
+ []
+
+
+Overfull \hbox (4.28482pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 Glo-ri-ous Vir-gin, joy
+ []
+
+
+Overfull \hbox (19.01135pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 to thee, Loveli-est whom
+ []
+
+
+Overfull \hbox (2.1786pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 in Heaven they see:
+ []
+
+
+Overfull \hbox (0.33537pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 Fairest thou where
+ []
+
+
+Overfull \hbox (0.59459pt too wide) in paragraph at lines 907--908
+\T1/mdbch/m/it/10 with Chrit our sins
+ []
+
+[35]
+Overfull \hbox (5.21088pt too wide) in paragraph at lines 925--925
+[][][]\T1/mdbch/m/n/10.95 V. Dignare me lau-dare te, Virgo sacrata. 
+ []
+
+
+Overfull \hbox (4.06094pt too wide) in paragraph at lines 925--925
+[][][]\T1/mdbch/m/n/10.95 R. Da mihi vir-tutem con-tra hostes tuos. 
+ []
+
+
+Overfull \hbox (16.81206pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/n/10.95 sanctæ Dei Gen-etri-cis memo-\T1/mdbch/m/it/10.95 riam \T1
+/mdbch/b/n/10.95 a\T1/mdbch/m/n/10.95 gimus;
+ []
+
+
+Overfull \hbox (0.38722pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 may praise thee, O
+ []
+
+
+Overfull \hbox (3.6666pt too wide) in paragraph at lines 925--925
+[][][]\T1/mdbch/m/it/10 R. Give me strength
+ []
+
+
+Overfull \hbox (13.98004pt too wide) in paragraph at lines 925--925
+[]\T1/mdbch/m/it/10 Grant, O meci-ful God,
+ []
+
+
+Overfull \hbox (12.94989pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 sup-port to our frailty;
+ []
+
+
+Overfull \hbox (1.23778pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 mem-o-rate the holy
+ []
+
+
+Overfull \hbox (7.95206pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 Mother of God, may,
+ []
+
+
+Overfull \hbox (15.32484pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 in-ter-es-sion, arise from
+ []
+
+
+Overfull \hbox (20.76746pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 our in-iq-ui-ties. Through
+ []
+
+
+Overfull \hbox (8.72968pt too wide) in paragraph at lines 925--925
+\T1/mdbch/m/it/10 the same Christ, Our
+ []
+
+
+
+[36]
 Module gregoriotex Info: Looking in  on input line 945
 Module gregoriotex Info: Found regina_coeli_simple_tone.gabc directly on input l
 ine 945
-Module gregoriotex Info: Looking in  on input line 945
-Module gregoriotex Info: Found regina_coeli_simple_tone-6_0_0.gtex directly on i
-nput line 945
- (./regina_coeli_simple_tone-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 945
+ (./tmp-gre/regina_coeli_simple_tone-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 1259) in paragraph at lines 11--480
+[] [][][] [][][] [][][] [][][][] [][][] [][][] [] [] [][][][][] [][][][]
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 11--480
+[][][][][][] [][][][][][][][][] [][][] [][][] [] [] []  [][][] [][][][][] [][][
+][]
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 11--480
+[][][][][] [][][] [][][][][][] [][][] [][][][][][][] [][][][][] [][][][][][][][
+][] [][][][]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (2.30977pt too wide) in paragraph at lines 945--946
-\T1/mdbch/m/it/10 For he whom thou was meet to bear,
+Overfull \hbox (7.67369pt too wide) in paragraph at lines 945--946
+[]\T1/mdbch/m/it/10 Queen of heaven, re-
  []
 
 
-Overfull \hbox (0.4831pt too wide) in paragraph at lines 945--946
-\T1/mdbch/m/it/10 al-leluia. Hath arisen, as he as said,
+Overfull \hbox (0.69063pt too wide) in paragraph at lines 945--946
+\T1/mdbch/m/it/10 he whom thou was
  []
 
 
-Overfull \hbox (2.91913pt too wide) in paragraph at lines 966--966
-[]\T1/mdbch/m/n/10.95 Oré-mus. Deus, qui per res-ur-rec-tionem Filii tui Do-mi
-ni nos-tri Jesu Christi
+Overfull \hbox (11.87848pt too wide) in paragraph at lines 945--946
+\T1/mdbch/m/it/10 meet to bear, al-leluia.
  []
 
 
-Overfull \hbox (9.38792pt too wide) in paragraph at lines 966--966
-[][][]\T1/mdbch/m/it/10 V. Re-joice and be glad, O Vir-gin Mary:
+Overfull \hbox (13.20647pt too wide) in paragraph at lines 945--946
+\T1/mdbch/m/it/10 as said, al-leluia. Pray
  []
 
 
-Overfull \hbox (6.46318pt too wide) in paragraph at lines 966--966
-[]\T1/mdbch/m/it/10 Let us pray. O God, who didst vouch-
+Overfull \hbox (6.66162pt too wide) in paragraph at lines 966--966
+[][][]\T1/mdbch/m/n/10.95 R. Quia sur-rexit Domi-nus vere, al-leluia. 
  []
 
 
-Overfull \hbox (1.94499pt too wide) in paragraph at lines 966--966
-\T1/mdbch/m/it/10 safe to give joy to the world through
+Overfull \hbox (2.82831pt too wide) in paragraph at lines 966--966
+[]\T1/mdbch/m/n/10.95 Oré-mus. Deus, qui per res-ur-rec-tionem
  []
 
 
-Overfull \hbox (2.12735pt too wide) in paragraph at lines 966--966
-\T1/mdbch/m/it/10 the res-ur-rec-tion of thy Son our Lord
+Overfull \hbox (1.81134pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/n/10.95 mundum læti-fi-ca\T1/mdbch/m/it/10.95 re di\T1/mdbch/b/n/1
+0.95 gna\T1/mdbch/m/n/10.95 tus es: ut per
  []
 
 
-Overfull \hbox (4.36478pt too wide) in paragraph at lines 966--966
-\T1/mdbch/m/it/10 Je-sus Christ; grant, we be-seech thee,
+Overfull \hbox (4.21866pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/n/10.95 ejus Gen-et-ricem Vir-ginem Mariam per-
  []
 
-[17]
+
+Overfull \hbox (12.85385pt too wide) in paragraph at lines 966--966
+[][][]\T1/mdbch/m/it/10 V. Re-joice and be glad,
+ []
+
+
+Overfull \hbox (0.5841pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 O Vir-gin Mary: al-
+ []
+
+
+Overfull \hbox (5.82663pt too wide) in paragraph at lines 966--966
+[][][]\T1/mdbch/m/it/10 R. For the Lord hath
+ []
+
+
+Overfull \hbox (13.7082pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 risen in-deed: al-leluia. 
+ []
+
+[37]
+Overfull \hbox (2.82414pt too wide) in paragraph at lines 966--966
+[]\T1/mdbch/m/it/10 Let us pray. O God,
+ []
+
+
+Overfull \hbox (6.22983pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 who didst vouch-safe
+ []
+
+
+Overfull \hbox (0.9786pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 Son our Lord Je-sus
+ []
+
+
+Overfull \hbox (5.08739pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 through his mother,
+ []
+
+
+Overfull \hbox (4.40002pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 the Vir-gin Mary, we
+ []
+
+
+Overfull \hbox (25.14508pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 ev-er-last-ing life. Through
+ []
+
+
+Overfull \hbox (5.88422pt too wide) in paragraph at lines 966--966
+\T1/mdbch/m/it/10 the same Christ Our
+ []
+
+
+
+[38]
 Module gregoriotex Info: Looking in  on input line 992
 Module gregoriotex Info: Found salve_regina_simple_tone.gabc directly on input l
 ine 992
-Module gregoriotex Info: Looking in  on input line 992
-Module gregoriotex Info: Found salve_regina_simple_tone-6_0_0.gtex directly on i
-nput line 992
- (./salve_regina_simple_tone-6_0_0.gtex
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Output directory: tmp-gre/ on input line 992
+ (./tmp-gre/salve_regina_simple_tone-6_1_0.gtex
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
+Underfull \hbox (badness 2277) in paragraph at lines 11--1189
+[][][][] [] [] []  [][][] [][][] [][][][][][][] [][][] [][][] [] [] [][] []
+ []
+
+
+Overfull \hbox (4.26517pt too wide) in paragraph at lines 11--1189
+[][][][][][][][][][][] [][][][] [][][][][][][][] [] []  [][][] [][][][] [][][][
+][][][] [][][][]
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 11--1189
+[][][][] [] [] [][]  [][][] [][][] [][][] [] [] []  [][][] [][][][] [][][] [][]
+[][][]
+ []
+
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.)
-Overfull \hbox (14.1726pt too wide) in paragraph at lines 992--993
-[]\T1/mdbch/m/it/10 Mother of mercy, hail, O gen-tle Queen!
+Overfull \hbox (14.09607pt too wide) in paragraph at lines 992--993
+[]\T1/mdbch/m/it/10 Mother of mercy, hail,
  []
 
 
-Overfull \hbox (10.07428pt too wide) in paragraph at lines 992--993
-\T1/mdbch/m/it/10 Our life, our sweet-ness, and our hope,
+Overfull \hbox (9.45781pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 O gen-tle Queen! Our
  []
 
 
-Overfull \hbox (3.1533pt too wide) in paragraph at lines 992--993
-\T1/mdbch/m/it/10 Come, then, our Ad-vo-cate; Oh, turn
+Overfull \hbox (0.68481pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 life, our sweet-ness,
  []
 
 
-Overfull \hbox (2.83112pt too wide) in paragraph at lines 1016--1016
-[][][]\T1/mdbch/m/it/10 V.Pray for us, O holy Mother of God. 
+Overfull \hbox (0.4858pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 ish-ment; To the we
  []
 
 
-Overfull \hbox (7.17699pt too wide) in paragraph at lines 1016--1016
-\T1/mdbch/m/it/10 by the co-op-er-a-tion of the Holy Ghost,
+Overfull \hbox (10.09291pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 send our signs, weep-
  []
 
-[18]
+
+Overfull \hbox (1.04578pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 in this tear-ful vale.
+ []
+
+
+Overfull \hbox (6.44873pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 Come, then, our Ad-
+ []
+
+
+Overfull \hbox (3.87851pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 vo-cate; Oh, turn on
+ []
+
+
+Overfull \hbox (6.71944pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 us those pity-ing eyes
+ []
+
+
+Overfull \hbox (7.37608pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 long ex-ile past, shew
+ []
+
+
+Overfull \hbox (0.61383pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 thy pure womb the
+ []
+
+
+Overfull \hbox (0.65448pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 fruit di-vine. O Vir-
+ []
+
+
+Overfull \hbox (2.11842pt too wide) in paragraph at lines 992--993
+\T1/mdbch/m/it/10 gen-tlest, holi-est!    
+ []
+
+[39] [40]
+Overfull \hbox (8.38493pt too wide) in paragraph at lines 1016--1016
+[]\T1/mdbch/m/n/10.95 Oré-mus. Om-nipotens sem-piterne Deus,
+ []
+
+
+Overfull \hbox (4.50244pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/n/10.95 qui glo-riosæ Vir-gi-nis Ma-trix Mariæ cor-
+ []
+
+
+Overfull \hbox (20.075pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/n/10.95 pus et an-i-mam, ut dignum Filii tui habitac-
+ []
+
+
+Overfull \hbox (6.73201pt too wide) in paragraph at lines 1016--1016
+[][][]\T1/mdbch/m/it/10 V.Pray for us, O holy
+ []
+
+
+Overfull \hbox (3.16742pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 made wor-thy of the
+ []
+
+
+Overfull \hbox (0.75774pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 promises of Christ. 
+ []
+
+
+Overfull \hbox (0.105pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 by the co-op-er-a-tion
+ []
+
+
+Overfull \hbox (14.60107pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 didst pre-pare the body
+ []
+
+
+Overfull \hbox (3.11937pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 glo-ri-ous Vir-gin and
+ []
+
+
+Overfull \hbox (1.0458pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 the wor-thy habi-ta-
+ []
+
+
+Overfull \hbox (11.7563pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 tion of thy Son; grant
+ []
+
+
+Overfull \hbox (0.45064pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 that we may be de-
+ []
+
+
+Overfull \hbox (5.71138pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 liv-ered from present
+ []
+
+
+Overfull \hbox (3.96806pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 sion, in whose com-
+ []
+
+
+Overfull \hbox (2.08258pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 mem-o-ra-tion we re-
+ []
+
+
+Overfull \hbox (14.43785pt too wide) in paragraph at lines 1016--1016
+\T1/mdbch/m/it/10 same Christ Our Lord. 
+ []
+
+
+
+[41]
 Module gregoriotex Info: Processing gabc snippet... on input line 1038
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+1038
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
 Module gregoriotex Info: Processing gabc snippet... on input line 1038
-Inserting `gregoriotex.post_linebreak' at position 1 in `post_linebreak_filter'.
-Inserting `gregoriotex.disable_hyphenation' at position 1 in `hyphenate'.
+Module gregoriotex Info: Running gregorio -W -D -o Little_Office_Compline.gtmp -
+l Little_Office_Compline.gsniplog Little_Office_Compline.gsnippet on input line 
+1038
+Removing  `luaotfload.harf.finalize_vlist' from `post_linebreak_filter'.
+Inserting `gregoriotex.post_linebreak' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `gregoriotex.disable_hyphenation' in `hyphenate'.
 Removing  `gregoriotex.post_linebreak' from `post_linebreak_filter'.
 Removing  `gregoriotex.disable_hyphenation' from `hyphenate'.
-Overfull \hbox (0.84084pt too wide) in paragraph at lines 1038--1038
-[][][]\T1/mdbch/m/it/10 V. May the di-vine as-sis-tance re-main
+
+[42]
+Overfull \hbox (35.03088pt too wide) in paragraph at lines 1069--1069
+[]\T1/mdbch/m/n/10.95 Sacrosánctæ et in-di-ví-duæ Trinitáti,
  []
 
-[19]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
-[]\T1/mdbch/m/n/10.95 Sacrosánctæ et in-di-ví-duæ Trinitáti, Cru-cifíxi
+\T1/mdbch/m/n/10.95 Cru-cifíxi
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 1069--1069
-[][][]\T1/mdbch/m/n/10.95 R. Et beáta úbera quæ lac-tavérunt Chris-tum
+Overfull \hbox (19.07373pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 glo-riosís-simæ sem-pérque Vírgi-
  []
 
 
-Overfull \hbox (2.57974pt too wide) in paragraph at lines 1069--1069
-\T1/mdbch/m/it/10.95 ity, to the Hu-man-ity of our cru-ci-fied Lord Je-sus Chri
-st,
+Overfull \hbox (16.42459pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 nis Maríæ fecún-dae in-tegritáti,
  []
 
 
-Overfull \hbox (1.1543pt too wide) in paragraph at lines 1085--1086
-[]\T1/mdbch/m/it/10.95 Our Fa-ther, who art in heaven, hal-lowed be thy name.
+Overfull \hbox (4.25165pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 ver-sitáti sit sem-pitérna laus,
  []
 
-[20
 
-] (./Little_Office_Compline.aux)
+Overfull \hbox (12.92833pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 honor, vir-tus et glória ab omni
+ []
+
+
+Overfull \hbox (2.78423pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 cre-atúra, nobísque remís-sio
+ []
+
+
+Overfull \hbox (6.75781pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 óm-nium pec-ca-tórum, per in-
+ []
+
+
+Overfull \hbox (23.15587pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 finíta s[]æcula sæculórum. Amen. 
+ []
+
+
+Overfull \hbox (4.66162pt too wide) in paragraph at lines 1069--1069
+[][][]\T1/mdbch/m/n/10.95 V. Beáta víscera Maríæ Vírgi-
+ []
+
+
+Overfull \hbox (3.21521pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 nis, quæ por-tavérunt ætérni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+\T1/mdbch/m/n/10.95 tavérunt Chris-tum
+ []
+
+
+Overfull \hbox (19.4184pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/it/10.95 Ev-er-last-ing praise, honor, power,
+ []
+
+
+Overfull \hbox (5.79692pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/it/10.95 and glory be given by all crea-
+ []
+
+
+Overfull \hbox (1.18631pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/it/10.95 un-di-vided Trin-ity, to the Hu-
+ []
+
+
+Overfull \hbox (5.89153pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/it/10.95 pu-rity of the most blessed and
+ []
+
+
+Overfull \hbox (0.87727pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/it/10.95 most glo-ri-ous Mary ever Vir-
+ []
+
+
+Overfull \hbox (1.2662pt too wide) in paragraph at lines 1069--1069
+\T1/mdbch/m/it/10.95 our sins through all eter-nity.
+ []
+
+[43
+
+]
+Overfull \hbox (1.78552pt too wide) in paragraph at lines 1085--1085
+[]\T1/mdbch/m/n/10.95 Pa-ter Nos-ter, qui es in cælis,
+ []
+
+
+Overfull \hbox (6.97783pt too wide) in paragraph at lines 1085--1085
+\T1/mdbch/m/n/10.95 Ad-vé-niat reg-num tuum. Fiat
+ []
+
+
+Overfull \hbox (7.4158pt too wide) in paragraph at lines 1085--1085
+\T1/mdbch/m/n/10.95 quoti-diánum da no-bis hódie,
+ []
+
+
+Overfull \hbox (0.13092pt too wide) in paragraph at lines 1085--1085
+\T1/mdbch/m/n/10.95 et dimítte no-bis débita nos-
+ []
+
+
+Overfull \hbox (3.18991pt too wide) in paragraph at lines 1085--1085
+\T1/mdbch/m/n/10.95 nos in-dú-cas in ten-tatiónem:
+ []
+
+
+Overfull \hbox (7.90286pt too wide) in paragraph at lines 1085--1085
+\T1/mdbch/m/n/10.95 sed líbera nos a malo. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1085
+
+ []
+
+
+Overfull \hbox (10.3003pt too wide) in paragraph at lines 1085--1086
+[]\T1/mdbch/m/it/10.95 Our Fa-ther, who art in heaven,
+ []
+
+
+Overfull \hbox (16.5129pt too wide) in paragraph at lines 1085--1086
+\T1/mdbch/m/it/10.95 done, on earth as it is in heaven.
+ []
+
+
+Overfull \hbox (7.51459pt too wide) in paragraph at lines 1085--1086
+\T1/mdbch/m/it/10.95 bread, and for-give us our tres-
+ []
+
+
+Overfull \hbox (4.00285pt too wide) in paragraph at lines 1085--1086
+\T1/mdbch/m/it/10.95 who tres-pass against us. And
+ []
+
+
+Overfull \hbox (10.90926pt too wide) in paragraph at lines 1085--1086
+\T1/mdbch/m/it/10.95 but de-liver us from evil. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1085--1086
+
+ []
+
+
+Overfull \hbox (16.03357pt too wide) in paragraph at lines 1093--1093
+[]\T1/mdbch/m/n/10.95 Ave María, grá-tia plena, Dómi-
+ []
+
+
+Overfull \hbox (15.5774pt too wide) in paragraph at lines 1093--1093
+\T1/mdbch/m/n/10.95 muliéribus, et benedíc-tus fruc-
+ []
+
+
+Overfull \hbox (6.06743pt too wide) in paragraph at lines 1093--1093
+\T1/mdbch/m/n/10.95 tus ven-tris tui, Je-sus. Sancta
+ []
+
+
+Overfull \hbox (0.92354pt too wide) in paragraph at lines 1093--1093
+\T1/mdbch/m/n/10.95 no-bis pec-ca-tóribus, nunc et
+ []
+
+
+Overfull \hbox (10.60449pt too wide) in paragraph at lines 1093--1093
+\T1/mdbch/m/n/10.95 in hora mor-tis nos-træ. Amen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+
+ []
+
+
+Overfull \hbox (1.85915pt too wide) in paragraph at lines 1093--1094
+\T1/mdbch/m/it/10.95 art thou among women, and
+ []
+
+
+Overfull \hbox (13.1974pt too wide) in paragraph at lines 1093--1094
+\T1/mdbch/m/it/10.95 blessed is the fruit of thy womb,
+ []
+
+
+
+[44] (./Little_Office_Compline.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-11>
+ ***********
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 28073 strings out of 481365
- 195331,794899 words of node,token memory allocated
- 6871 words of node memory still in use:
-   4 hlist, 5 vlist, 1 rule, 226 glue, 101 kern, 3 glyph, 1598 attribute, 170 gl
-ue_spec, 277 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:10,2:16753,3:2902,4:26,5:4410,6:316,7:6936,8:5,9:4990,10:25,11
-:208
- 44409 multiletter control sequences out of 65536+600000
- 134 fonts using 12973315 bytes
- 43i,6n,82p,1210b,3545s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/share/texmf/fonts/truetype/public/gregoriotex/greciliae-hollow.ttf><
-/usr/local/share/texmf/fonts/truetype/public/gregoriotex/greciliae-hole.ttf></us
-r/local/share/texmf/fonts/truetype/public/gregoriotex/greextra.ttf></usr/local/s
-hare/texmf/fonts/truetype/public/gregoriotex/greciliae.ttf>{/usr/share/texlive/t
-exmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/bitstrea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bit
-strea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/cha
-rter/bchri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/md
-bch/md-chri8t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/m
-dbch/md-chrma.pfb>
-Output written on Little_Office_Compline.pdf (20 pages, 337297 bytes).
+ 28294 strings out of 470133
+ 156359,953878 words of node,token memory allocated
+ 7565 words of node memory still in use:
+   4 hlist, 7 vlist, 1 rule, 226 glue, 101 kern, 3 glyph, 1922 attribute, 172 gl
+ue_spec, 286 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 1:7,2:21026,3:2178,4:15,5:3392,6:252,7:4184,8:2,9:4635,10:14,11:
+156
+ 56117 multiletter control sequences out of 65536+600000
+ 124 fonts using 10437335 bytes
+ 84i,6n,88p,1210b,3572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Module gregoriotex Info: Writing Little_Office_Compline.gaux on input line 0
+Module gregoriotex Warning: Line heights, variable brace lengths, or soft flats/
+sharps may have changed. Rerun to fix. on input line 0
+</home/dan/.miktex/texmfs/install/fonts/truetype/public/gregoriotex/greciliae-ho
+llow.ttf></home/dan/.miktex/texmfs/install/fonts/truetype/public/gregoriotex/gre
+ciliae-hole.ttf></home/dan/.miktex/texmfs/install/fonts/truetype/public/gregorio
+tex/greextra.ttf></home/dan/.miktex/texmfs/install/fonts/truetype/public/gregori
+otex/greciliae.ttf>{/home/dan/.miktex/texmfs/install/fonts/enc/dvips/ly1/texnans
+i.enc}</home/dan/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchb8a.pfb>
+</home/dan/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchr8a.pfb></home
+/dan/.miktex/texmfs/install/fonts/type1/bitstrea/charter/bchri8a.pfb></home/dan/
+.miktex/texmfs/install/fonts/type1/mathdesign/mdbch/md-chri8t.pfb></home/dan/.mi
+ktex/texmfs/install/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
+Output written on Little_Office_Compline.pdf (44 pages, 581596 bytes).
 
-PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+PDF statistics: 190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
