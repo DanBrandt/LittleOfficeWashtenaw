@@ -1,4 +1,4 @@
-\documentclass[11pt, twoside]{report}
+\documentclass[8pt, twoside]{report}
 
 \usepackage{fontspec}
 \usepackage[utf8]{inputenc}
@@ -10,12 +10,12 @@
 \usepackage{titlesec}
 \usepackage{paracol}
 \usepackage{mdframed}
-\usepackage[paperheight=6in,paperwidth=4in,margin=0.25in,heightrounded,showframe]{geometry}
+\usepackage[paperheight=6in,paperwidth=4in,margin=0.33in,heightrounded]{geometry}
 
 \usepackage[autocompile]{gregoriotex}
 
-\titleformat{\chapter}[block]{\huge\scshape\filcenter}{}{1em}{}
-\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{}
+\titleformat{\chapter}[block]{\Large\scshape\filcenter}{}{1em}{}
+\titleformat{\section}[block]{\large\bfseries\filcenter}{}{1em}{}
 
 \mdfsetup{skipabove=\topskip, skipbelow=\topskip}
 
@@ -112,11 +112,15 @@
 %\title{Compline of The Blessed Virgin Mary}
 %\date{ }
 
-\vspace*{2cm}
+% Font and score size settings:
+%\grechangestyle{initial}{2s pt font}
+%\grechangestaffsize{8}
+
+\vspace*{1.25cm}
 
 \begin{center}
-	\textbf{\Huge Compline of the Blessed Virgin Mary}\\
-	{\LARGE According to the Washtenaw Use}
+	\textbf{\Large Compline of the Blessed Virgin Mary}\\
+	{\large According to the Washtenaw Use}
 \end{center}
 
 \vspace*{1cm}
@@ -127,15 +131,12 @@
 %\end{figure}
 
 \begin{center}
-\includegraphics[width=0.6\textwidth]{ChristGethsemani}
+\includegraphics[width=0.65\textwidth]{ChristGethsemani}
 \end{center}
 
-\hspace{0pt}
-\vfill
+\vfill\pagebreak
 
-\pagebreak
-
-\vspace*{7.5cm}
+\vspace*{3cm}
 ``\textit{Compline} is the end of the day; and in the end of our life we have most need of Our Lady's help, and therefore, in all these Hours, we ought to do her veneration. Also, the pains that our Lord, Jesus Christ, suffered in His Holy Passion in all these seven hours, as is before said, Our Lady, His Mother, suffered the same pain in her hert by compassion, and therefore it is convenient to honor her and do her service in all the same hours.'' (Paraphrased from the \textit{Mirror of Our Lady}.) O most blessed Virgin, as the day draws to a close, may your prayers be ever with us. Amen.
 \vfill
 
@@ -150,7 +151,7 @@
 \begin{latinenglishequalsection}
 
 \latinenglishequal{
-	Áperi, {\color{red}\maltese}\ Dómine, os meum ad benedicéndum\linebreak nomen sanctum tuum:
+	Áperi, {\color{red}\maltese}\ Dómine, os meum ad benedicéndum nomen sanctum tuum:
 	{\color{red}\maltese}\ munda quoque cor meum ab ómnibus vanis, pervérsis et aliénis cogitatiónibus;
 	intelléctum illúmina, afféctum inflámma, ut digne, atténte ac devóte hoc Offícium beátæ Vírginis Maríæ recitáre váleam,
 	et exaudíri mérear ante conspéctum divínæ Majestátis tuæ.
@@ -186,9 +187,9 @@
 
 \latinenglish{
 	\gresetinitiallines{0}
-	\gabcsnippet{
+	{\baselineskip=10pt\gabcsnippet{
 	(c3) <c><sp>V/</sp>.</c> Con(h)vér(h)te(h) nos(h), <c><v>\maltese</v></c>() De(h)us(h), sa(h)lu(h)tá(g)ris(f) nos(h)ter.(h.) (::)
-	}
+	}}
 }{
 	Convert us, O God our Savior.
 }
@@ -236,33 +237,25 @@
 
 \latinenglish{
 	\gresetinitiallines{1}
-	\gregorioscore{psalm_128_1_8G}
+	\gregorioscore{ps128_in_dir}
 	
 	\begin{verses}{1}
 	
-	\item Sæpe expugnavérunt me a juventú\textit{te} \textbf{me}a:~*\linebreak
-	étenim non potu\textit{é}\textit{runt} \textbf{mi}hi.
+	\item Sæpe expugnavérunt me a juven\textit{tú}\textit{te} \textbf{me}a:~* étenim non potuérunt mi\textit{hi}.
+
+	\item Supra dorsum meum fabricavérunt \textit{pec}\textit{ca}\textbf{tó}res:~* prolongavérunt iniquitátem su\textit{am}.
 	
-	\item Supra dorsum meum fabricavérunt pec\textit{ca}\textbf{tó}res:~*\linebreak
-	prolongavérunt iniqui\textit{tá}\textit{tem} \textbf{su}am.
+	\item Dóminus justus concídit cervíces \textit{pec}\textit{ca}\textbf{tó}rum:~* confundántur et convertántur retrórsum omnes, qui odérunt Si\textit{on}.
 	
-	\item Dóminus justus concídit cervíces pec\textit{ca}\textbf{tó}rum:~*\linebreak
-	confundántur et convertántur retrórsum omnes, qui o\textit{dé}\textit{runt} \textbf{Si}on.
+	\item Fiant sicut fœ\textit{num} \textit{tec}\textbf{tó}rum:~* quod priúsquam evellátur exáru\textit{it}:
 	
-	\item Fiant sicut f\oe num \textit{tec}\textbf{tó}rum:~*\linebreak
-	quod priúsquam evellá\textit{tur} \textit{ex}\textbf{á}ruit:
+	\item De quo non implévit manum su\textit{am} \textit{qui} \textbf{me}tit:~* et sinum suum qui manípulos cólli\textit{git}.
 	
-	\item De quo non implévit manum suam \textit{qui} \textbf{me}tit:~*\linebreak
-	et sinum suum qui maní\textit{pu}\textit{los} \textbf{cól}ligit.
+	\item Et non dixérunt qui præteríbant: Benedíctio Dó\textit{mi}\textit{ni} \textbf{su}per vos:~* benedíximus vobis in nómine Dómi\textit{ni}.
 	
-	\item Et non dixérunt qui præteríbant: Benedíctio Dómi\textit{ni} \textbf{su}per vos:~*\linebreak
-	\textit{\color{red}(stand)} benedíximus vobis in nó\textit{mi}\textit{ne} \textbf{Dó}mini.
+	\item \textit{\color{red}(bow)} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spirítui Sanc\textit{to}.
 	
-	\item \textit{\color{red}(bow)} Glória Patri, \textit{et} \textbf{Fí}lio,~*\linebreak
-	et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
-	
-	\item \textit{\color{red}(rise)} Sicut erat in princípio, et nunc, \textit{et} \textbf{sem}per,~*\linebreak
-	et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	\item \textit{\color{red}(rise)} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæculórum. A\textit{men}.
 	
 	\end{verses}
 }{
@@ -290,39 +283,27 @@
 
 \latinenglish{
 	\gresetinitiallines{1}
-	\gregorioscore{psalm_129_1_8G}
+	\gregorioscore{ps129_in_dir}
 	
 	\begin{verses}{1}
 	
-	%\item De profúndis clamávi ad \textit{te}, \textbf{Dó}mine:~*\linebreak
-	%Dómine, exáudi \textit{vo}\textit{cem} \textbf{me}am:
+	\item Fiant aures tuæ \textit{in}\textit{ten}\textbf{dén}tes:~* in vocem deprecatiónis me\textit{æ}.
+
+	\item Si iniquitátes observá\textit{ve}\textit{ris}, \textbf{Dó}mine:~* Dómine, quis sustiné\textit{bit}?
 	
-	\item Fiant aures tuæ in\textit{ten}\textbf{dén}tes:~*\linebreak
-	in vocem deprecati\textit{ó}\textit{nis} \textbf{me}æ.
+	\item Quia apud te propiti\textit{á}\textit{ti}\textbf{o} est:~* et propter legem tuam sustínui te, Dómi\textit{ne}.
 	
-	\item Si iniquitátes observáve\textit{ris}, \textbf{Dó}mine:~*\linebreak
-	Dómine, quis \textit{sus}\textit{ti}\textbf{né}bit?
+	\item Sustínuit ánima mea in \textit{ver}\textit{bo} \textbf{e}jus:~* sperávit ánima mea in Dómi\textit{no}.
 	
-	\item Quia apud te propitiá\textit{ti}\textbf{o} est:~*\linebreak
-	et propter legem tuam sustínu\textit{i} \textit{te}, \textbf{Dó}mine.
+	\item A custódia matutína us\textit{que} \textit{ad} \textbf{noc}tem:~* speret Israël in Dómi\textit{no}.
 	
-	\item Sustínuit ánima mea in ver\textit{bo} \textbf{e}jus:~*\linebreak
-	sperávit ánima me\textit{a} \textit{in} \textbf{Dó}mino.
+	\item Quia apud Dóminum mi\textit{se}\textit{ri}\textbf{cór}dia:~* et copiósa apud eum redémpti\textit{o}.
 	
-	\item A custódia matutína usque \textit{ad} \textbf{noc}tem:~*\linebreak
-	speret Isra\textit{ël} \textit{in} \textbf{Dó}mino.
+	\item Et ipse réd\textit{i}\textit{met} \textbf{Is}raël:~* ex ómnibus iniquitátibus e\textit{jus}.
 	
-	\item Quia apud Dóminum mise\textit{ri}\textbf{cór}dia:~*\linebreak
-	et copiósa apud e\textit{um} \textit{red}\textbf{émp}tio.
+	\item \textit{\color{red}(bow)} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spirítui Sanc\textit{to}.
 	
-	\item Et ipse rédi\textit{met} \textbf{Is}raël:~*\linebreak
-	\textit{\color{red}(stand)} ex ómnibus iniquitá\textit{ti}\textit{bus} \textbf{e}jus.
-	
-	\item \textit{\color{red}(bow)} Glória Patri, \textit{et} \textbf{Fí}lio,~*\linebreak
-	et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
-	
-	\item \textit{\color{red}(rise)} Sicut erat in princípio, et nunc, \textit{et} \textbf{sem}per,~*\linebreak
-	et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	\item \textit{\color{red}(rise)} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in s\'{\ae}cula sæculórum. A\textit{men}.
 	
 	\end{verses}
 }{
@@ -353,30 +334,21 @@
 
 \latinenglish{
 	\gresetinitiallines{1}
-	\gregorioscore{psalm_130_1_8G}
+	\gregorioscore{ps130_in_dir}
 	
 	\begin{verses}{1}
 	
-	%\item Dómine, non est exaltátum \textit{cor} \textbf{me}um:~*\linebreak
-	%neque eláti sunt ó\textit{cu}\textit{li} \textbf{me}i.
+	\item Neque ambulá\textit{vi} \textit{in} \textbf{ma}gnis:~* neque in mirabílibus super \textit{me}.
+
+	\item Si non humíliter \textit{sen}\textit{ti}\textbf{é}bam:~* sed exaltávi ánimam me\textit{am}.
 	
-	\item Neque ambulávi \textit{in} \textbf{ma}gnis:~*\linebreak
-	neque in mirabí\textit{li}\textit{bus} \textbf{su}per me.
+	\item Sicut ablactátus est super \textit{ma}\textit{tre} \textbf{su}a:~* ita retribútio in ánima me\textit{a}.
 	
-	\item Si non humíliter sen\textit{ti}\textbf{é}bam:~*\linebreak
-	sed exaltávi á\textit{ni}\textit{mam} \textbf{me}am.
+	\item Speret Isra\textit{ël} \textit{in} \textbf{Dó}mino:~* ex hoc nunc et usque in sǽcu\textit{lum}.
 	
-	\item Sicut ablactátus est super ma\textit{tre} \textbf{su}a:~*\linebreak
-	ita retribútio in á\textit{ni}\textit{ma} \textbf{me}a.
+	\item \textit{\color{red}(bow)} Glória Pa\textit{tri}, \textit{et} \textbf{Fí}lio,~* et Spirítui Sanc\textit{to}.
 	
-	\item Speret Israël \textit{in} \textbf{Dó}mino:~*\linebreak
-	\textit{\color{red}(stand)} ex hoc nunc et us\textit{que} \textit{in} \textbf{s\'{\ae}}culum.
-	
-	\item \textit{\color{red}(bow)} Glória Patri, \textit{et} \textbf{Fí}lio,~*\linebreak
-	et Spirí\textit{tu}\textit{i} \textbf{Sanc}to.
-	
-	\item \textit{\color{red}(rise)} Sicut erat in princípio, et nunc, \textit{et} \textbf{sem}per,~*\linebreak
-	et in s\'{\ae}cula sæcu\textit{ló}\textit{rum}. \textbf{A}men.
+	\item \textit{\color{red}(rise)} Sicut erat in princípio, et \textit{nunc}, \textit{et} \textbf{sem}per,~* et in sǽcula sæculórum. A\textit{men}.
 	
 	\end{verses}
 }{
@@ -429,7 +401,7 @@
 
 \rubric{\color{red}The Little Chapter will vary according to the season (pg. 7 for Per Annum and Christmastide, and pg. 8 for Advent).}
 
-\heading{\subsection*{Throughout the Year and in Christmastide: Sirach 24:24}}
+\heading{\subsection*{Throughout the Year and in Christmastide: Ecclus 24:24}}
 %\latinenglish{
 %	\gresetinitiallines{0}
 %	\gabcsnippet{(c3)<c><sp>V/</sp>.</c> E(h)go(h) ma(h)te(h)r pu(h)lchræ(h) di(h)le(h)ctió(h)ni(h)s, e(h)t ti(h)mó(h)ri(h)s, e(h)t a(h)gni(h)ti(h)ó(h)ni(h), e(h)t sa(h)nctæ(h) spe(f)i(e.f.) (::) <c><sp>R/</sp>.</c> De(h)o(h) grá(f)ti(e)as.(e.f.) (::)}
@@ -438,12 +410,23 @@
 %	{\color{red}\Rbar.} Thanks be to God.
 %}
 \latinenglish{
-	{\color{red}\Vbar.} Ego mater pulchræ dilectiónis, et timóris, et agnitióni, et sanctæ spei.
+	\gresetinitiallines{1}
+	\gabcsnippet{(c3)E(h)go(h) ma(h)ter(h) pul(h)chræ(h) di(h)lec(h)ti(h)ó(h)nis,(f.) <c>+</c>(,) et(h) ti(h)mó(h)ris,(h) et(h) ag(h)ni(h)ti(h)ó(h)ni,(h'_) (,) et(h) sanc(h)tæ(h) spe(f)i.(e.f.) (::)}
 	
-	{\color{red}\Rbar.} Deo gratias.
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3)<c><sp>R/</sp>.</c> De(h)o(h) grá(f)ti(e)as.(e.f.) (::)}
+	
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3)<c><sp>V/</sp>.</c> O(h)ra(h) pro(h) no(h)bis(h) sanc(h)ta(h) De(h)i(h) Gé(hr1)ni(f)trix.(f.) (::)}
+	
+	\gresetinitiallines{0}
+	\gabcsnippet{(c3)<c><sp>R</sp>.</c> Ut(h) dig(h)ni(h) ef(h)fi(h)ci(h)á(h)mur(h) pro(h)mis(h)si(h)ó(h)ni(h)bus(h) Chri(hr1)sti.(f.) (::)}
+
 }{
-	{\color{red}\Vbar.} I am the mother of fair love, and of fear, and of knowledge, and of holy hope. 
-	{\color{red}\Rbar.} Thanks be to God.	
+	{\color{red}\Vbar.} I am the mother of fair love, and of fear, and of knowledge, and of holy hope. \\
+	{\color{red}\Rbar.} Thanks be to God.\\
+	{\color{red}\Vbar.} Pray for us, O holy Mother of God.\\
+	{\color{red}\Rbar.} That we may be made worthy of the promises of Christ.
 }
 \rubric{\color{red}Proceed to page 9.}
 \vfill\newpage
@@ -478,19 +461,15 @@
 %	{\color{red}\Rbar.} That we may be made worthy of the promises of Christ.
 %}
 \latinenglish{
-	{\color{red}\Vbar.} Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmnuel. {\color{red}\GreDagger}\ Butyrem et \textit{mel co}\textbf{me}dat, ut sciat reprobare malu, * et eligere bonum.\\
+	Ecce Virgo concipiet, et pariet filium, et vocabitur nomen ejus Emmanuel. {\color{red}\GreDagger}\ Butyrem et \textit{mel co}\textbf{me}dat, ut sciat reprobare malu, * et eligere bonum.\\
 	{\color{red}\Rbar.} Deo gratias.\\
 	{\color{red}\Vbar.} Angelus Domini nuntiavit Mariæ.\\
-	{\color{red}\Rbar.} Et concepit de Spiritu Sancto.\\
-	{\color{red}\Vbar.} Ora pro nobis sancta Dei Génitrix.\\
-	{\color{red}\Rbar.} Ut digni efficiámur promissiónibus Christi.
+	{\color{red}\Rbar.} Et concepit de Spiritu Sancto.
 }{
-	{\color{red}\Vbar.} Behold, a Virgin shall conceive, and bear a son, and his name shall be called Emmanuel. Butter and honey shall he eat, that he may know to refuse the evil, and to choose the good. 
-	{\color{red}\Rbar.} Thanks be to God.
-	{\color{red}\Vbar.} The angel of the Lord announced unto Mary.
+	{\color{red}\Vbar.} Behold, a Virgin shall conceive, and bear a son, and his name shall be called Emmanuel. Butter and honey shall he eat, that he may know to refuse the evil, and to choose the good.\\
+	{\color{red}\Rbar.} Thanks be to God.\\
+	{\color{red}\Vbar.} The angel of the Lord announced unto Mary.\\
 	{\color{red}\Rbar.} And she conceived of the Holy Ghost.
-	{\color{red}\Vbar.} Pray for us, O holy Mother of God. 
-	{\color{red}\Rbar.} That we may be made worthy of the promises of Christ.
 }
 \rubric{\color{red}Proceed to the next page.}
 \end{latinenglishsection}
