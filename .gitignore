@@ -1,1 +1,12 @@
-**.glog
+.~*
+*/test.tex
+*.pdf
+*.odt
+*.ods
+*.log
+*.glog
+*.gtex
+*.aux
+*.gaux
+*.gz
+*.pyc
